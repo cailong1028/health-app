@@ -1,0 +1,16 @@
+<td class="dev">
+    <a href="settings/dev/{{id}}/form">{{id}}</a>
+    {{#if name}}<br><span title="{{gettext 'Dev name'}}: {{name}}">{{name}}</span>{{/if}}
+</td>
+<td class="dev">
+    {{#if typename}}<span title="{{gettext 'Dev type name'}}: {{typename}}">{{typename}}</span>{{/if}}
+    {{#if deptname}}<br><span title="{{gettext 'Dept name'}}: {{deptname}}">{{deptname}}</span>{{/if}}
+</td>
+<td class="dev">
+    {{#if_eq status '1'}}
+        <i class="fa fa-link" style="color: #008000" title="{{gettext 'Online'}}"></i>
+    {{/if_eq}}
+    {{#if_eq status '2'}}
+        <i class="fa fa-chain-broken" style="color: #FF0F00;" title="{{gettext 'Offline'}}"></i>
+    {{/if_eq}}
+</td>

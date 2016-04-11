@@ -1,0 +1,21 @@
+// Index page
+
+
+$tickets-total-li-bg: #f6f6f6;
+$tickets-total-dt-font-size: 36px;
+$tickets-total-dd-font-size: 16px;
+$tickets-total-dt-font-color: #555555;
+$tickets-total-dt-expiredNumFont-color: #D9534F;
+$tickets-total-dt-font-family: 'Consolas';
+$tickets-total-dd-margin: 10px 0;
+$tickets-total-dd-border-left: 1px solid #eaebe7;
+
+$panel-content-border-color: #eee;
+
+$logo-margin: 5px 0 5px;
+$logo-width: 48px;
+$logo-height: 48px;
+
+$udz-danger-color: $brand-danger;
+$udz-danger-bg: $brand-danger;
+$udz-danger-border: darken(adjust-hue($udz-danger-bg, -10), 5%) !default;

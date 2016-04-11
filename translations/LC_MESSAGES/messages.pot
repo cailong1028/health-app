@@ -1,0 +1,2378 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2015-08-31 05:58:+0000\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+
+#: templates/agent/home-ticket-item.hbs:5 templates/agent/home-ticket-item.hbs:22 templates/agent/home-ticket-item.hbs:25 templates/contacts/contacts-infomation.hbs:43 templates/contacts/contacts-infomation.hbs:52 templates/contacts/contacts-information-activities-item.hbs:3 templates/main/confirm.hbs:5 templates/main/confirm.hbs:8 templates/main/confirm.hbs:12 templates/main/confirm.hbs:13 templates/main/dialog.hbs:5 templates/main/dialog.hbs:8 templates/settings/agent-tickets-item.hbs:3 templates/tickets/tickets-add.hbs:44 templates/tickets/tickets-add.hbs:53 templates/tickets/tickets-detail.hbs:2 templates/tickets/tickets-detail.hbs:48 templates/tickets/tickets-detail.hbs:55 templates/tickets/tickets-flow-conversition.hbs:8 templates/tickets/tickets-flow-conversition.hbs:25 templates/tickets/tickets-flow-conversition.hbs:28 templates/tickets/tickets-list-filter.hbs:59 templates/tickets/tickets-list-filter.hbs:86 templates/tickets/tickets-list-table-item.hbs:33 templates/tickets/tickets-list-table-item.hbs:36 templates/tickets/tickets-list-table-item.hbs:44 templates/tickets/tickets-update.hbs:44 templates/tickets/tickets-update.hbs:50
+msgid ""
+msgstr ""
+
+#: templates/agent/translations.hbs:19
+msgid "20"
+msgstr ""
+
+#: templates/agent/translations.hbs:20
+msgid "40"
+msgstr ""
+
+#: templates/agent/translations.hbs:21
+msgid "60"
+msgstr ""
+
+#: templates/agent/translations.hbs:22
+msgid "80"
+msgstr ""
+
+#: app/scripts/contacts/add-contacts-view.js:82
+msgid "Add contacts successful"
+msgstr ""
+
+#: app/scripts/contacts/add-contacts-view.js:95
+msgid "Add contacts failure"
+msgstr ""
+
+#: app/scripts/contacts/contacts-blocked-view.js:13 app/scripts/contacts/contacts-view.js:13 app/scripts/corporations/corporations-contacts.js:14
+msgid "Confirm Delete Contacts Title"
+msgstr ""
+
+#: app/scripts/contacts/contacts-blocked-view.js:15 app/scripts/contacts/contacts-view.js:15
+msgid "Confirm Delete Contacts Content"
+msgstr ""
+
+#: app/scripts/contacts/contacts-blocked-view.js:17 app/scripts/contacts/contacts-view.js:17 app/scripts/corporations/corporations-contacts.js:16
+msgid "Delete Multiple Contacts?"
+msgstr ""
+
+#: app/scripts/contacts/contacts-blocked-view.js:19 app/scripts/contacts/contacts-view.js:19 app/scripts/corporations/corporations-contacts.js:18
+msgid "Delete Contact?"
+msgstr ""
+
+#: app/scripts/contacts/contacts-blocked-view.js:43 app/scripts/contacts/contacts-blocked-view.js:118 app/scripts/contacts/contacts-view.js:64 app/scripts/contacts/contacts-view.js:187
+msgid "Restore contacts successful"
+msgstr ""
+
+#: app/scripts/contacts/contacts-blocked-view.js:48 app/scripts/contacts/contacts-blocked-view.js:122 app/scripts/contacts/contacts-view.js:68 app/scripts/contacts/contacts-view.js:191
+msgid "Restore contacts failure"
+msgstr ""
+
+#: app/scripts/contacts/contacts-blocked-view.js:235 app/scripts/contacts/contacts-view.js:334
+msgid "Quick add contacts successful"
+msgstr ""
+
+#: app/scripts/contacts/contacts-blocked-view.js:239 app/scripts/contacts/contacts-view.js:346 app/scripts/corporations/corporations-contacts.js:332 app/scripts/corporations/corporations-info-view.js:145 app/scripts/tickets/tickets-new-requester-view.js:49
+msgid "Quick add contacts failure"
+msgstr ""
+
+#: app/scripts/contacts/contacts-information-view.js:150
+msgid "Update contacts remarks successful"
+msgstr ""
+
+#: app/scripts/contacts/contacts-information-view.js:155
+msgid "Update contacts remarks failure"
+msgstr ""
+
+#: app/scripts/contacts/contacts-information-view.js:162 app/scripts/contacts/contacts-view.js:46 app/scripts/contacts/contacts-view.js:154
+msgid "Delete contacts successful"
+msgstr ""
+
+#: app/scripts/contacts/contacts-information-view.js:167 app/scripts/contacts/contacts-view.js:50 app/scripts/contacts/contacts-view.js:161
+msgid "Delete contacts failure"
+msgstr ""
+
+#: app/scripts/contacts/update-contacts-view.js:87
+msgid "Update contacts successful"
+msgstr ""
+
+#: app/scripts/contacts/update-contacts-view.js:98
+msgid "Update contacts failure"
+msgstr ""
+
+#: app/scripts/corporations/corporations-add-view.js:45
+msgid "Add corporations successful"
+msgstr ""
+
+#: app/scripts/corporations/corporations-add-view.js:49
+msgid "Add corporations failure"
+msgstr ""
+
+#: app/scripts/corporations/corporations-contacts.js:45 app/scripts/corporations/corporations-contacts.js:142
+msgid "Delete contact from the company successful"
+msgstr ""
+
+#: app/scripts/corporations/corporations-contacts.js:49 app/scripts/corporations/corporations-contacts.js:150
+msgid "Delete contact from the company failure"
+msgstr ""
+
+#: app/scripts/corporations/corporations-contacts.js:320 app/scripts/corporations/corporations-info-view.js:106
+msgid "Quickly add current contact to the company successful"
+msgstr ""
+
+#: app/scripts/corporations/corporations-info-view.js:155
+msgid "Update corporations remarks successfu"
+msgstr ""
+
+#: app/scripts/corporations/corporations-info-view.js:160
+msgid "Update corporations remarks failure"
+msgstr ""
+
+#: app/scripts/corporations/corporations-info-view.js:174 app/scripts/corporations/corporations-view.js:175 app/scripts/corporations/corporations-view.js:236
+msgid "Delete corporations successful"
+msgstr ""
+
+#: app/scripts/corporations/corporations-info-view.js:179 app/scripts/corporations/corporations-view.js:182 app/scripts/corporations/corporations-view.js:240
+msgid "Delete corporations failure"
+msgstr ""
+
+#: app/scripts/corporations/corporations-update-view.js:66
+msgid "Update corporations successful"
+msgstr ""
+
+#: app/scripts/corporations/corporations-update-view.js:69
+msgid "Update corporations failure"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:12
+msgid "Delete Corporations"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:13
+msgid "Delete Corporations And Contacts"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:14 templates/contacts/add-contacts.hbs:122 templates/contacts/contacts-infomation.hbs:13 templates/contacts/contacts-infomation.hbs:18 templates/contacts/update-contacts.hbs:123 templates/corporations/corporations-add.hbs:54 templates/corporations/corporations-confirm.hbs:13 templates/corporations/corporations-info.hbs:16 templates/corporations/corporations-update.hbs:52 templates/profile/profile-update.hbs:67 templates/profile/reset-password.hbs:8 templates/profile/reset-password.hbs:69 templates/settings/agent-add.hbs:162 templates/settings/agent-info.hbs:14 templates/settings/agent-info.hbs:17 templates/settings/agent-invitation.hbs:50 templates/settings/agent-resetpassword.hbs:83 templates/settings/agent-roles.hbs:107 templates/settings/agent-update.hbs:86 templates/settings/general.hbs:67 templates/settings/group-add.hbs:50 templates/settings/group-update.hbs:50 templates/tickets/tickets-add-new-requester.hbs:30 templates/tickets/tickets-add.hbs:113 templates/tickets/tickets-flow-conversition.hbs:75 templates/tickets/tickets-flow.hbs:79 templates/tickets/tickets-list-table.hbs:46 templates/tickets/tickets-update.hbs:130 templates/tickets/tickets.hbs:13 templates/tickets/tickets.hbs:14
+msgid "Cancel"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:15
+msgid "Confirm Delete Corporations"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:16
+msgid "Delete Multiple Corporations?"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:17 templates/corporations/corporations-confirm.hbs:11
+msgid "Delete Corporation"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:18 templates/corporations/corporations-confirm.hbs:12
+msgid "Delete Corporation And Contacts"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:19 templates/corporations/corporations-confirm.hbs:5
+msgid "Confirm Delete Corporation"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:20 templates/corporations/corporations-confirm.hbs:8
+msgid "Delete Corporation?"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:21
+msgid "Confirm Delete Corporation Title"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:22
+msgid "Confirm Delete Corporation Content"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:277
+msgid "Quick add corporations successful"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:283
+msgid "Quick add corporations failure"
+msgstr ""
+
+#: app/scripts/helpers/uploader.js:114 app/scripts/helpers/uploader.js:290
+msgid "Error preparing the upload"
+msgstr ""
+
+#: app/scripts/helpers/uploader.js:228
+msgid "Only supported image files."
+msgstr ""
+
+#: app/scripts/helpers/uploader.js:414
+msgid "Not allowed zero files."
+msgstr ""
+
+#: app/scripts/profile/profile-update-view.js:31 app/scripts/settings/agent-resetpassword-view.js:105
+msgid "Reset password successful"
+msgstr ""
+
+#: app/scripts/profile/profile-update-view.js:35 app/scripts/settings/agent-resetpassword-view.js:108
+msgid "Reset password failure"
+msgstr ""
+
+#: app/scripts/profile/profile-update-view.js:95
+msgid "Update personal info successful"
+msgstr ""
+
+#: app/scripts/profile/profile-update-view.js:103
+msgid "Update personal info failure"
+msgstr ""
+
+#: app/scripts/settings/agent-add-view.js:48
+msgid "Add agent successful"
+msgstr ""
+
+#: app/scripts/settings/agent-add-view.js:61
+msgid "Add agent failure"
+msgstr ""
+
+#: app/scripts/settings/agent-info-view.js:49 app/scripts/settings/agents-deleted-view.js:37
+msgid "Restore agent successful"
+msgstr ""
+
+#: app/scripts/settings/agent-info-view.js:53 app/scripts/settings/agents-deleted-view.js:42
+msgid "Restore agent failure"
+msgstr ""
+
+#: app/scripts/settings/agent-invitation-view.js:91
+msgid "Invitation agent successful"
+msgstr ""
+
+#: app/scripts/settings/agent-invitation-view.js:95
+msgid "Invitation agent failure"
+msgstr ""
+
+#: app/scripts/settings/agent-roles-view.js:80
+msgid "Assignment agent successful"
+msgstr ""
+
+#: app/scripts/settings/agent-roles-view.js:84
+msgid "Assignment agent failure"
+msgstr ""
+
+#: app/scripts/settings/agent-update-view.js:59
+msgid "Update agent successful"
+msgstr ""
+
+#: app/scripts/settings/agent-update-view.js:68
+msgid "Update agent failure"
+msgstr ""
+
+#: app/scripts/settings/agents-deleted-view.js:11
+msgid "Confirm Restore Agent Title"
+msgstr ""
+
+#: app/scripts/settings/agents-deleted-view.js:13
+msgid "Confirm Restore Agent Content"
+msgstr ""
+
+#: app/scripts/settings/agents-view.js:11
+msgid "Confirm Delete Agent Title"
+msgstr ""
+
+#: app/scripts/settings/agents-view.js:13
+msgid "Confirm Delete Agent Content"
+msgstr ""
+
+#: app/scripts/settings/agents-view.js:15 app/scripts/settings/agents-view.js:49
+msgid "Delete agent successful"
+msgstr ""
+
+#: app/scripts/settings/agents-view.js:17 templates/settings/agents-table.hbs:18
+msgid "Delete Agent Forbidden Title"
+msgstr ""
+
+#: app/scripts/settings/agents-view.js:18 templates/settings/agents-table.hbs:21
+msgid "Delete Agent Forbidden Content"
+msgstr ""
+
+#: app/scripts/settings/agents-view.js:53
+msgid "Delete agent failure"
+msgstr ""
+
+#: app/scripts/settings/general-view.js:81
+msgid "Update general successful"
+msgstr ""
+
+#: app/scripts/settings/general-view.js:84
+msgid "Update general failure"
+msgstr ""
+
+#: app/scripts/settings/group-add-view.js:32
+msgid "Add group successful"
+msgstr ""
+
+#: app/scripts/settings/group-add-view.js:36
+msgid "Add group failure"
+msgstr ""
+
+#: app/scripts/settings/group-update-view.js:77
+msgid "Update group successful"
+msgstr ""
+
+#: app/scripts/settings/group-update-view.js:80
+msgid "Update group failure"
+msgstr ""
+
+#: app/scripts/settings/group-view.js:131
+msgid "Delete group successful"
+msgstr ""
+
+#: app/scripts/settings/group-view.js:136
+msgid "Delete group failure"
+msgstr ""
+
+#: app/scripts/settings/ticket-types-collection.js:25
+msgid "Ticket types error, please flush page"
+msgstr ""
+
+#: app/scripts/settings/ticket-types-view.js:99
+msgid "ticket types should not be null"
+msgstr ""
+
+#: app/scripts/settings/ticket-types-view.js:106
+msgid "ticket types duplicate"
+msgstr ""
+
+#: app/scripts/settings/ticket-types-view.js:159
+msgid "Success to add ticket types"
+msgstr ""
+
+#: app/scripts/settings/ticket-types-view.js:162
+msgid "Fail to add ticket types"
+msgstr ""
+
+#: app/scripts/tickets/ticket-info-model.js:64 app/scripts/tickets/tickets-update-view.js:302
+msgid "update ticket successful"
+msgstr ""
+
+#: app/scripts/tickets/ticket-info-model.js:71 app/scripts/tickets/tickets-update-view.js:305
+msgid "update ticket failure"
+msgstr ""
+
+#: app/scripts/tickets/tickets-add-view.js:146
+msgid "Select a Contact"
+msgstr ""
+
+#: app/scripts/tickets/tickets-add-view.js:171
+msgid "add ticket successful"
+msgstr ""
+
+#: app/scripts/tickets/tickets-add-view.js:174
+msgid "add ticket failure"
+msgstr ""
+
+#: app/scripts/tickets/tickets-add-view.js:264 app/scripts/tickets/tickets-update-view.js:134 app/scripts/tickets/tickets-update-view.js:350 app/scripts/tickets/tickets-view.js:473 app/scripts/tickets/tickets-view.js:521
+msgid "Need Options And Data When Init Select"
+msgstr ""
+
+#: app/scripts/tickets/tickets-deleted-list-view.js:30 app/scripts/tickets/tickets-deleted-list-view.js:98 app/scripts/tickets/tickets-view.js:812
+msgid "restore ticket successful"
+msgstr ""
+
+#: app/scripts/tickets/tickets-deleted-list-view.js:34 app/scripts/tickets/tickets-deleted-list-view.js:103 app/scripts/tickets/tickets-view.js:815
+msgid "restore ticket failure"
+msgstr ""
+
+#: app/scripts/tickets/tickets-history-model.js:21
+msgid "update memo successfull"
+msgstr ""
+
+#: app/scripts/tickets/tickets-history-model.js:24
+msgid "update memo failure"
+msgstr ""
+
+#: app/scripts/tickets/tickets-list-view.js:16 app/scripts/tickets/tickets-view.js:23
+msgid "Confirm Delete Selected Tickets"
+msgstr ""
+
+#: app/scripts/tickets/tickets-list-view.js:18 app/scripts/tickets/tickets-view.js:25
+msgid "The Deleted Tieckets will not edit,please look up in deleted list"
+msgstr ""
+
+#: app/scripts/tickets/tickets-list-view.js:370 app/scripts/tickets/tickets-list-view.js:383 app/scripts/tickets/tickets-list-view.js:392 app/scripts/tickets/tickets-list-view.js:457 app/scripts/tickets/tickets-list-view.js:471 app/scripts/tickets/tickets-list-view.js:486 app/scripts/tickets/tickets-list-view.js:596 app/scripts/tickets/tickets-list-view.js:636 app/scripts/tickets/tickets-list-view.js:656
+msgid "update tickets successful"
+msgstr ""
+
+#: app/scripts/tickets/tickets-list-view.js:373 app/scripts/tickets/tickets-list-view.js:385 app/scripts/tickets/tickets-list-view.js:394 app/scripts/tickets/tickets-list-view.js:459 app/scripts/tickets/tickets-list-view.js:473 app/scripts/tickets/tickets-list-view.js:488 app/scripts/tickets/tickets-list-view.js:600 app/scripts/tickets/tickets-list-view.js:639 app/scripts/tickets/tickets-list-view.js:659
+msgid "update tickets failure"
+msgstr ""
+
+#: app/scripts/tickets/tickets-list-view.js:379 templates/tickets/tickets-list-table.hbs:6
+msgid "Assign to me"
+msgstr ""
+
+#: app/scripts/tickets/tickets-list-view.js:435 templates/tickets/tickets-list-filter.hbs:47
+msgid "Over due"
+msgstr ""
+
+#: app/scripts/tickets/tickets-list-view.js:439 templates/tickets/tickets-list-filter.hbs:48
+msgid "Due Today"
+msgstr ""
+
+#: app/scripts/tickets/tickets-list-view.js:612
+msgid "delete successful"
+msgstr ""
+
+#: app/scripts/tickets/tickets-list-view.js:615
+msgid "delete failure"
+msgstr ""
+
+#: app/scripts/tickets/tickets-update-view.js:230
+msgid "Select a Contact or Add new Contact"
+msgstr ""
+
+#: app/scripts/tickets/tickets-update-view.js:254
+msgid "Recovery"
+msgstr ""
+
+#: app/scripts/tickets/tickets-update-view.js:258 templates/contacts/contacts-infomation.hbs:11 templates/corporations/corporations-info.hbs:13 templates/corporations/corporations-list.hbs:7 templates/settings/ticket-types.hbs:28 templates/tickets/tickets-list-filter-group.hbs:56 templates/tickets/tickets-list-table.hbs:9 templates/tickets/tickets-trash.hbs:18 templates/tickets/tickets-update.hbs:116 templates/tickets/tickets.hbs:10
+msgid "Delete"
+msgstr ""
+
+#: app/scripts/tickets/tickets-view.js:19 templates/agent/translations.hbs:15 templates/tickets/translations.hbs:8
+msgid "Opened"
+msgstr ""
+
+#: app/scripts/tickets/tickets-view.js:20 templates/agent/translations.hbs:17 templates/tickets/translations.hbs:9
+msgid "Resolved"
+msgstr ""
+
+#: app/scripts/tickets/tickets-view.js:21 templates/agent/translations.hbs:16 templates/tickets/translations.hbs:10
+msgid "Pending"
+msgstr ""
+
+#: app/scripts/tickets/tickets-view.js:27
+msgid "Confirm Delete Tickets Memo"
+msgstr ""
+
+#: app/scripts/tickets/tickets-view.js:29
+msgid "Confirm Delete Tickets Memo Content"
+msgstr ""
+
+#: app/scripts/tickets/tickets-view.js:149
+msgid "Fail To Show More Tickets"
+msgstr ""
+
+#: app/scripts/tickets/tickets-view.js:212
+msgid "add memo successful"
+msgstr ""
+
+#: app/scripts/tickets/tickets-view.js:216
+msgid "add memo failure"
+msgstr ""
+
+#: app/scripts/tickets/tickets-view.js:287
+msgid "delete memo successful"
+msgstr ""
+
+#: app/scripts/tickets/tickets-view.js:290
+msgid "delete memo failure"
+msgstr ""
+
+#: app/scripts/tickets/tickets-view.js:383
+msgid "upateExpiredDate successful"
+msgstr ""
+
+#: app/scripts/tickets/tickets-view.js:385
+msgid "upateExpiredDate failure"
+msgstr ""
+
+#: app/scripts/tickets/tickets-view.js:561
+msgid "save successful"
+msgstr ""
+
+#: app/scripts/tickets/tickets-view.js:564
+msgid "save failure"
+msgstr ""
+
+#: app/scripts/tickets/tickets-view.js:781 templates/agent/translations.hbs:18 templates/tickets/translations.hbs:11
+msgid "Closed"
+msgstr ""
+
+#: app/scripts/tickets/tickets-view.js:841
+msgid "delete ticket successful"
+msgstr ""
+
+#: app/scripts/tickets/tickets-view.js:844
+msgid "delete ticket failure"
+msgstr ""
+
+#: templates/agent/home-activies.hbs:2
+msgid "Actities"
+msgstr ""
+
+#: templates/agent/home-activies.hbs:10 templates/agent/translations.hbs:2 templates/contacts/contacts-information-activities.hbs:5
+msgid "Now Loading The Data"
+msgstr ""
+
+#: templates/agent/home-activies.hbs:11 templates/agent/translations.hbs:3
+msgid "No Recent Activity"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:5 templates/agent/translations.hbs:4 templates/tickets/tickets-flow-conversition.hbs:8 templates/tickets/tickets-flow-conversition.hbs:42
+msgid "At"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:5 templates/tickets/tickets-flow-conversition.hbs:8
+msgid "operate ticket timeline"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:7 templates/tickets/tickets-flow-conversition.hbs:10
+msgid "ticket expiredDate from"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:7 templates/tickets/tickets-flow-conversition.hbs:10
+msgid "ticket expiredDate to"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:10 templates/tickets/tickets-flow-conversition.hbs:13
+msgid "ticket requester from"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:10 templates/tickets/tickets-flow-conversition.hbs:13
+msgid "ticket requester to"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:13 templates/tickets/tickets-flow-conversition.hbs:16
+msgid "ticket subject from"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:13 templates/tickets/tickets-flow-conversition.hbs:16
+msgid "ticket subject to"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:16 templates/tickets/tickets-flow-conversition.hbs:19
+msgid "ticket description from"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:16 templates/tickets/tickets-flow-conversition.hbs:19
+msgid "ticket description to"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:19 templates/tickets/tickets-flow-conversition.hbs:22
+msgid "ticket type from"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:19 templates/tickets/tickets-flow-conversition.hbs:22
+msgid "ticket type to"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:22 templates/tickets/tickets-flow-conversition.hbs:25
+msgid "ticket state from"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:22 templates/tickets/tickets-flow-conversition.hbs:25
+msgid "ticket state to"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:25 templates/tickets/tickets-flow-conversition.hbs:28
+msgid "ticket priority from"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:25 templates/tickets/tickets-flow-conversition.hbs:28
+msgid "ticket priority to"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:28 templates/tickets/tickets-flow-conversition.hbs:31
+msgid "ticket assignee from"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:28 templates/tickets/tickets-flow-conversition.hbs:31
+msgid "ticket assignee to"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:31 templates/tickets/tickets-flow-conversition.hbs:34
+msgid "ticket group from"
+msgstr ""
+
+#: templates/agent/home-ticket-item.hbs:31 templates/tickets/tickets-flow-conversition.hbs:34
+msgid "ticket group to"
+msgstr ""
+
+#: templates/agent/home-ticket-total.hbs:2
+msgid "Tickets Total"
+msgstr ""
+
+#: templates/agent/home-ticket-total.hbs:8
+msgid "Expried"
+msgstr ""
+
+#: templates/agent/home-ticket-total.hbs:10
+msgid "Processing"
+msgstr ""
+
+#: templates/agent/home-ticket-total.hbs:12
+msgid "Paused"
+msgstr ""
+
+#: templates/agent/home-ticket-total.hbs:14
+msgid "Overdue"
+msgstr ""
+
+#: templates/agent/home-ticket-total.hbs:16
+msgid "Unassigned"
+msgstr ""
+
+#: templates/agent/home-user-profile.hbs:2
+msgid "Information"
+msgstr ""
+
+#: templates/agent/home-user-profile.hbs:6 templates/agents/ticket-agent-info.hbs:28 templates/profile/profile-update.hbs:14 templates/profile/reset-password.hbs:19 templates/settings/agent-add.hbs:32 templates/settings/agent-info.hbs:41 templates/settings/agent-resetpassword.hbs:24 templates/settings/agent-roles.hbs:29 templates/settings/agent-update.hbs:29 templates/settings/agents-item.hbs:9 templates/settings/agents.hbs:35 templates/tickets/ticket-agent-info.hbs:34
+msgid "User Name"
+msgstr ""
+
+#: templates/agent/home-user-profile.hbs:7 templates/agents/ticket-agent-info.hbs:34 templates/profile/profile-update.hbs:22 templates/settings/agent-add.hbs:54 templates/settings/agent-add.hbs:56 templates/settings/agent-info.hbs:47 templates/settings/agent-roles.hbs:37 templates/settings/agent-update.hbs:35 templates/tickets/ticket-agent-info.hbs:28
+msgid "Name"
+msgstr ""
+
+#: templates/agent/home-user-profile.hbs:8 templates/agents/ticket-agent-info.hbs:41 templates/profile/profile-update.hbs:34 templates/settings/agent-add.hbs:123 templates/settings/agent-info.hbs:54 templates/settings/agent-roles.hbs:45 templates/settings/agent-update.hbs:47 templates/settings/agents-item.hbs:10
+msgid "WorkNum"
+msgstr ""
+
+#: templates/agent/home-user-profile.hbs:9 templates/agents/ticket-agent-info.hbs:49 templates/contacts/add-contacts.hbs:64 templates/contacts/add-contacts.hbs:66 templates/contacts/contacts-infomation.hbs:73 templates/contacts/contacts-item.hbs:10 templates/contacts/quick-add-contacts.hbs:32 templates/contacts/update-contacts.hbs:65 templates/contacts/update-contacts.hbs:67 templates/corporations/corporations-contacts-quickadd.hbs:27 templates/profile/profile-update.hbs:46 templates/profile/profile-update.hbs:48 templates/settings/agent-add.hbs:135 templates/settings/agent-add.hbs:137 templates/settings/agent-info.hbs:62 templates/settings/agent-roles.hbs:53 templates/settings/agent-update.hbs:59 templates/settings/agent-update.hbs:61 templates/settings/agents-deleted-item.hbs:10 templates/settings/agents-item.hbs:11 templates/tickets/ticket-agent-info.hbs:40 templates/tickets/tickets-add-new-requester.hbs:23
+msgid "Mobile"
+msgstr ""
+
+#: templates/agent/home-user-profile.hbs:10 templates/agents/ticket-agent-info.hbs:57 templates/profile/profile-update.hbs:53 templates/settings/agent-add.hbs:142 templates/settings/agent-info.hbs:70 templates/settings/agent-roles.hbs:61 templates/settings/agent-update.hbs:66
+msgid "Post"
+msgstr ""
+
+#: templates/agent/home-user-profile.hbs:11 templates/agents/ticket-agent-info.hbs:65 templates/profile/profile-update.hbs:60 templates/settings/agent-add.hbs:149 templates/settings/agent-info.hbs:78 templates/settings/agent-roles.hbs:69 templates/settings/agent-update.hbs:73
+msgid "Remark"
+msgstr ""
+
+#: templates/agent/translations.hbs:5
+msgid "Operated Ticket"
+msgstr ""
+
+#: templates/agent/translations.hbs:6
+msgid "TicketCreated"
+msgstr ""
+
+#: templates/agent/translations.hbs:7
+msgid "TicketClosed"
+msgstr ""
+
+#: templates/agent/translations.hbs:8
+msgid "TicketDeleted"
+msgstr ""
+
+#: templates/agent/translations.hbs:9
+msgid "TicketRecovery"
+msgstr ""
+
+#: templates/agent/translations.hbs:10
+msgid "TicketEdited"
+msgstr ""
+
+#: templates/agent/translations.hbs:11
+msgid "TicketModifiedEexpirationTime"
+msgstr ""
+
+#: templates/agent/translations.hbs:12
+msgid "TicketModifiedAssignee"
+msgstr ""
+
+#: templates/agent/translations.hbs:13
+msgid "TicketModifiedState"
+msgstr ""
+
+#: templates/agent/translations.hbs:14
+msgid "TicketModifiedPriority"
+msgstr ""
+
+#: templates/agents/ticket-agent-info.hbs:7 templates/settings/agent-info.hbs:20 templates/tickets/ticket-agent-info.hbs:7
+msgid "Agent Information"
+msgstr ""
+
+#: templates/agents/ticket-agent-info.hbs:12 templates/settings/agent-info.hbs:25 templates/tickets/ticket-agent-info.hbs:12
+msgid "Info agent title"
+msgstr ""
+
+#: templates/agents/ticket-agent-info.hbs:26 templates/settings/agent-add.hbs:29 templates/settings/agent-info.hbs:39 templates/settings/agent-roles.hbs:26 templates/settings/agent-update.hbs:27 templates/tickets/ticket-agent-info.hbs:26
+msgid "Agent Info"
+msgstr ""
+
+#: templates/agents/ticket-agent-info.hbs:71 templates/settings/agent-info.hbs:84 templates/tickets/ticket-agent-info.hbs:45
+msgid "Recently assigned jobs"
+msgstr ""
+
+#: templates/agents/ticket-agent-info.hbs:75 templates/settings/agent-info.hbs:88 templates/tickets/ticket-agent-info.hbs:49
+msgid "Info agent help document"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:5
+msgid "Add Contacts"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:22 templates/contacts/add-contacts.hbs:24 templates/contacts/update-contacts.hbs:23 templates/contacts/update-contacts.hbs:25
+msgid "Contacts Name"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:26 templates/contacts/add-contacts.hbs:28 templates/contacts/update-contacts.hbs:27 templates/contacts/update-contacts.hbs:29
+msgid "Nickname"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:33 templates/contacts/quick-add-contacts.hbs:17 templates/contacts/update-contacts.hbs:34 templates/corporations/corporations-contacts-quickadd.hbs:11 templates/profile/profile-update.hbs:29 templates/settings/agent-add.hbs:61 templates/settings/agent-update.hbs:42 templates/tickets/tickets-add-new-requester.hbs:11
+msgid "Name required"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:37 templates/contacts/add-contacts.hbs:39 templates/contacts/contacts-infomation.hbs:50 templates/contacts/update-contacts.hbs:38 templates/contacts/update-contacts.hbs:40
+msgid "Gender"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:40 templates/contacts/update-contacts.hbs:41
+msgid "Unknown"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:41 templates/contacts/update-contacts.hbs:42
+msgid "Male"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:42 templates/contacts/update-contacts.hbs:43
+msgid "Female"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:45 templates/contacts/add-contacts.hbs:48 templates/contacts/contacts-infomation.hbs:85 templates/contacts/update-contacts.hbs:46 templates/contacts/update-contacts.hbs:49
+msgid "Birthday"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:56 templates/contacts/translations.hbs:1 templates/contacts/update-contacts.hbs:57
+msgid "Date pattern, example: %s"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:60 templates/contacts/add-contacts.hbs:62 templates/contacts/contacts-infomation.hbs:58 templates/contacts/contacts-item.hbs:9 templates/contacts/quick-add-contacts.hbs:20 templates/contacts/update-contacts.hbs:61 templates/contacts/update-contacts.hbs:63 templates/corporations/corporations-contacts-quickadd.hbs:14 templates/settings/agents-deleted-item.hbs:9 templates/tickets/tickets-add-new-requester.hbs:13
+msgid "Email"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:71 templates/contacts/quick-add-contacts.hbs:26 templates/contacts/update-contacts.hbs:72 templates/corporations/corporations-contacts-quickadd.hbs:21 templates/tickets/tickets-add-new-requester.hbs:18
+msgid "Invalidation Email"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:76 templates/contacts/quick-add-contacts.hbs:29 templates/contacts/update-contacts.hbs:77 templates/corporations/corporations-contacts-quickadd.hbs:24 templates/tickets/tickets-add-new-requester.hbs:21
+msgid "Email Duplicate"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:81 templates/contacts/quick-add-contacts.hbs:35 templates/contacts/update-contacts.hbs:82 templates/corporations/corporations-contacts-quickadd.hbs:30 templates/tickets/tickets-add-new-requester.hbs:25
+msgid "Mobile Duplicate"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:85 templates/contacts/add-contacts.hbs:87 templates/contacts/contacts-infomation.hbs:79 templates/contacts/update-contacts.hbs:86 templates/contacts/update-contacts.hbs:88
+msgid "Telephone"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:91 templates/contacts/add-contacts.hbs:93 templates/contacts/contacts-infomation.hbs:91 templates/contacts/update-contacts.hbs:93 templates/contacts/update-contacts.hbs:95
+msgid "Address"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:97 templates/contacts/add-contacts.hbs:99 templates/contacts/update-contacts.hbs:99 templates/contacts/update-contacts.hbs:101
+msgid "Address 2"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:103 templates/contacts/add-contacts.hbs:106 templates/contacts/update-contacts.hbs:105 templates/contacts/update-contacts.hbs:107
+msgid "Corporation"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:110 templates/contacts/add-contacts.hbs:112 templates/contacts/update-contacts.hbs:111 templates/contacts/update-contacts.hbs:113
+msgid "Title"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:116 templates/contacts/add-contacts.hbs:118 templates/contacts/contacts-infomation.hbs:99 templates/contacts/update-contacts.hbs:117 templates/contacts/update-contacts.hbs:119 templates/corporations/corporations-add.hbs:34 templates/corporations/corporations-info.hbs:48 templates/corporations/corporations-update.hbs:36
+msgid "Memo"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:123 templates/contacts/update-contacts.hbs:125 templates/corporations/corporations-info.hbs:54 templates/profile/profile-update.hbs:69 templates/profile/reset-password.hbs:9 templates/profile/reset-password.hbs:70 templates/settings/agent-add.hbs:163 templates/settings/agent-resetpassword.hbs:84 templates/settings/agent-roles.hbs:108 templates/settings/agent-update.hbs:88 templates/settings/general.hbs:69 templates/tickets/tickets-add.hbs:115 templates/tickets/tickets-detail.hbs:108 templates/tickets/tickets-update.hbs:131
+msgid "Save"
+msgstr ""
+
+#: templates/contacts/contacts-blocked.hbs:8 templates/contacts/contacts.hbs:8 templates/corporations/corporations-add.hbs:6 templates/corporations/corporations.hbs:8
+msgid "Create Corporation"
+msgstr ""
+
+#: templates/contacts/contacts-blocked.hbs:8 templates/contacts/contacts.hbs:8 templates/corporations/corporations.hbs:8
+msgid "Create Contact"
+msgstr ""
+
+#: templates/contacts/contacts-blocked.hbs:10 templates/contacts/contacts.hbs:10 templates/corporations/corporations.hbs:10 templates/main/layout.hbs:56
+msgid "Customers"
+msgstr ""
+
+#: templates/contacts/contacts-blocked.hbs:16 templates/contacts/contacts.hbs:16 templates/corporations/corporations-contacts.hbs:13 templates/corporations/corporations.hbs:16
+msgid "Contacts"
+msgstr ""
+
+#: templates/contacts/contacts-blocked.hbs:19 templates/contacts/contacts.hbs:19 templates/corporations/corporations-contacts.hbs:16 templates/corporations/corporations.hbs:19
+msgid "Corporations"
+msgstr ""
+
+#: templates/contacts/contacts-blocked.hbs:26 templates/contacts/contacts.hbs:26 templates/corporations/corporations-contacts.hbs:26 templates/corporations/corporations.hbs:27
+msgid "Alphabet"
+msgstr ""
+
+#: templates/contacts/contacts-blocked.hbs:30 templates/contacts/contacts.hbs:30
+msgid "Display"
+msgstr ""
+
+#: templates/contacts/contacts-blocked.hbs:32 templates/contacts/contacts.hbs:37
+msgid "All"
+msgstr ""
+
+#: templates/contacts/contacts-blocked.hbs:33 templates/contacts/contacts.hbs:41
+msgid "Contact Deleted"
+msgstr ""
+
+#: templates/contacts/contacts-infomation.hbs:9 templates/contacts/contacts-item.hbs:22 templates/corporations/corporations-info.hbs:10 templates/corporations/corporations-item.hbs:7 templates/settings/agents-item.hbs:19 templates/settings/group-item.hbs:6
+msgid "Update"
+msgstr ""
+
+#: templates/contacts/contacts-infomation.hbs:16 templates/contacts/contacts-item.hbs:28 templates/settings/agent-info.hbs:16 templates/settings/agents-deleted-item.hbs:16 templates/settings/agents-item.hbs:26 templates/tickets/tickets-deleted-table.hbs:6 templates/tickets/tickets.hbs:12
+msgid "Restore"
+msgstr ""
+
+#: templates/contacts/contacts-infomation.hbs:21
+msgid "Contacts Informations"
+msgstr ""
+
+#: templates/contacts/contacts-infomation.hbs:26
+msgid "Info contacts title"
+msgstr ""
+
+#: templates/contacts/contacts-infomation.hbs:102 templates/corporations/corporations-add.hbs:55 templates/corporations/corporations-update.hbs:55 templates/settings/group-add.hbs:51 templates/settings/group-update.hbs:52 templates/settings/ticket-types.hbs:41
+msgid "Submit"
+msgstr ""
+
+#: templates/contacts/contacts-infomation.hbs:110
+msgid "Info contacts help document"
+msgstr ""
+
+#: templates/contacts/contacts-information-activities-item.hbs:3 templates/settings/agent-tickets-item.hbs:3 templates/tickets/tickets-detail.hbs:52 templates/tickets/tickets-update.hbs:47
+msgid "Status"
+msgstr ""
+
+#: templates/contacts/contacts-information-activities-item.hbs:3 templates/settings/agent-add.hbs:158 templates/settings/agent-roles.hbs:82 templates/settings/group-add.hbs:44 templates/settings/group-update.hbs:44 templates/settings/role-administrator-info.hbs:131 templates/settings/role-agent-info.hbs:9 templates/settings/role-agent-info.hbs:136 templates/settings/role-leader-info.hbs:136 templates/statistics/agent-reports-table.hbs:5 templates/tickets/tickets-list-table-item.hbs:22
+msgid "Agent"
+msgstr ""
+
+#: templates/contacts/contacts-information-activities.hbs:1
+msgid "Contacts Tickets"
+msgstr ""
+
+#: templates/contacts/contacts-information-activities.hbs:6 templates/contacts/translations.hbs:6 templates/corporations/translations.hbs:6
+msgid "No Recent Data"
+msgstr ""
+
+#: templates/contacts/contacts-information-activities.hbs:8 templates/settings/agent-ticket-list-table.hbs:5
+msgid "View All Tickets"
+msgstr ""
+
+#: templates/contacts/contacts-table.hbs:11
+msgid "Contact Delete"
+msgstr ""
+
+#: templates/contacts/contacts-table.hbs:14
+msgid "Contact Restore"
+msgstr ""
+
+#: templates/contacts/contacts-table.hbs:23 templates/corporations/corporations-list.hbs:18 templates/settings/agent-ticket-list-table.hbs:3 templates/settings/agents-table.hbs:6 templates/settings/group-list.hbs:8 templates/statistics/agent-reports-table.hbs:23 templates/tickets/tickets-deleted-table.hbs:14 templates/tickets/tickets-list-table.hbs:20 templates/tickets/tickets-trash.hbs:43
+msgid "Now Loading..."
+msgstr ""
+
+#: templates/contacts/contacts-table.hbs:24
+msgid "Non Contacts"
+msgstr ""
+
+#: templates/contacts/quick-add-contacts.hbs:5 templates/corporations/corporations-contacts-quickadd.hbs:3
+msgid "Quickly add current contact to the company"
+msgstr ""
+
+#: templates/contacts/quick-add-contacts.hbs:7 templates/tickets/tickets-add-new-requester.hbs:5
+msgid "Quick Add Contacts"
+msgstr ""
+
+#: templates/contacts/quick-add-contacts.hbs:14 templates/corporations/corporations-contacts-quickadd.hbs:8 templates/tickets/tickets-add-new-requester.hbs:9
+msgid "Contact Name"
+msgstr ""
+
+#: templates/contacts/quick-add-contacts.hbs:23 templates/corporations/corporations-contacts-quickadd.hbs:18 templates/tickets/tickets-add-new-requester.hbs:15
+msgid "Email or Mobile required"
+msgstr ""
+
+#: templates/contacts/quick-add-contacts.hbs:38 templates/corporations/corporations-quickadd.hbs:17
+msgid "Add"
+msgstr ""
+
+#: templates/contacts/translations.hbs:2 templates/corporations/translations.hbs:2
+msgid "State Opened"
+msgstr ""
+
+#: templates/contacts/translations.hbs:3 templates/corporations/translations.hbs:3
+msgid "State Resolved"
+msgstr ""
+
+#: templates/contacts/translations.hbs:4 templates/corporations/translations.hbs:4
+msgid "State Pending"
+msgstr ""
+
+#: templates/contacts/translations.hbs:5 templates/corporations/translations.hbs:5
+msgid "State Closed"
+msgstr ""
+
+#: templates/contacts/update-contacts.hbs:5
+msgid "Update Contacts"
+msgstr ""
+
+#: templates/contacts/update-contacts.hbs:124 templates/corporations/corporations-update.hbs:53 templates/profile/profile-update.hbs:68 templates/settings/agent-update.hbs:87 templates/settings/general.hbs:68 templates/settings/group-update.hbs:51 templates/settings/ticket-types.hbs:40
+msgid "Reset"
+msgstr ""
+
+#: templates/corporations/corporations-add.hbs:10
+msgid "Create corporation title"
+msgstr ""
+
+#: templates/corporations/corporations-add.hbs:20 templates/corporations/corporations-update.hbs:22
+msgid "Corporation Name"
+msgstr ""
+
+#: templates/corporations/corporations-add.hbs:21 templates/corporations/corporations-quickadd.hbs:8 templates/corporations/corporations-update.hbs:23
+msgid "Corporation Name Placeholder"
+msgstr ""
+
+#: templates/corporations/corporations-add.hbs:25 templates/corporations/corporations-quickadd.hbs:11 templates/corporations/corporations-update.hbs:27
+msgid "Invalid Corporation Name"
+msgstr ""
+
+#: templates/corporations/corporations-add.hbs:30 templates/corporations/corporations-quickadd.hbs:14 templates/corporations/corporations-update.hbs:32
+msgid "Corporation Already Exists"
+msgstr ""
+
+#: templates/corporations/corporations-add.hbs:36 templates/corporations/corporations-update.hbs:37
+msgid "Corporation Memo Placeholader"
+msgstr ""
+
+#: templates/corporations/corporations-add.hbs:40 templates/corporations/corporations-info.hbs:36 templates/settings/group-add.hbs:38 templates/settings/group-add.hbs:40 templates/settings/group-update.hbs:38 templates/settings/group-update.hbs:40 templates/tickets/tickets-add.hbs:95 templates/tickets/tickets-add.hbs:97 templates/tickets/tickets-flow.hbs:32 templates/tickets/tickets-update.hbs:92
+msgid "Description"
+msgstr ""
+
+#: templates/corporations/corporations-add.hbs:42 templates/corporations/corporations-update.hbs:41
+msgid "Corporation Description Placeholder"
+msgstr ""
+
+#: templates/corporations/corporations-add.hbs:47 templates/corporations/corporations-info.hbs:42 templates/corporations/corporations-update.hbs:45
+msgid "Domain"
+msgstr ""
+
+#: templates/corporations/corporations-add.hbs:48 templates/corporations/corporations-update.hbs:46
+msgid "Corporation Domain Placeholder"
+msgstr ""
+
+#: templates/corporations/corporations-add.hbs:51 templates/corporations/corporations-update.hbs:49
+msgid "Corporation Domain Help text"
+msgstr ""
+
+#: templates/corporations/corporations-add.hbs:59
+msgid "Create corporation help document"
+msgstr ""
+
+#: templates/corporations/corporations-contacts-quickadd.hbs:33 templates/tickets/tickets-add-new-requester.hbs:31
+msgid "Create"
+msgstr ""
+
+#: templates/corporations/corporations-info.hbs:18
+msgid "Corporation Infomations"
+msgstr ""
+
+#: templates/corporations/corporations-info.hbs:31 templates/corporations/corporations-item.hbs:4 templates/corporations/translations.hbs:1
+msgid "<a href=\"/corporations/%s/contacts\">%d Corporation Contacts</a>"
+msgstr ""
+
+#: templates/corporations/corporations-list.hbs:19
+msgid "Non Corporations"
+msgstr ""
+
+#: templates/corporations/corporations-quickadd.hbs:3
+msgid "Qucik Add"
+msgstr ""
+
+#: templates/corporations/corporations-update.hbs:7
+msgid "Update Corporation"
+msgstr ""
+
+#: templates/corporations/corporations-update.hbs:12
+msgid "Update corporation title"
+msgstr ""
+
+#: templates/corporations/corporations-update.hbs:40
+msgid "Corporation Description"
+msgstr ""
+
+#: templates/corporations/corporations-update.hbs:59
+msgid "Update corporation help document"
+msgstr ""
+
+#: templates/main/confirm.hbs:20
+msgid "Confirm Title"
+msgstr ""
+
+#: templates/main/confirm.hbs:21 templates/settings/agents-table.hbs:24
+msgid "Submit Button"
+msgstr ""
+
+#: templates/main/confirm.hbs:22 templates/settings/group-confirm.hbs:12
+msgid "Cancel Button"
+msgstr ""
+
+#: templates/main/confirm.hbs:23
+msgid "Confirm Message"
+msgstr ""
+
+#: templates/main/dialog.hbs:18
+msgid "Dialog Title"
+msgstr ""
+
+#: templates/main/dialog.hbs:19
+msgid "Dialog Message"
+msgstr ""
+
+#: templates/main/layout.hbs:12
+msgid "The personal data provided"
+msgstr ""
+
+#: templates/main/layout.hbs:16
+msgid "Logout"
+msgstr ""
+
+#: templates/main/layout.hbs:46
+msgid "Home"
+msgstr ""
+
+#: templates/main/layout.hbs:48 templates/settings/role-administrator-info.hbs:20 templates/settings/role-administrator-info.hbs:29 templates/settings/role-agent-info.hbs:28 templates/settings/role-agent-info.hbs:37 templates/settings/role-leader-info.hbs:28 templates/settings/role-leader-info.hbs:37
+msgid "Tickets"
+msgstr ""
+
+#: templates/main/layout.hbs:59
+msgid "Statistics"
+msgstr ""
+
+#: templates/main/layout.hbs:62 templates/settings/index.hbs:7
+msgid "Settings"
+msgstr ""
+
+#: templates/main/layout.hbs:77
+msgid "Create Ticket"
+msgstr ""
+
+#: templates/main/upload-multiple-objects-template.hbs:4
+msgid "Remove Uploaded File"
+msgstr ""
+
+#: templates/main/upload-multiple-objects.hbs:6
+msgid "<i class=\"fa fa-link\"></i> Choose files"
+msgstr ""
+
+#: templates/main/upload-singleton-image.hbs:9
+msgid "<i class=\"fa fa-link\"></i> Choose a picture"
+msgstr ""
+
+#: templates/profile/profile-update.hbs:6
+msgid "Update Personal"
+msgstr ""
+
+#: templates/profile/profile-update.hbs:36 templates/settings/agent-add.hbs:125 templates/settings/agent-update.hbs:49
+msgid "Agent WorkNum Placeholder"
+msgstr ""
+
+#: templates/profile/profile-update.hbs:41 templates/settings/agent-add.hbs:130 templates/settings/agent-update.hbs:54
+msgid "workNum has been exists"
+msgstr ""
+
+#: templates/profile/profile-update.hbs:55 templates/settings/agent-add.hbs:144 templates/settings/agent-update.hbs:68
+msgid "Agent Post Placeholder"
+msgstr ""
+
+#: templates/profile/profile-update.hbs:62 templates/settings/agent-add.hbs:151 templates/settings/agent-update.hbs:75
+msgid "Agent Remark Placeholder"
+msgstr ""
+
+#: templates/profile/reset-password.hbs:11
+msgid "Rest Password"
+msgstr ""
+
+#: templates/profile/reset-password.hbs:28 templates/profile/reset-password.hbs:31 templates/profile/update-password.hbs:8 templates/settings/agent-add.hbs:70 templates/settings/agent-add.hbs:72
+msgid "Password"
+msgstr ""
+
+#: templates/profile/reset-password.hbs:36
+msgid "Passowrd required"
+msgstr ""
+
+#: templates/profile/reset-password.hbs:41
+msgid "password min error required"
+msgstr ""
+
+#: templates/profile/reset-password.hbs:46
+msgid "password max error required"
+msgstr ""
+
+#: templates/profile/reset-password.hbs:51 templates/profile/reset-password.hbs:54 templates/settings/agent-add.hbs:96 templates/settings/agent-add.hbs:98
+msgid "Confirm PD"
+msgstr ""
+
+#: templates/profile/reset-password.hbs:59 templates/settings/agent-add.hbs:103
+msgid "confirmPassword required"
+msgstr ""
+
+#: templates/profile/reset-password.hbs:64 templates/settings/agent-add.hbs:118
+msgid "confirmPasswordError required"
+msgstr ""
+
+#: templates/profile/update-password.hbs:3 templates/profile/update-password.hbs:50
+msgid "Update password"
+msgstr ""
+
+#: templates/profile/update-password.hbs:11
+msgid "Password required"
+msgstr ""
+
+#: templates/profile/update-password.hbs:14 templates/settings/agent-add.hbs:82 templates/settings/agent-resetpassword.hbs:43
+msgid "password error required"
+msgstr ""
+
+#: templates/profile/update-password.hbs:17
+msgid "Password min error required"
+msgstr ""
+
+#: templates/profile/update-password.hbs:20
+msgid "Password max error required"
+msgstr ""
+
+#: templates/profile/update-password.hbs:23 templates/settings/agent-resetpassword.hbs:31 templates/settings/agent-resetpassword.hbs:33
+msgid "New password"
+msgstr ""
+
+#: templates/profile/update-password.hbs:26 templates/settings/agent-resetpassword.hbs:38
+msgid "New passowrd required"
+msgstr ""
+
+#: templates/profile/update-password.hbs:29 templates/settings/agent-resetpassword.hbs:48
+msgid "new password min error required"
+msgstr ""
+
+#: templates/profile/update-password.hbs:32 templates/settings/agent-resetpassword.hbs:53
+msgid "new password max error required"
+msgstr ""
+
+#: templates/profile/update-password.hbs:35 templates/settings/agent-resetpassword.hbs:57 templates/settings/agent-resetpassword.hbs:59
+msgid "Confirm password"
+msgstr ""
+
+#: templates/profile/update-password.hbs:38 templates/settings/agent-resetpassword.hbs:64
+msgid "Confirm Password required"
+msgstr ""
+
+#: templates/profile/update-password.hbs:41 templates/settings/agent-resetpassword.hbs:79
+msgid "Confirm password Error required"
+msgstr ""
+
+#: templates/profile/update-password.hbs:44 templates/settings/agent-add.hbs:108 templates/settings/agent-resetpassword.hbs:69
+msgid "Confirm password min error required"
+msgstr ""
+
+#: templates/profile/update-password.hbs:47 templates/settings/agent-add.hbs:113 templates/settings/agent-resetpassword.hbs:74
+msgid "Confirm password max error required"
+msgstr ""
+
+#: templates/search/search-result-item.hbs:28 templates/search/search-tickets-item.hbs:4 templates/tickets/tickets-deleted-item.hbs:5 templates/tickets/tickets-list-table-item.hbs:5
+msgid "From"
+msgstr ""
+
+#: templates/search/search-result-item.hbs:28 templates/search/search-tickets-item.hbs:4 templates/tickets/tickets-deleted-item.hbs:6 templates/tickets/tickets-list-table-item.hbs:6
+msgid "Create At"
+msgstr ""
+
+#: templates/search/search-table.hbs:8 templates/search/search.hbs:42
+msgid "nowSearch"
+msgstr ""
+
+#: templates/search/search-table.hbs:11 templates/search/search.hbs:43
+msgid "noSearchResult"
+msgstr ""
+
+#: templates/search/search.hbs:15
+msgid "all"
+msgstr ""
+
+#: templates/search/search.hbs:16
+msgid "contacts"
+msgstr ""
+
+#: templates/search/search.hbs:17
+msgid "corporations"
+msgstr ""
+
+#: templates/search/search.hbs:18
+msgid "tickets"
+msgstr ""
+
+#: templates/search/search.hbs:38
+msgid "Priroity 20"
+msgstr ""
+
+#: templates/search/search.hbs:39
+msgid "Priroity 40"
+msgstr ""
+
+#: templates/search/search.hbs:40
+msgid "Priroity 60"
+msgstr ""
+
+#: templates/search/search.hbs:41
+msgid "Priroity 80"
+msgstr ""
+
+#: templates/settings/agent-add.hbs:7 templates/settings/agents.hbs:9
+msgid "Create Agent"
+msgstr ""
+
+#: templates/settings/agent-add.hbs:12
+msgid "Add agent title"
+msgstr ""
+
+#: templates/settings/agent-add.hbs:34
+msgid "Agent User Name Placeholder"
+msgstr ""
+
+#: templates/settings/agent-add.hbs:39
+msgid "UserName required"
+msgstr ""
+
+#: templates/settings/agent-add.hbs:44
+msgid "Invalidation UserName"
+msgstr ""
+
+#: templates/settings/agent-add.hbs:49
+msgid "Mail has been registered"
+msgstr ""
+
+#: templates/settings/agent-add.hbs:66
+msgid "Name error required"
+msgstr ""
+
+#: templates/settings/agent-add.hbs:77
+msgid "password required"
+msgstr ""
+
+#: templates/settings/agent-add.hbs:87
+msgid "password length min"
+msgstr ""
+
+#: templates/settings/agent-add.hbs:92
+msgid "password length max error"
+msgstr ""
+
+#: templates/settings/agent-add.hbs:154
+msgid "Roles information"
+msgstr ""
+
+#: templates/settings/agent-add.hbs:156 templates/settings/agent-roles.hbs:77
+msgid "Agent Roles"
+msgstr ""
+
+#: templates/settings/agent-add.hbs:167
+msgid "Add agent help document"
+msgstr ""
+
+#: templates/settings/agent-info.hbs:10 templates/settings/agent-update.hbs:7
+msgid "Update Agent"
+msgstr ""
+
+#: templates/settings/agent-info.hbs:12 templates/settings/role-administrator-info.hbs:143 templates/settings/role-agent-info.hbs:148 templates/settings/role-leader-info.hbs:148
+msgid "Reset password"
+msgstr ""
+
+#: templates/settings/agent-invitation.hbs:7
+msgid "Invitation Agents"
+msgstr ""
+
+#: templates/settings/agent-invitation.hbs:12
+msgid "Tickets type configuration"
+msgstr ""
+
+#: templates/settings/agent-invitation.hbs:21
+msgid "Invitation agents title"
+msgstr ""
+
+#: templates/settings/agent-invitation.hbs:27
+msgid "Mail required"
+msgstr ""
+
+#: templates/settings/agent-invitation.hbs:32 templates/settings/agent-invitation.hbs:39
+msgid "Mail"
+msgstr ""
+
+#: templates/settings/agent-invitation.hbs:34
+msgid "Mail error required"
+msgstr ""
+
+#: templates/settings/agent-invitation.hbs:41
+msgid "Mail repeat required"
+msgstr ""
+
+#: templates/settings/agent-invitation.hbs:46
+msgid "Mail max required"
+msgstr ""
+
+#: templates/settings/agent-invitation.hbs:51
+msgid "Send invitation email"
+msgstr ""
+
+#: templates/settings/agent-invitation.hbs:55
+msgid "Tickets type configuration help document"
+msgstr ""
+
+#: templates/settings/agent-resetpassword.hbs:7
+msgid "Reset Password"
+msgstr ""
+
+#: templates/settings/agent-resetpassword.hbs:12
+msgid "Resetpassword agent title"
+msgstr ""
+
+#: templates/settings/agent-resetpassword.hbs:90
+msgid "Resetpassword agent help document"
+msgstr ""
+
+#: templates/settings/agent-roles.hbs:7
+msgid "Agent roles configure"
+msgstr ""
+
+#: templates/settings/agent-roles.hbs:12
+msgid "Agent roles configure title"
+msgstr ""
+
+#: templates/settings/agent-roles.hbs:75
+msgid "Configure Roles"
+msgstr ""
+
+#: templates/settings/agent-roles.hbs:92 templates/settings/role-leader-info.hbs:9 templates/settings/role-list.hbs:5
+msgid "Leader"
+msgstr ""
+
+#: templates/settings/agent-roles.hbs:102
+msgid "Administrator"
+msgstr ""
+
+#: templates/settings/agent-roles.hbs:105
+msgid "roles title"
+msgstr ""
+
+#: templates/settings/agent-roles.hbs:112
+msgid "Agent roles configure document"
+msgstr ""
+
+#: templates/settings/agent-ticket-list-table.hbs:4
+msgid "Non Items Tickets"
+msgstr ""
+
+#: templates/settings/agent-tickets-item.hbs:3
+msgid "Come From"
+msgstr ""
+
+#: templates/settings/agent-update.hbs:12
+msgid "Update agent title"
+msgstr ""
+
+#: templates/settings/agent-update.hbs:92
+msgid "Update agent help document"
+msgstr ""
+
+#: templates/settings/agents-delete-confirm.hbs:5
+msgid "Confirm"
+msgstr ""
+
+#: templates/settings/agents-delete-confirm.hbs:8
+msgid "Delete Agents?"
+msgstr ""
+
+#: templates/settings/agents-item.hbs:18 templates/settings/index.hbs:72 templates/settings/role.hbs:7
+msgid "Roles"
+msgstr ""
+
+#: templates/settings/agents-table.hbs:7
+msgid "Non Items Agents"
+msgstr ""
+
+#: templates/settings/agents-trash.hbs:7
+msgid "Trash Agents"
+msgstr ""
+
+#: templates/settings/agents-trash.hbs:12
+msgid "Trash agents title"
+msgstr ""
+
+#: templates/settings/agents-trash.hbs:25 templates/settings/agents-trash.hbs:30 templates/settings/agents.hbs:51
+msgid "Deleted Agents"
+msgstr ""
+
+#: templates/settings/agents-trash.hbs:29 templates/settings/agents.hbs:46 templates/settings/agents.hbs:50
+msgid "All Agents"
+msgstr ""
+
+#: templates/settings/agents-trash.hbs:47
+msgid "Trash agents help document"
+msgstr ""
+
+#: templates/settings/agents.hbs:8
+msgid "Invitation Agent"
+msgstr ""
+
+#: templates/settings/agents.hbs:11 templates/settings/index.hbs:59 templates/settings/role-list.hbs:4 templates/tickets/tickets-list-filter.hbs:28
+msgid "Agents"
+msgstr ""
+
+#: templates/settings/agents.hbs:16
+msgid "Agent title"
+msgstr ""
+
+#: templates/settings/agents.hbs:30 templates/settings/agents.hbs:34 templates/tickets/tickets-list.hbs:15 templates/tickets/tickets-list.hbs:19
+msgid "Create Time"
+msgstr ""
+
+#: templates/settings/agents.hbs:37 templates/tickets/tickets-list.hbs:22
+msgid "Asc"
+msgstr ""
+
+#: templates/settings/agents.hbs:38 templates/tickets/tickets-list.hbs:23
+msgid "Desc"
+msgstr ""
+
+#: templates/settings/agents.hbs:60
+msgid "Agent help document"
+msgstr ""
+
+#: templates/settings/general.hbs:7 templates/settings/index.hbs:20
+msgid "General"
+msgstr ""
+
+#: templates/settings/general.hbs:12
+msgid "General title"
+msgstr ""
+
+#: templates/settings/general.hbs:22
+msgid "Global Title"
+msgstr ""
+
+#: templates/settings/general.hbs:29
+msgid "General Settings Title Required"
+msgstr ""
+
+#: templates/settings/general.hbs:34
+msgid "Logo"
+msgstr ""
+
+#: templates/settings/general.hbs:43
+msgid "Upload image title"
+msgstr ""
+
+#: templates/settings/general.hbs:47 templates/settings/general.hbs:49
+msgid "Logo Anchor"
+msgstr ""
+
+#: templates/settings/general.hbs:54
+msgid "home anchor error, example: http://yourcompany.com"
+msgstr ""
+
+#: templates/settings/general.hbs:74
+msgid "General help document"
+msgstr ""
+
+#: templates/settings/group-add.hbs:7 templates/settings/group.hbs:8
+msgid "Create Group"
+msgstr ""
+
+#: templates/settings/group-add.hbs:12
+msgid "Add group title"
+msgstr ""
+
+#: templates/settings/group-add.hbs:22 templates/settings/group-add.hbs:24 templates/settings/group-update.hbs:22 templates/settings/group-update.hbs:24
+msgid "Group Name"
+msgstr ""
+
+#: templates/settings/group-add.hbs:29 templates/settings/group-update.hbs:29
+msgid "Invalid Group Name"
+msgstr ""
+
+#: templates/settings/group-add.hbs:34 templates/settings/group-update.hbs:34
+msgid "Group Already Exists"
+msgstr ""
+
+#: templates/settings/group-add.hbs:55
+msgid "Add group help document"
+msgstr ""
+
+#: templates/settings/group-animatePrompt.hbs:5 templates/settings/group-confirm.hbs:5
+msgid "Tips"
+msgstr ""
+
+#: templates/settings/group-confirm.hbs:8
+msgid "Confirm Delete Group"
+msgstr ""
+
+#: templates/settings/group-confirm.hbs:11
+msgid "Ok"
+msgstr ""
+
+#: templates/settings/group-list.hbs:9
+msgid "Non Groups Items"
+msgstr ""
+
+#: templates/settings/group-update.hbs:7
+msgid "Update Group"
+msgstr ""
+
+#: templates/settings/group-update.hbs:12
+msgid "Update group title"
+msgstr ""
+
+#: templates/settings/group-update.hbs:56
+msgid "Update group help document"
+msgstr ""
+
+#: templates/settings/group.hbs:10 templates/settings/index.hbs:113 templates/settings/role-administrator-info.hbs:148 templates/settings/role-agent-info.hbs:153 templates/settings/role-leader-info.hbs:153 templates/tickets/tickets-add.hbs:70 templates/tickets/tickets-detail.hbs:82 templates/tickets/tickets-list-filter.hbs:19 templates/tickets/tickets-update.hbs:66
+msgid "Group"
+msgstr ""
+
+#: templates/settings/group.hbs:15
+msgid "Group title"
+msgstr ""
+
+#: templates/settings/group.hbs:30
+msgid "Group help document"
+msgstr ""
+
+#: templates/settings/index.hbs:12
+msgid "Setting title"
+msgstr ""
+
+#: templates/settings/index.hbs:31
+msgid "Settings HelpDesk Configuration"
+msgstr ""
+
+#: templates/settings/index.hbs:86
+msgid "SLA Policy"
+msgstr ""
+
+#: templates/settings/index.hbs:99
+msgid "Business Times"
+msgstr ""
+
+#: templates/settings/index.hbs:119
+msgid "Settings Connect Configuration"
+msgstr ""
+
+#: templates/settings/index.hbs:130
+msgid "Settings Connect Title"
+msgstr ""
+
+#: templates/settings/index.hbs:143
+msgid "Settings connect mail"
+msgstr ""
+
+#: templates/settings/index.hbs:149
+msgid "Settings Ticket Types Configuration"
+msgstr ""
+
+#: templates/settings/index.hbs:160
+msgid "Settings Ticket Types Title"
+msgstr ""
+
+#: templates/settings/index.hbs:173
+msgid "Settings sla rule"
+msgstr ""
+
+#: templates/settings/index.hbs:179
+msgid "Setting help docunment"
+msgstr ""
+
+#: templates/settings/mail-list.hbs:8
+msgid "Default mail"
+msgstr ""
+
+#: templates/settings/mail-list.hbs:9 templates/settings/mail-list.hbs:13
+msgid "Default email"
+msgstr ""
+
+#: templates/settings/mail-list.hbs:12
+msgid "Forward to"
+msgstr ""
+
+#: templates/settings/mail.hbs:10
+msgid "Setting mail"
+msgstr ""
+
+#: templates/settings/mail.hbs:15
+msgid "Mail title"
+msgstr ""
+
+#: templates/settings/mail.hbs:30
+msgid "Mail help document"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:2 templates/settings/role-agent-info.hbs:2 templates/settings/role-leader-info.hbs:2
+msgid "Role alert"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:7 templates/settings/role-agent-info.hbs:7 templates/settings/role-leader-info.hbs:7
+msgid "Definition"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:7
+msgid "Super admin"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:8 templates/settings/role-agent-info.hbs:13 templates/settings/role-agent-info.hbs:15 templates/settings/role-leader-info.hbs:13 templates/settings/role-leader-info.hbs:15
+msgid "Describe"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:8
+msgid "Role description"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:12 templates/settings/role-agent-info.hbs:21 templates/settings/role-leader-info.hbs:21
+msgid "Authority"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:19 templates/settings/role-agent-info.hbs:27 templates/settings/role-leader-info.hbs:27
+msgid "Scroll to"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:21 templates/settings/role-administrator-info.hbs:73 templates/settings/role-agent-info.hbs:29 templates/settings/role-agent-info.hbs:79 templates/settings/role-leader-info.hbs:29 templates/settings/role-leader-info.hbs:79
+msgid "Customer"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:22 templates/settings/role-administrator-info.hbs:105 templates/settings/role-agent-info.hbs:30 templates/settings/role-agent-info.hbs:111 templates/settings/role-leader-info.hbs:30 templates/settings/role-leader-info.hbs:111
+msgid "Report form"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:23 templates/settings/role-administrator-info.hbs:116 templates/settings/role-agent-info.hbs:31 templates/settings/role-agent-info.hbs:121 templates/settings/role-leader-info.hbs:31 templates/settings/role-leader-info.hbs:121
+msgid "Configure"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:34 templates/settings/role-agent-info.hbs:42 templates/settings/role-leader-info.hbs:42
+msgid "Check tickets"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:38 templates/settings/role-agent-info.hbs:46 templates/settings/role-leader-info.hbs:46
+msgid "Add tickets"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:43 templates/settings/role-agent-info.hbs:51 templates/settings/role-leader-info.hbs:51
+msgid "Update tickets"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:48 templates/settings/role-agent-info.hbs:56 templates/settings/role-leader-info.hbs:56
+msgid "Delete tickets"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:53 templates/settings/role-agent-info.hbs:61 templates/settings/role-leader-info.hbs:61
+msgid "Add remark"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:58 templates/settings/role-agent-info.hbs:66 templates/settings/role-leader-info.hbs:66
+msgid "Update remark"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:63 templates/settings/role-agent-info.hbs:71 templates/settings/role-leader-info.hbs:71
+msgid "Delete remark"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:77 templates/settings/role-agent-info.hbs:83 templates/settings/role-leader-info.hbs:83
+msgid "Check contacts"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:80 templates/settings/role-agent-info.hbs:86 templates/settings/role-leader-info.hbs:86
+msgid "Check company"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:83 templates/settings/role-agent-info.hbs:89 templates/settings/role-leader-info.hbs:89
+msgid "Add customers"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:86 templates/settings/role-agent-info.hbs:92 templates/settings/role-leader-info.hbs:92
+msgid "Add company"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:89 templates/settings/role-agent-info.hbs:95 templates/settings/role-leader-info.hbs:95
+msgid "Update customers"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:92 templates/settings/role-agent-info.hbs:98 templates/settings/role-leader-info.hbs:98
+msgid "Update company"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:95 templates/settings/role-agent-info.hbs:101 templates/settings/role-leader-info.hbs:101
+msgid "Delete customers"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:98 templates/settings/role-agent-info.hbs:104 templates/settings/role-leader-info.hbs:104
+msgid "Delete company"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:109 templates/settings/role-agent-info.hbs:115 templates/settings/role-leader-info.hbs:115
+msgid "Check report from"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:120 templates/settings/role-agent-info.hbs:125 templates/settings/role-leader-info.hbs:125
+msgid "Basic configuration"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:123 templates/settings/role-agent-info.hbs:128 templates/settings/role-leader-info.hbs:128
+msgid "Configure company name"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:126 templates/settings/role-agent-info.hbs:131 templates/settings/role-leader-info.hbs:131
+msgid "Configure company logo and link address"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:134 templates/settings/role-agent-info.hbs:139 templates/settings/role-leader-info.hbs:139
+msgid "Add agent"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:137 templates/settings/role-agent-info.hbs:142 templates/settings/role-leader-info.hbs:142
+msgid "Update agent"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:140 templates/settings/role-agent-info.hbs:145 templates/settings/role-leader-info.hbs:145
+msgid "Delete agent"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:151 templates/settings/role-agent-info.hbs:156 templates/settings/role-leader-info.hbs:156
+msgid "Add group"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:154 templates/settings/role-agent-info.hbs:159 templates/settings/role-leader-info.hbs:159
+msgid "Update group"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:157 templates/settings/role-agent-info.hbs:162 templates/settings/role-leader-info.hbs:162
+msgid "Delete group"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:162 templates/settings/role-agent-info.hbs:167 templates/settings/role-leader-info.hbs:167
+msgid "Role"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:165 templates/settings/role-agent-info.hbs:170 templates/settings/role-leader-info.hbs:170
+msgid "Check roles info"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:170 templates/settings/role-agent-info.hbs:175 templates/settings/role-leader-info.hbs:175
+msgid "ticket types"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:173 templates/settings/role-agent-info.hbs:178 templates/settings/role-leader-info.hbs:178
+msgid "configure ticket types"
+msgstr ""
+
+#: templates/settings/role-agent-info.hbs:9
+msgid "Agent name"
+msgstr ""
+
+#: templates/settings/role-agent-info.hbs:15
+msgid "Agent description"
+msgstr ""
+
+#: templates/settings/role-info.hbs:7
+msgid "Roles detail"
+msgstr ""
+
+#: templates/settings/role-info.hbs:12
+msgid "Info role title"
+msgstr ""
+
+#: templates/settings/role-info.hbs:25
+msgid "Info role help document"
+msgstr ""
+
+#: templates/settings/role-leader-info.hbs:15 templates/settings/role-list.hbs:5
+msgid "Leader Description"
+msgstr ""
+
+#: templates/settings/role-list.hbs:3
+msgid "Administrators"
+msgstr ""
+
+#: templates/settings/role-list.hbs:3
+msgid "Administrators Description"
+msgstr ""
+
+#: templates/settings/role-list.hbs:4
+msgid "Agents Description"
+msgstr ""
+
+#: templates/settings/role.hbs:12
+msgid "Role title"
+msgstr ""
+
+#: templates/settings/role.hbs:27
+msgid "Role help document"
+msgstr ""
+
+#: templates/settings/sla-list.hbs:5 templates/tickets/tickets-add.hbs:60 templates/tickets/tickets-detail.hbs:61 templates/tickets/tickets-list-filter.hbs:65 templates/tickets/tickets-list-table-item.hbs:42 templates/tickets/tickets-list.hbs:20 templates/tickets/tickets-update.hbs:56
+msgid "Priority"
+msgstr ""
+
+#: templates/settings/sla-list.hbs:8
+msgid "To solve in a given period of time"
+msgstr ""
+
+#: templates/settings/sla-list.hbs:11
+msgid "Service time"
+msgstr ""
+
+#: templates/settings/sla-list.hbs:18
+msgid "Emergency"
+msgstr ""
+
+#: templates/settings/sla-list.hbs:23 templates/settings/sla-list.hbs:39 templates/settings/sla-list.hbs:55 templates/settings/sla-list.hbs:71
+msgid "Day(s)"
+msgstr ""
+
+#: templates/settings/sla-list.hbs:28 templates/settings/sla-list.hbs:44 templates/settings/sla-list.hbs:60 templates/settings/sla-list.hbs:76
+msgid "Calendar Time"
+msgstr ""
+
+#: templates/settings/sla-list.hbs:34
+msgid "High"
+msgstr ""
+
+#: templates/settings/sla-list.hbs:50
+msgid "Middle"
+msgstr ""
+
+#: templates/settings/sla-list.hbs:66
+msgid "Low"
+msgstr ""
+
+#: templates/settings/sla.hbs:7
+msgid "Sla service level strategy"
+msgstr ""
+
+#: templates/settings/sla.hbs:12
+msgid "Setting tickets types"
+msgstr ""
+
+#: templates/settings/sla.hbs:27
+msgid "Setting tickets types document"
+msgstr ""
+
+#: templates/settings/ticket-types.hbs:7
+msgid "Ticket types"
+msgstr ""
+
+#: templates/settings/ticket-types.hbs:12
+msgid "Ticket types Title"
+msgstr ""
+
+#: templates/settings/ticket-types.hbs:23
+msgid "Ticket types options"
+msgstr ""
+
+#: templates/settings/ticket-types.hbs:30
+msgid "down"
+msgstr ""
+
+#: templates/settings/ticket-types.hbs:31
+msgid "Up"
+msgstr ""
+
+#: templates/settings/ticket-types.hbs:36
+msgid "Add one Ticket types"
+msgstr ""
+
+#: templates/settings/ticket-types.hbs:39
+msgid "Back"
+msgstr ""
+
+#: templates/settings/ticket-types.hbs:47
+msgid "Ticket types help document"
+msgstr ""
+
+#: templates/statistics/agent-reports-table.hbs:6
+msgid "Create tickets num"
+msgstr ""
+
+#: templates/statistics/agent-reports-table.hbs:7
+msgid "Processing tickets num"
+msgstr ""
+
+#: templates/statistics/agent-reports-table.hbs:8
+msgid "Wait for reply tickets num"
+msgstr ""
+
+#: templates/statistics/agent-reports-table.hbs:9
+msgid " Resolved tickets num"
+msgstr ""
+
+#: templates/statistics/agent-reports-table.hbs:10
+msgid "Closed tickets num"
+msgstr ""
+
+#: templates/statistics/agent-reports-table.hbs:15
+msgid "total"
+msgstr ""
+
+#: templates/statistics/agent-reports-table.hbs:24
+msgid "Non Items Statistics Data"
+msgstr ""
+
+#: templates/statistics/agent-reports.hbs:6 templates/statistics/statistics.hbs:30
+msgid "Agent tickets summary"
+msgstr ""
+
+#: templates/statistics/agent-selected-day.hbs:3
+msgid "Select the time zone"
+msgstr ""
+
+#: templates/statistics/agent-selected-day.hbs:10
+msgid "Yesterday"
+msgstr ""
+
+#: templates/statistics/agent-selected-day.hbs:11
+msgid "The last three days"
+msgstr ""
+
+#: templates/statistics/agent-selected-day.hbs:12
+msgid "The last five days"
+msgstr ""
+
+#: templates/statistics/agent-selected-day.hbs:13
+msgid "The last seven days"
+msgstr ""
+
+#: templates/statistics/agent-selected-day.hbs:14
+msgid "The last fifteen days"
+msgstr ""
+
+#: templates/statistics/agent-selected-day.hbs:15
+msgid "The last thirty days"
+msgstr ""
+
+#: templates/statistics/agent-selected-day.hbs:21
+msgid "selectedMethod required"
+msgstr ""
+
+#: templates/statistics/agent-selected-day.hbs:25
+msgid "Display Report"
+msgstr ""
+
+#: templates/statistics/statistics.hbs:7
+msgid "Reports summary"
+msgstr ""
+
+#: templates/statistics/statistics.hbs:12
+msgid "Reports summary title"
+msgstr ""
+
+#: templates/statistics/statistics.hbs:36
+msgid "Reports summary help document"
+msgstr ""
+
+#: templates/tickets/ticket-attachment.hbs:3
+msgid "Ticket Attachment:"
+msgstr ""
+
+#: templates/tickets/ticket-attachment.hbs:3
+msgid "Click Download Attachment"
+msgstr ""
+
+#: templates/tickets/ticket-attachment.hbs:4
+msgid "Remove Attachment"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:7
+msgid "Commit Ticket"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:12
+msgid "Add ticket title"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:23 templates/tickets/tickets-update.hbs:23
+msgid "Search Requester"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:23
+msgid "or"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:23 templates/tickets/tickets-update.hbs:23
+msgid "add new requester"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:26 templates/tickets/tickets-update.hbs:27
+msgid "Requester Request"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:31 templates/tickets/tickets-add.hbs:33 templates/tickets/tickets-update.hbs:33
+msgid "Subject"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:34 templates/tickets/tickets-update.hbs:36
+msgid "Subject Can Not Be Null"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:35 templates/tickets/tickets-update.hbs:37
+msgid "Too Many Words"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:40 templates/tickets/tickets-detail.hbs:45 templates/tickets/tickets-list-filter.hbs:83 templates/tickets/tickets-update.hbs:42
+msgid "Type"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:49 templates/tickets/tickets-list-table-item.hbs:31
+msgid "Ticket State"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:63 templates/tickets/tickets-detail.hbs:64 templates/tickets/tickets-list-filter.hbs:68 templates/tickets/tickets-list-table-item.hbs:46 templates/tickets/tickets-update.hbs:59
+msgid "Priority 20"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:64 templates/tickets/tickets-detail.hbs:65 templates/tickets/tickets-list-filter.hbs:71 templates/tickets/tickets-list-table-item.hbs:47 templates/tickets/tickets-update.hbs:60
+msgid "Priority 40"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:65 templates/tickets/tickets-detail.hbs:66 templates/tickets/tickets-list-filter.hbs:74 templates/tickets/tickets-list-table-item.hbs:48 templates/tickets/tickets-update.hbs:61
+msgid "Priority 60"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:66 templates/tickets/tickets-detail.hbs:67 templates/tickets/tickets-list-filter.hbs:77 templates/tickets/tickets-list-table-item.hbs:49 templates/tickets/tickets-update.hbs:62
+msgid "Priority 80"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:82 templates/tickets/tickets-update.hbs:78
+msgid "Assignee Agent"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:98 templates/tickets/tickets-flow-conversition.hbs:72 templates/tickets/tickets-flow.hbs:76 templates/tickets/tickets-update.hbs:96
+msgid "Description length exceeds the allowable limit"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:108 templates/tickets/tickets-update.hbs:107
+msgid "Upload file title"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:120
+msgid "Save And Close"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:122
+msgid "Save And Continue"
+msgstr ""
+
+#: templates/tickets/tickets-add.hbs:129
+msgid "Add ticket help document"
+msgstr ""
+
+#: templates/tickets/tickets-deleted-item.hbs:12
+msgid "Restore Ticket"
+msgstr ""
+
+#: templates/tickets/tickets-deleted-list.hbs:6
+msgid "Deleted Tickets List"
+msgstr ""
+
+#: templates/tickets/tickets-deleted-list.hbs:15 templates/tickets/tickets-deleted-list.hbs:21 templates/tickets/tickets-list.hbs:36
+msgid "Deleted Tickets"
+msgstr ""
+
+#: templates/tickets/tickets-deleted-list.hbs:19 templates/tickets/tickets-list.hbs:34
+msgid "My Opened Tickets"
+msgstr ""
+
+#: templates/tickets/tickets-deleted-list.hbs:20 templates/tickets/tickets-list.hbs:30 templates/tickets/tickets-list.hbs:35
+msgid "All Tickets"
+msgstr ""
+
+#: templates/tickets/tickets-deleted-table.hbs:15
+msgid "Non Items Deleted Tickets"
+msgstr ""
+
+#: templates/tickets/tickets-detail.hbs:4
+msgid "Craete At"
+msgstr ""
+
+#: templates/tickets/tickets-detail.hbs:5
+msgid "Expired Date"
+msgstr ""
+
+#: templates/tickets/tickets-detail.hbs:6
+msgid "Update ticket expires"
+msgstr ""
+
+#: templates/tickets/tickets-detail.hbs:9
+msgid "Set ticket expired date"
+msgstr ""
+
+#: templates/tickets/tickets-detail.hbs:13
+msgid "ExpireCancel"
+msgstr ""
+
+#: templates/tickets/tickets-detail.hbs:14
+msgid "ExpiredSave"
+msgstr ""
+
+#: templates/tickets/tickets-detail.hbs:22
+msgid "Requester Info"
+msgstr ""
+
+#: templates/tickets/tickets-detail.hbs:41
+msgid "Tickets Attributes"
+msgstr ""
+
+#: templates/tickets/tickets-detail.hbs:71 templates/tickets/tickets-list-filter.hbs:97
+msgid "Source"
+msgstr ""
+
+#: templates/tickets/tickets-detail.hbs:74
+msgid "Phone"
+msgstr ""
+
+#: templates/tickets/tickets-detail.hbs:75
+msgid "Wei Xin"
+msgstr ""
+
+#: templates/tickets/tickets-detail.hbs:76
+msgid "Web"
+msgstr ""
+
+#: templates/tickets/tickets-detail.hbs:95
+msgid "Seat"
+msgstr ""
+
+#: templates/tickets/tickets-flow-conversition.hbs:42
+msgid "To ticket add memo"
+msgstr ""
+
+#: templates/tickets/tickets-flow-conversition.hbs:71 templates/tickets/tickets-flow.hbs:75
+msgid "Description not allow empty"
+msgstr ""
+
+#: templates/tickets/tickets-flow-conversition.hbs:76
+msgid "Update Memo"
+msgstr ""
+
+#: templates/tickets/tickets-flow.hbs:10
+msgid "Requeste At"
+msgstr ""
+
+#: templates/tickets/tickets-flow.hbs:12
+msgid "from"
+msgstr ""
+
+#: templates/tickets/tickets-flow.hbs:20
+msgid "accessory"
+msgstr ""
+
+#: templates/tickets/tickets-flow.hbs:41
+msgid "Show"
+msgstr ""
+
+#: templates/tickets/tickets-flow.hbs:58
+msgid "Add Memo"
+msgstr ""
+
+#: templates/tickets/tickets-flow.hbs:80
+msgid "Save Remark"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter-group.hbs:20
+msgid "My Open And Pending Tickets"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter-group.hbs:53 templates/tickets/tickets.hbs:9
+msgid "Edit"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter-group.hbs:59
+msgid "Save As"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter.hbs:5
+msgid "Me"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter.hbs:10
+msgid "Create By Me"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter.hbs:15
+msgid "Not Assign"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter.hbs:33
+msgid "Created"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter.hbs:35 templates/tickets/tickets-list-filter.hbs:46
+msgid "All Times"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter.hbs:36
+msgid "4 Hours ago"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter.hbs:37
+msgid "Today"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter.hbs:38
+msgid "3 days ago"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter.hbs:39
+msgid "7 days ago"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter.hbs:44
+msgid "ExpiredDate"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter.hbs:49
+msgid "8 Hours"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter.hbs:50
+msgid "24 Hours"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter.hbs:51
+msgid "48 Hours"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter.hbs:56
+msgid "State"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter.hbs:92
+msgid "Requester"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter.hbs:99
+msgid "Ticket Source WEB"
+msgstr ""
+
+#: templates/tickets/tickets-list-filter.hbs:100
+msgid "Ticket Source Weixin"
+msgstr ""
+
+#: templates/tickets/tickets-list-table-item.hbs:15
+msgid "by web"
+msgstr ""
+
+#: templates/tickets/tickets-list-table-item.hbs:17
+msgid "by weixin"
+msgstr ""
+
+#: templates/tickets/tickets-list-table.hbs:7 templates/tickets/tickets-list-table.hbs:47 templates/tickets/tickets-trash.hbs:13
+msgid "Assign"
+msgstr ""
+
+#: templates/tickets/tickets-list-table.hbs:8 templates/tickets/tickets-trash.hbs:14 templates/tickets/tickets.hbs:11
+msgid "Close"
+msgstr ""
+
+#: templates/tickets/tickets-list-table.hbs:23
+msgid "Non Tickets Items"
+msgstr ""
+
+#: templates/tickets/tickets-list-table.hbs:36
+msgid "Assign Tickets to Agent"
+msgstr ""
+
+#: templates/tickets/tickets-list-table.hbs:41
+msgid "No Agent"
+msgstr ""
+
+#: templates/tickets/tickets-list-table.hbs:42
+msgid "Agent is not allowed to be empty"
+msgstr ""
+
+#: templates/tickets/tickets-list.hbs:4
+msgid "Tickets Filter"
+msgstr ""
+
+#: templates/tickets/tickets-trash.hbs:12
+msgid "Get It"
+msgstr ""
+
+#: templates/tickets/tickets-trash.hbs:15
+msgid "Batch"
+msgstr ""
+
+#: templates/tickets/tickets-trash.hbs:16
+msgid "Merge"
+msgstr ""
+
+#: templates/tickets/tickets-trash.hbs:17
+msgid "Mark As Trash"
+msgstr ""
+
+#: templates/tickets/tickets-trash.hbs:32
+msgid "Export"
+msgstr ""
+
+#: templates/tickets/tickets-trash.hbs:46
+msgid "Non Items"
+msgstr ""
+
+#: templates/tickets/tickets-update.hbs:7
+msgid "Update Ticket"
+msgstr ""
+
+#: templates/tickets/tickets-update.hbs:12
+msgid "Update ticket title"
+msgstr ""
+
+#: templates/tickets/tickets-update.hbs:119
+msgid "File name"
+msgstr ""
+
+#: templates/tickets/tickets-update.hbs:119 templates/tickets/tickets-update.hbs:122
+msgid "Size"
+msgstr ""
+
+#: templates/tickets/tickets-update.hbs:136
+msgid "Update ticket help document"
+msgstr ""
+
+#: templates/tickets/tickets.hbs:6 templates/tickets/tickets.hbs:7
+msgid "Show Activity"
+msgstr ""
+
+#: templates/tickets/tickets.hbs:8
+msgid "Commit"
+msgstr ""
+
+#: templates/tickets/tickets.hbs:16
+msgid "Ticket"
+msgstr ""
+
+#: templates/tickets/translations.hbs:2
+msgid "Consulting service"
+msgstr ""
+
+#: templates/tickets/translations.hbs:3
+msgid "Proposals"
+msgstr ""
+
+#: templates/tickets/translations.hbs:4
+msgid "Requests"
+msgstr ""
+
+#: templates/tickets/translations.hbs:5
+msgid "Complaints"
+msgstr ""
+
+#: templates/tickets/translations.hbs:6
+msgid "Other"
+msgstr ""

@@ -1,0 +1,230 @@
+// Navbar Linkdesk
+.navbar-linkdesk {
+    background-color: $navbar-linkdesk-bg;
+    border-color: $navbar-linkdesk-border;
+    border-width: 1px 0;
+    border-bottom-color: $navbar-linkdesk-bg;
+    .navbar-brand {
+        color: $navbar-linkdesk-brand-color;
+        &:hover,
+        &:focus {
+            color: $navbar-linkdesk-brand-hover-color;
+            background-color: $navbar-linkdesk-brand-hover-bg;
+        }
+    }
+
+    .navbar-text {
+        color: $navbar-linkdesk-color;
+    }
+
+    .navbar-nav {
+        & > li > a {
+            color: $navbar-linkdesk-link-color;
+            &:hover,
+            &:focus {
+                color: $navbar-linkdesk-link-hover-color;
+                background-color: $navbar-linkdesk-link-hover-bg;
+            }
+        }
+        & > .active > a {
+            &,
+            &:hover,
+            &:focus {
+                color: $navbar-linkdesk-link-active-color;
+                background-color: $navbar-linkdesk-link-active-bg;
+            }
+        }
+        & > .disabled > a {
+            &,
+            &:hover,
+            &:focus {
+                color: $navbar-linkdesk-link-disabled-color;
+                background-color: $navbar-linkdesk-link-disabled-bg;
+            }
+        }
+    }
+
+    // Darken the responsive nav toggle
+    .navbar-toggle {
+        border-color: $navbar-linkdesk-toggle-border-color;
+        &:hover,
+        &:focus {
+            background-color: $navbar-linkdesk-toggle-hover-bg;
+        }
+        .icon-bar {
+            background-color: $navbar-linkdesk-toggle-icon-bar-bg;
+        }
+    }
+
+    .navbar-collapse,
+    .navbar-form {
+        border-color: darken($navbar-linkdesk-bg, 7%);
+    }
+
+    // Dropdowns
+    .navbar-nav {
+        > .open > a {
+            &,
+            &:hover,
+            &:focus {
+                background-color: $navbar-linkdesk-link-active-bg;
+                color: $navbar-linkdesk-link-active-color;
+            }
+        }
+    }
+
+    @media (max-width: $grid-float-breakpoint-max) {
+        // Dropdowns get custom display
+        .open .dropdown-menu {
+            > .dropdown-header {
+                border-color: $navbar-linkdesk-border;
+            }
+            .divider {
+                background-color: $navbar-linkdesk-border;
+            }
+            > li > a {
+                color: $navbar-linkdesk-link-color;
+                &:hover,
+                &:focus {
+                    color: $navbar-linkdesk-link-hover-color;
+                    background-color: $navbar-linkdesk-link-hover-bg;
+                }
+            }
+            > .active > a {
+                &,
+                &:hover,
+                &:focus {
+                    color: $navbar-linkdesk-link-active-color;
+                    background-color: $navbar-linkdesk-link-active-bg;
+                }
+            }
+            > .disabled > a {
+                &,
+                &:hover,
+                &:focus {
+                    color: $navbar-linkdesk-link-disabled-color;
+                    background-color: $navbar-linkdesk-link-disabled-bg;
+                }
+            }
+        }
+    }
+
+
+    .navbar-link {
+        color: $navbar-linkdesk-link-color;
+        &:hover {
+            color: $navbar-linkdesk-link-hover-color;
+        }
+    }
+
+    .btn-link {
+        color: $navbar-linkdesk-link-color;
+        &:hover,
+        &:focus {
+            color: $navbar-linkdesk-link-hover-color;
+        }
+        &[disabled],
+        fieldset[disabled] & {
+            &:hover,
+            &:focus {
+                color: $navbar-linkdesk-link-disabled-color;
+            }
+        }
+    }
+}
+
+.navbar-linkdesk {
+    background-image: $navbar-linkdesk-bg;
+    border-radius: $navbar-border-radius;
+    font-family: $font-family-YaHei;
+    .navbar-nav {
+        & > .open > a,
+        & > .active > a {
+            position: relative;
+            top: 1px;
+            background: none repeat scroll 0 0 #f4f4f2;
+            color: $navbar-linkdesk-link-active-color;
+        }
+        & > li {
+            &:first-child > a {
+                border-left-width: 0;
+            }
+            & > a {
+                -moz-user-select: none;
+
+                /*border-left: 1px solid #dddddc;*/
+                min-width: $navbar-linkdesk-tabs-min-width;
+                @extend .text-center;
+            }
+        }
+        & > li.active:first-child > a {
+            border-left-width: 1px;
+        }
+        & > li.active:last-child > a {
+            border-right: 1px solid #dddddc;
+        }
+
+    }
+
+}
+
+// Panel linkdesk
+.panel-content,
+.panel-sidebar {
+    padding: 15px 20px;
+    .panel-heading,
+    .panel-body {
+        padding: 0 0;
+    }
+}
+.panel-content {
+    @extend .panel-default;
+    border-color: $panel-content-border-color;
+    .panel-heading {
+        border-bottom: 0;
+        padding-bottom: 0;
+        background-color: #fff;
+        h1, h2, h3, h4, h5, h6 {
+            @extend .text-muted;
+            margin-bottom: 0
+        }
+    }
+}
+.panel-sidebar {
+    @extend .text-muted;
+    /*background-color: #edede8;*/
+    border: 0;
+    .panel-heading {
+        border-bottom: 0;
+        padding-bottom: 0;
+        /*background-color: #edede8;*/
+        h1, h2, h3, h4, h5, h6 {
+            /*border-bottom: 1px solid #ccc;
+            border-left: 5px solid #df4a00;
+            padding-bottom: 10px;*/
+            margin-bottom: 0;
+        }
+    }
+    .panel-footer {
+        border: 0;
+        &.plan {
+            background-color: $gray-light;
+            color: $gray-lighter;
+            a, a:hover, a:active {
+                cursor: pointer;
+                color: $gray-lighter;
+            }
+            font-size: .85em;
+        }
+        &.expired {
+            background-color: $gray;
+            color: $gray-lighter;
+            @extend .text-center;
+            font-size: .85em;
+        }
+    }
+}
+.panel-heading h4{
+    border-left: 5px solid #e27c03;
+    padding-left: 5px;
+}

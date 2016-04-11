@@ -1,0 +1,229 @@
+$cdn-path: "127.0.0.1:5000" !global;
+
+$icon-font-path: "http://#{$cdn-path}/fonts/bootstrap/";
+$fa-font-path: "http://#{$cdn-path}/fonts/fontawesome";
+@import 'bootstrap-variables';
+
+@import 'bootstrap-sass-official/assets/stylesheets/bootstrap';
+@import 'fontawesome/scss/font-awesome';
+
+@import 'variables';
+
+@import 'bootstrap-datetimepicker4';
+@import 'jquery-file-upload';
+@import 'wysihtml5';
+@import 'select2';
+@import 'dropzone';
+
+@import 'themes';
+@import 'navbar';
+/* Space out content a bit */
+body {
+    background-color: #f4f4f2;
+}
+
+#logo {
+    margin: $logo-margin;
+    img {
+        width: $logo-width;
+        height: $logo-height;
+    }
+}
+
+#header {
+    background-color: $header-bg;
+    h1 {
+        font-size: 28px;
+        line-height: 48px;
+        margin: 5px 0 5px 50px;
+    }
+    #avatar {
+
+        margin: 16px 0 5px;
+        a {
+            text-decoration: none;
+            color: $text-color;
+        }
+        img {
+            width: 32px;
+            height: 32px;
+        }
+        .dropdown {
+            display: inline-block;
+        }
+        .dropdown-menu {
+            right: 0;
+            left: auto;
+        }
+    }
+}
+
+#footer {
+    p {
+        @extend .text-center;
+        @extend .text-muted;
+    }
+    margin-bottom: 20px;
+}
+
+.pagination {
+    li.page a {
+        cursor: pointer;
+    }
+}
+
+.error-messages {
+    display: none;
+    &.show {
+        display: block;
+    }
+}
+
+.break-word {
+    p {
+        word-wrap: break-word;
+    }
+}
+
+.word-break {
+    word-break: break-all;
+}
+
+label.required {
+    &:before {
+        @extend .text-danger;
+        content: '*';
+        font-size: .83em;
+        vertical-align: super;
+        line-height: 0;
+    }
+}
+
+.modal-dialog {
+    z-index: 1060;
+}
+
+.popover.datetimepicker-popover {
+    min-width: 280px;
+    .date.expires {
+        min-height: 280px;
+    }
+}
+
+tr.loading, tr.non-items {
+    td {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+$main-color:       #1AA79A !default;
+$main-color-hover: #096D64;
+
+a {
+    color: $main-color;
+    &:hover {
+        color: $main-color-hover;
+    }
+}
+
+.pagination > .active > a, .pagination > .active > a:focus,
+.pagination > .active > a:hover, .pagination > .active > span,
+.pagination > .active > span:focus, .pagination > .active > span:hover {
+    background-color: $main-color;
+    border-color: $main-color;
+}
+
+.pagination>li>a, .pagination>li>span{
+    color: $main-color;
+}
+
+.btn-primary {
+    background-color: $main-color;
+    border-color: #2D9289;
+    &:hover{
+        background-color: $main-color-hover;
+    }
+}
+
+.panel-content{
+    min-height: 400px;
+}
+
+.dropdown-menu>li>a{
+    padding: 3px 10px 3px;
+}
+
+.information-layer{
+    z-index: 1000;
+    position:fixed;
+    top: 0;
+    width:40%;
+    left:30%;
+    .succ{
+        padding: 8px 35px 8px 14px;
+        margin-bottom: 16px;
+        text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+        background-color: #098A0A;
+        border: 1px solid #108a07;
+        border-radius: 4px;
+        color: #fff;
+    }
+    .info{
+        padding: 8px 35px 8px 14px;
+        margin-bottom: 16px;
+        text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+        background-color: #fcf8e3;
+        border: 1px solid #fbeed5;
+        border-radius: 4px;
+        color: #c08939;
+    }
+    .error{
+        padding: 8px 35px 8px 14px;
+        margin-bottom: 16px;
+        text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+        background-color: #821934;
+        border: 1px solid #821214;
+        border-radius: 4px;
+        color: #fff;
+    }
+}
+
+table{
+    td{
+        border-right: none;
+        border-left: none;
+    }
+}
+
+.tip-view{
+    z-index: 1200;
+    display: none;
+    text-align: center;
+    min-width: 100px;
+    background: #54565B;
+    color: white;
+    position: fixed;
+    border: 1px solid #54565B;
+    padding: 8px;
+    border-radius: 4px;
+    &:focus{
+        outline: none;
+    }
+    &:before{
+        content: "";
+        border-width: 0px 9px 9px 9px;
+        border-color: transparent transparent #54565B;
+        border-style: solid;
+        position: absolute;
+        top: -9px;
+        left: 45%;
+    }
+}
+
+.h4-title{
+    border-left: 5px solid #e27c03;
+    padding-left: 5px;
+}

@@ -1,0 +1,3177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Zhao Jin <zhaoj@unicall.cc>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==1 ? 1 : 2);\n"
+"X-Generator: Poedit 1.7.3\n"
+
+#: templates/agent/translations.hbs:19
+msgid "20"
+msgstr "低"
+
+#: templates/agent/translations.hbs:20
+msgid "40"
+msgstr "中"
+
+#: templates/agent/translations.hbs:21
+msgid "60"
+msgstr "高"
+
+#: templates/agent/translations.hbs:22
+msgid "80"
+msgstr "紧急"
+
+#: app/scripts/contacts/add-contacts-view.js:82
+msgid "Add contacts successful"
+msgstr "添加联系人成功"
+
+#: app/scripts/contacts/add-contacts-view.js:95
+msgid "Add contacts failure"
+msgstr "添加联系人失败"
+
+#: app/scripts/contacts/contacts-blocked-view.js:13
+#: app/scripts/contacts/contacts-view.js:13
+#: app/scripts/corporations/corporations-contacts.js:14
+msgid "Confirm Delete Contacts Title"
+msgstr "确定删除选中的联系人？"
+
+#: app/scripts/contacts/contacts-blocked-view.js:15
+#: app/scripts/contacts/contacts-view.js:15
+msgid "Confirm Delete Contacts Content"
+msgstr ""
+"被删除联系人创建的工单将继续保留，您可以在“已删除联系人”中查看到该联系人，并"
+"且可以进行恢复操作。"
+
+#: app/scripts/contacts/contacts-blocked-view.js:17
+#: app/scripts/contacts/contacts-view.js:17
+#: app/scripts/corporations/corporations-contacts.js:16
+msgid "Delete Multiple Contacts?"
+msgstr ""
+"被删除联系人创建的工单将继续保留，您可以在“已删除联系人”中查看到该联系人，并"
+"且可以进行恢复操作。"
+
+#: app/scripts/contacts/contacts-blocked-view.js:19
+#: app/scripts/contacts/contacts-view.js:19
+#: app/scripts/corporations/corporations-contacts.js:18
+msgid "Delete Contact?"
+msgstr ""
+"被删除联系人创建的工单将继续保留，您可以在“已删除联系人”中查看到该联系人，并"
+"且可以进行恢复操作。"
+
+#: app/scripts/contacts/contacts-blocked-view.js:43
+#: app/scripts/contacts/contacts-blocked-view.js:118
+#: app/scripts/contacts/contacts-view.js:64
+#: app/scripts/contacts/contacts-view.js:187
+msgid "Restore contacts successful"
+msgstr "恢复联系人成功"
+
+#: app/scripts/contacts/contacts-blocked-view.js:48
+#: app/scripts/contacts/contacts-blocked-view.js:122
+#: app/scripts/contacts/contacts-view.js:68
+#: app/scripts/contacts/contacts-view.js:191
+msgid "Restore contacts failure"
+msgstr "恢复联系人失败"
+
+#: app/scripts/contacts/contacts-blocked-view.js:235
+#: app/scripts/contacts/contacts-view.js:334
+msgid "Quick add contacts successful"
+msgstr "添加联系人成功"
+
+#: app/scripts/contacts/contacts-blocked-view.js:239
+#: app/scripts/contacts/contacts-view.js:346
+#: app/scripts/corporations/corporations-contacts.js:332
+#: app/scripts/corporations/corporations-info-view.js:145
+#: app/scripts/tickets/tickets-new-requester-view.js:49
+msgid "Quick add contacts failure"
+msgstr "添加联系人失败"
+
+#: app/scripts/contacts/contacts-information-view.js:150
+msgid "Update contacts remarks successful"
+msgstr "修改备注成功"
+
+#: app/scripts/contacts/contacts-information-view.js:155
+msgid "Update contacts remarks failure"
+msgstr "修改备注失败"
+
+#: app/scripts/contacts/contacts-information-view.js:162
+#: app/scripts/contacts/contacts-view.js:46
+#: app/scripts/contacts/contacts-view.js:154
+msgid "Delete contacts successful"
+msgstr "删除联系人成功"
+
+#: app/scripts/contacts/contacts-information-view.js:167
+#: app/scripts/contacts/contacts-view.js:50
+#: app/scripts/contacts/contacts-view.js:161
+msgid "Delete contacts failure"
+msgstr "删除联系人失败"
+
+#: app/scripts/contacts/update-contacts-view.js:87
+msgid "Update contacts successful"
+msgstr "修改联系人成功"
+
+#: app/scripts/contacts/update-contacts-view.js:98
+msgid "Update contacts failure"
+msgstr "修改联系人失败"
+
+#: app/scripts/corporations/corporations-add-view.js:45
+msgid "Add corporations successful"
+msgstr "添加公司成功"
+
+#: app/scripts/corporations/corporations-add-view.js:49
+msgid "Add corporations failure"
+msgstr "添加公司失败"
+
+#: app/scripts/corporations/corporations-contacts.js:45
+#: app/scripts/corporations/corporations-contacts.js:142
+msgid "Delete contact from the company successful"
+msgstr "删除联系人成功"
+
+#: app/scripts/corporations/corporations-contacts.js:49
+#: app/scripts/corporations/corporations-contacts.js:150
+msgid "Delete contact from the company failure"
+msgstr "删除联系人失败"
+
+#: app/scripts/corporations/corporations-contacts.js:320
+#: app/scripts/corporations/corporations-info-view.js:106
+msgid "Quickly add current contact to the company successful"
+msgstr "添加联系人成功"
+
+#: app/scripts/corporations/corporations-info-view.js:155
+msgid "Update corporations remarks successfu"
+msgstr "修改备注成功"
+
+#: app/scripts/corporations/corporations-info-view.js:160
+msgid "Update corporations remarks failure"
+msgstr "修改备注失败"
+
+#: app/scripts/corporations/corporations-info-view.js:174
+#: app/scripts/corporations/corporations-view.js:175
+#: app/scripts/corporations/corporations-view.js:236
+msgid "Delete corporations successful"
+msgstr "删除公司成功"
+
+#: app/scripts/corporations/corporations-info-view.js:179
+#: app/scripts/corporations/corporations-view.js:182
+#: app/scripts/corporations/corporations-view.js:240
+msgid "Delete corporations failure"
+msgstr "删除公司失败"
+
+#: app/scripts/corporations/corporations-update-view.js:66
+msgid "Update corporations successful"
+msgstr "修改公司成功"
+
+#: app/scripts/corporations/corporations-update-view.js:69
+msgid "Update corporations failure"
+msgstr "修改公司失败"
+
+#: app/scripts/corporations/corporations-view.js:12
+msgid "Delete Corporations"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:13
+msgid "Delete Corporations And Contacts"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:14
+#: templates/contacts/add-contacts.hbs:122
+#: templates/contacts/contacts-infomation.hbs:13
+#: templates/contacts/contacts-infomation.hbs:18
+#: templates/contacts/update-contacts.hbs:123
+#: templates/corporations/corporations-add.hbs:54
+#: templates/corporations/corporations-confirm.hbs:13
+#: templates/corporations/corporations-info.hbs:16
+#: templates/corporations/corporations-update.hbs:52
+#: templates/profile/profile-update.hbs:67
+#: templates/profile/reset-password.hbs:8
+#: templates/profile/reset-password.hbs:69
+#: templates/settings/agent-add.hbs:162 templates/settings/agent-info.hbs:14
+#: templates/settings/agent-info.hbs:17
+#: templates/settings/agent-invitation.hbs:50
+#: templates/settings/agent-resetpassword.hbs:83
+#: templates/settings/agent-roles.hbs:107
+#: templates/settings/agent-update.hbs:86 templates/settings/general.hbs:67
+#: templates/settings/group-add.hbs:50 templates/settings/group-update.hbs:50
+#: templates/tickets/tickets-add-new-requester.hbs:30
+#: templates/tickets/tickets-add.hbs:113
+#: templates/tickets/tickets-flow-conversition.hbs:75
+#: templates/tickets/tickets-flow.hbs:79
+#: templates/tickets/tickets-list-table.hbs:46
+#: templates/tickets/tickets-update.hbs:130 templates/tickets/tickets.hbs:13
+#: templates/tickets/tickets.hbs:14
+msgid "Cancel"
+msgstr "返回"
+
+#: app/scripts/corporations/corporations-view.js:15
+msgid "Confirm Delete Corporations"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:16
+msgid "Delete Multiple Corporations?"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:17
+#: templates/corporations/corporations-confirm.hbs:11
+msgid "Delete Corporation"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:18
+#: templates/corporations/corporations-confirm.hbs:12
+msgid "Delete Corporation And Contacts"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:19
+#: templates/corporations/corporations-confirm.hbs:5
+msgid "Confirm Delete Corporation"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:20
+#: templates/corporations/corporations-confirm.hbs:8
+msgid "Delete Corporation?"
+msgstr ""
+
+#: app/scripts/corporations/corporations-view.js:21
+msgid "Confirm Delete Corporation Title"
+msgstr "确定删除选中的公司？"
+
+#: app/scripts/corporations/corporations-view.js:22
+msgid "Confirm Delete Corporation Content"
+msgstr "被删除的公司将无法恢复。"
+
+#: app/scripts/corporations/corporations-view.js:277
+msgid "Quick add corporations successful"
+msgstr "快速添加公司成功"
+
+#: app/scripts/corporations/corporations-view.js:283
+msgid "Quick add corporations failure"
+msgstr "快速添加公司失败"
+
+#: app/scripts/helpers/uploader.js:114 app/scripts/helpers/uploader.js:290
+msgid "Error preparing the upload"
+msgstr "上传图片失败"
+
+#: app/scripts/helpers/uploader.js:228
+msgid "Only supported image files."
+msgstr "仅支持上传图片文件"
+
+#: app/scripts/helpers/uploader.js:414
+msgid "Not allowed zero files."
+msgstr "不能上传大小为0的文件"
+
+#: app/scripts/profile/profile-update-view.js:31
+#: app/scripts/settings/agent-resetpassword-view.js:105
+msgid "Reset password successful"
+msgstr "重置密码成功"
+
+#: app/scripts/profile/profile-update-view.js:35
+#: app/scripts/settings/agent-resetpassword-view.js:108
+msgid "Reset password failure"
+msgstr "重置密码失败"
+
+#: app/scripts/profile/profile-update-view.js:95
+msgid "Update personal info successful"
+msgstr "修改个人信息成功"
+
+#: app/scripts/profile/profile-update-view.js:103
+msgid "Update personal info failure"
+msgstr "修改个人信息失败"
+
+#: app/scripts/settings/agent-add-view.js:48
+msgid "Add agent successful"
+msgstr "创建客服成功"
+
+#: app/scripts/settings/agent-add-view.js:61
+msgid "Add agent failure"
+msgstr "创建客服失败"
+
+#: app/scripts/settings/agent-info-view.js:49
+#: app/scripts/settings/agents-deleted-view.js:37
+msgid "Restore agent successful"
+msgstr "恢复客服成功"
+
+#: app/scripts/settings/agent-info-view.js:53
+#: app/scripts/settings/agents-deleted-view.js:42
+msgid "Restore agent failure"
+msgstr "恢复客服失败"
+
+#: app/scripts/settings/agent-invitation-view.js:91
+msgid "Invitation agent successful"
+msgstr "邀请客服成功"
+
+#: app/scripts/settings/agent-invitation-view.js:95
+msgid "Invitation agent failure"
+msgstr "邀请客服失败"
+
+#: app/scripts/settings/agent-roles-view.js:80
+msgid "Assignment agent successful"
+msgstr "分配角色成功"
+
+#: app/scripts/settings/agent-roles-view.js:84
+msgid "Assignment agent failure"
+msgstr "分配角色失败"
+
+#: app/scripts/settings/agent-update-view.js:59
+msgid "Update agent successful"
+msgstr "修改客服成功"
+
+#: app/scripts/settings/agent-update-view.js:68
+msgid "Update agent failure"
+msgstr "修改客服失败"
+
+#: app/scripts/settings/agents-deleted-view.js:11
+msgid "Confirm Restore Agent Title"
+msgstr "确定恢复选中的客服？"
+
+#: app/scripts/settings/agents-deleted-view.js:13
+msgid "Confirm Restore Agent Content"
+msgstr "恢复客服后该客服可以正常登录云客服系统，并且可以对工单进行操作。"
+
+#: app/scripts/settings/agents-view.js:11
+msgid "Confirm Delete Agent Title"
+msgstr "确定删除当前客服？"
+
+#: app/scripts/settings/agents-view.js:13
+msgid "Confirm Delete Agent Content"
+msgstr ""
+"被删除的客服无法登录云客服系统进行工单操作，您可以在“已删除客服”中查看到该客"
+"服，并且可以进行恢复操作。"
+
+#: app/scripts/settings/agents-view.js:15
+#: app/scripts/settings/agents-view.js:49
+msgid "Delete agent successful"
+msgstr "删除客服成功"
+
+#: app/scripts/settings/agents-view.js:17
+#: templates/settings/agents-table.hbs:18
+msgid "Delete Agent Forbidden Title"
+msgstr "无法完成删除客服动作"
+
+#: app/scripts/settings/agents-view.js:18
+#: templates/settings/agents-table.hbs:21
+msgid "Delete Agent Forbidden Content"
+msgstr ""
+"该客服下有未关闭的工单，请先将工单关闭或者指派给其他客服后再将其删除。"
+
+#: app/scripts/settings/agents-view.js:53
+msgid "Delete agent failure"
+msgstr "删除客服失败"
+
+#: app/scripts/settings/general-view.js:81
+msgid "Update general successful"
+msgstr "修改基础配置成功"
+
+#: app/scripts/settings/general-view.js:84
+msgid "Update general failure"
+msgstr "修改基础配置失败"
+
+#: app/scripts/settings/group-add-view.js:32
+msgid "Add group successful"
+msgstr "创建组成功"
+
+#: app/scripts/settings/group-add-view.js:36
+msgid "Add group failure"
+msgstr "创建组失败"
+
+#: app/scripts/settings/group-update-view.js:77
+msgid "Update group successful"
+msgstr "修改组成功"
+
+#: app/scripts/settings/group-update-view.js:80
+msgid "Update group failure"
+msgstr "修改组失败"
+
+#: app/scripts/settings/group-view.js:131
+msgid "Delete group successful"
+msgstr "删除组成功"
+
+#: app/scripts/settings/group-view.js:136
+msgid "Delete group failure"
+msgstr "删除组失败"
+
+#: app/scripts/settings/ticket-types-collection.js:25
+msgid "Ticket types error, please flush page"
+msgstr "工单类型错误，请刷新页面"
+
+#: app/scripts/settings/ticket-types-view.js:99
+msgid "ticket types should not be null"
+msgstr "请输入正确的类型名称"
+
+#: app/scripts/settings/ticket-types-view.js:106
+msgid "ticket types duplicate"
+msgstr "类型名称重复"
+
+#: app/scripts/settings/ticket-types-view.js:159
+msgid "Success to add ticket types"
+msgstr "工单类型配置成功"
+
+#: app/scripts/settings/ticket-types-view.js:162
+msgid "Fail to add ticket types"
+msgstr "工单类型配置失败"
+
+#: app/scripts/tickets/ticket-info-model.js:64
+#: app/scripts/tickets/tickets-update-view.js:302
+msgid "update ticket successful"
+msgstr "更新工单成功"
+
+#: app/scripts/tickets/ticket-info-model.js:71
+#: app/scripts/tickets/tickets-update-view.js:305
+msgid "update ticket failure"
+msgstr "更新工单失败"
+
+#: app/scripts/tickets/tickets-add-view.js:146
+msgid "Select a Contact"
+msgstr "搜索联系人"
+
+#: app/scripts/tickets/tickets-add-view.js:171
+msgid "add ticket successful"
+msgstr "新建工单成功"
+
+#: app/scripts/tickets/tickets-add-view.js:174
+msgid "add ticket failure"
+msgstr "新建工单失败"
+
+#: app/scripts/tickets/tickets-add-view.js:264
+#: app/scripts/tickets/tickets-update-view.js:134
+#: app/scripts/tickets/tickets-update-view.js:350
+#: app/scripts/tickets/tickets-view.js:473
+#: app/scripts/tickets/tickets-view.js:521
+msgid "Need Options And Data When Init Select"
+msgstr "获取数据失败"
+
+#: app/scripts/tickets/tickets-deleted-list-view.js:30
+#: app/scripts/tickets/tickets-deleted-list-view.js:98
+#: app/scripts/tickets/tickets-view.js:812
+msgid "restore ticket successful"
+msgstr "恢复工单成功"
+
+#: app/scripts/tickets/tickets-deleted-list-view.js:34
+#: app/scripts/tickets/tickets-deleted-list-view.js:103
+#: app/scripts/tickets/tickets-view.js:815
+msgid "restore ticket failure"
+msgstr "恢复工单失败"
+
+#: app/scripts/tickets/tickets-history-model.js:21
+msgid "update memo successfull"
+msgstr "修改备注成功"
+
+#: app/scripts/tickets/tickets-history-model.js:24
+msgid "update memo failure"
+msgstr "修改备注失败"
+
+#: app/scripts/tickets/tickets-list-view.js:16
+#: app/scripts/tickets/tickets-view.js:23
+msgid "Confirm Delete Selected Tickets"
+msgstr "确定删除选中的工单？"
+
+#: app/scripts/tickets/tickets-list-view.js:18
+#: app/scripts/tickets/tickets-view.js:25
+msgid "The Deleted Tieckets will not edit,please look up in deleted list"
+msgstr ""
+"被删除的工单无法进行编辑，您可以在“已删除工单”中查看到该工单，并且可以进行恢"
+"复操作。"
+
+#: app/scripts/tickets/tickets-list-view.js:370
+#: app/scripts/tickets/tickets-list-view.js:383
+#: app/scripts/tickets/tickets-list-view.js:392
+#: app/scripts/tickets/tickets-list-view.js:457
+#: app/scripts/tickets/tickets-list-view.js:471
+#: app/scripts/tickets/tickets-list-view.js:486
+#: app/scripts/tickets/tickets-list-view.js:596
+#: app/scripts/tickets/tickets-list-view.js:636
+#: app/scripts/tickets/tickets-list-view.js:656
+msgid "update tickets successful"
+msgstr "更新工单成功"
+
+#: app/scripts/tickets/tickets-list-view.js:373
+#: app/scripts/tickets/tickets-list-view.js:385
+#: app/scripts/tickets/tickets-list-view.js:394
+#: app/scripts/tickets/tickets-list-view.js:459
+#: app/scripts/tickets/tickets-list-view.js:473
+#: app/scripts/tickets/tickets-list-view.js:488
+#: app/scripts/tickets/tickets-list-view.js:600
+#: app/scripts/tickets/tickets-list-view.js:639
+#: app/scripts/tickets/tickets-list-view.js:659
+msgid "update tickets failure"
+msgstr "更新工单失败"
+
+#: app/scripts/tickets/tickets-list-view.js:379
+#: templates/tickets/tickets-list-table.hbs:6
+msgid "Assign to me"
+msgstr "指派给我"
+
+#: app/scripts/tickets/tickets-list-view.js:435
+#: templates/tickets/tickets-list-filter.hbs:47
+msgid "Over due"
+msgstr "逾期"
+
+#: app/scripts/tickets/tickets-list-view.js:439
+#: templates/tickets/tickets-list-filter.hbs:48
+msgid "Due Today"
+msgstr "今日到期"
+
+#: app/scripts/tickets/tickets-list-view.js:612
+msgid "delete successful"
+msgstr "删除工单成功"
+
+#: app/scripts/tickets/tickets-list-view.js:615
+msgid "delete failure"
+msgstr "删除工单失败"
+
+#: app/scripts/tickets/tickets-update-view.js:230
+msgid "Select a Contact or Add new Contact"
+msgstr "搜索联系人 或 新建联系人"
+
+#: app/scripts/tickets/tickets-update-view.js:254
+msgid "Recovery"
+msgstr "恢复"
+
+#: app/scripts/tickets/tickets-update-view.js:258
+#: templates/contacts/contacts-infomation.hbs:11
+#: templates/corporations/corporations-info.hbs:13
+#: templates/corporations/corporations-list.hbs:7
+#: templates/settings/ticket-types.hbs:28
+#: templates/tickets/tickets-list-filter-group.hbs:56
+#: templates/tickets/tickets-list-table.hbs:9
+#: templates/tickets/tickets-trash.hbs:18
+#: templates/tickets/tickets-update.hbs:116 templates/tickets/tickets.hbs:10
+msgid "Delete"
+msgstr "删除"
+
+#: app/scripts/tickets/tickets-view.js:19 templates/agent/translations.hbs:15
+#: templates/tickets/translations.hbs:8
+msgid "Opened"
+msgstr "处理中"
+
+#: app/scripts/tickets/tickets-view.js:20 templates/agent/translations.hbs:17
+#: templates/tickets/translations.hbs:9
+msgid "Resolved"
+msgstr "已解决"
+
+#: app/scripts/tickets/tickets-view.js:21 templates/agent/translations.hbs:16
+#: templates/tickets/translations.hbs:10
+msgid "Pending"
+msgstr "等待回复"
+
+#: app/scripts/tickets/tickets-view.js:27
+msgid "Confirm Delete Tickets Memo"
+msgstr "确定删除工单备注？"
+
+#: app/scripts/tickets/tickets-view.js:29
+msgid "Confirm Delete Tickets Memo Content"
+msgstr "被删除的联络历史内容将无法恢复。"
+
+#: app/scripts/tickets/tickets-view.js:149
+msgid "Fail To Show More Tickets"
+msgstr "展开更多操作失败"
+
+#: app/scripts/tickets/tickets-view.js:212
+msgid "add memo successful"
+msgstr "添加备注成功"
+
+#: app/scripts/tickets/tickets-view.js:216
+msgid "add memo failure"
+msgstr "添加备注失败"
+
+#: app/scripts/tickets/tickets-view.js:287
+msgid "delete memo successful"
+msgstr "删除备注成功"
+
+#: app/scripts/tickets/tickets-view.js:290
+msgid "delete memo failure"
+msgstr "删除备注失败"
+
+#: app/scripts/tickets/tickets-view.js:383
+msgid "upateExpiredDate successful"
+msgstr "更新到期时间成功"
+
+#: app/scripts/tickets/tickets-view.js:385
+msgid "upateExpiredDate failure"
+msgstr "更新到期时间失败"
+
+#: app/scripts/tickets/tickets-view.js:561
+msgid "save successful"
+msgstr "更新工单成功"
+
+#: app/scripts/tickets/tickets-view.js:564
+msgid "save failure"
+msgstr "更新工单失败"
+
+#: app/scripts/tickets/tickets-view.js:781
+#: templates/agent/translations.hbs:18 templates/tickets/translations.hbs:11
+msgid "Closed"
+msgstr "已关闭"
+
+#: app/scripts/tickets/tickets-view.js:841
+msgid "delete ticket successful"
+msgstr "删除工单成功"
+
+#: app/scripts/tickets/tickets-view.js:844
+msgid "delete ticket failure"
+msgstr "删除工单失败"
+
+#: templates/agent/home-activies.hbs:2
+msgid "Actities"
+msgstr "最近的工单"
+
+#: templates/agent/home-activies.hbs:10 templates/agent/translations.hbs:2
+#: templates/contacts/contacts-information-activities.hbs:5
+msgid "Now Loading The Data"
+msgstr "拼命加载中..."
+
+#: templates/agent/home-activies.hbs:11 templates/agent/translations.hbs:3
+msgid "No Recent Activity"
+msgstr "当前没有最近的工单"
+
+#: templates/agent/home-ticket-item.hbs:5 templates/agent/translations.hbs:4
+#: templates/tickets/tickets-flow-conversition.hbs:8
+#: templates/tickets/tickets-flow-conversition.hbs:42
+msgid "At"
+msgstr "于"
+
+#: templates/agent/home-ticket-item.hbs:5
+#: templates/tickets/tickets-flow-conversition.hbs:8
+msgid "operate ticket timeline"
+msgstr "更新了工单备注"
+
+#: templates/agent/home-ticket-item.hbs:7
+#: templates/tickets/tickets-flow-conversition.hbs:10
+msgid "ticket expiredDate from"
+msgstr "到期时间由"
+
+#: templates/agent/home-ticket-item.hbs:7
+#: templates/tickets/tickets-flow-conversition.hbs:10
+msgid "ticket expiredDate to"
+msgstr "更新为"
+
+#: templates/agent/home-ticket-item.hbs:10
+#: templates/tickets/tickets-flow-conversition.hbs:13
+msgid "ticket requester from"
+msgstr "请求人由"
+
+#: templates/agent/home-ticket-item.hbs:10
+#: templates/tickets/tickets-flow-conversition.hbs:13
+msgid "ticket requester to"
+msgstr "更新为"
+
+#: templates/agent/home-ticket-item.hbs:13
+#: templates/tickets/tickets-flow-conversition.hbs:16
+msgid "ticket subject from"
+msgstr "主题由"
+
+#: templates/agent/home-ticket-item.hbs:13
+#: templates/tickets/tickets-flow-conversition.hbs:16
+msgid "ticket subject to"
+msgstr "更新为"
+
+#: templates/agent/home-ticket-item.hbs:16
+#: templates/tickets/tickets-flow-conversition.hbs:19
+msgid "ticket description from"
+msgstr "描述由"
+
+#: templates/agent/home-ticket-item.hbs:16
+#: templates/tickets/tickets-flow-conversition.hbs:19
+msgid "ticket description to"
+msgstr "更新为"
+
+#: templates/agent/home-ticket-item.hbs:19
+#: templates/tickets/tickets-flow-conversition.hbs:22
+msgid "ticket type from"
+msgstr "类型由"
+
+#: templates/agent/home-ticket-item.hbs:19
+#: templates/tickets/tickets-flow-conversition.hbs:22
+msgid "ticket type to"
+msgstr "更新为"
+
+#: templates/agent/home-ticket-item.hbs:22
+#: templates/tickets/tickets-flow-conversition.hbs:25
+msgid "ticket state from"
+msgstr "状态由"
+
+#: templates/agent/home-ticket-item.hbs:22
+#: templates/tickets/tickets-flow-conversition.hbs:25
+msgid "ticket state to"
+msgstr "更新为"
+
+#: templates/agent/home-ticket-item.hbs:25
+#: templates/tickets/tickets-flow-conversition.hbs:28
+msgid "ticket priority from"
+msgstr "优先级由"
+
+#: templates/agent/home-ticket-item.hbs:25
+#: templates/tickets/tickets-flow-conversition.hbs:28
+msgid "ticket priority to"
+msgstr "更新为"
+
+#: templates/agent/home-ticket-item.hbs:28
+#: templates/tickets/tickets-flow-conversition.hbs:31
+msgid "ticket assignee from"
+msgstr "客服由"
+
+#: templates/agent/home-ticket-item.hbs:28
+#: templates/tickets/tickets-flow-conversition.hbs:31
+msgid "ticket assignee to"
+msgstr "更新为"
+
+#: templates/agent/home-ticket-item.hbs:31
+#: templates/tickets/tickets-flow-conversition.hbs:34
+msgid "ticket group from"
+msgstr "组由"
+
+#: templates/agent/home-ticket-item.hbs:31
+#: templates/tickets/tickets-flow-conversition.hbs:34
+msgid "ticket group to"
+msgstr "更新为"
+
+#: templates/agent/home-ticket-total.hbs:2
+msgid "Tickets Total"
+msgstr "工单汇总"
+
+#: templates/agent/home-ticket-total.hbs:8
+msgid "Expried"
+msgstr "逾期"
+
+#: templates/agent/home-ticket-total.hbs:10
+msgid "Processing"
+msgstr "处理中"
+
+#: templates/agent/home-ticket-total.hbs:12
+msgid "Paused"
+msgstr "等待回复"
+
+#: templates/agent/home-ticket-total.hbs:14
+msgid "Overdue"
+msgstr "今日到期"
+
+#: templates/agent/home-ticket-total.hbs:16
+msgid "Unassigned"
+msgstr "未指派"
+
+#: templates/agent/home-user-profile.hbs:2
+msgid "Information"
+msgstr "个人信息"
+
+#: templates/agent/home-user-profile.hbs:6
+#: templates/agents/ticket-agent-info.hbs:28
+#: templates/profile/profile-update.hbs:14
+#: templates/profile/reset-password.hbs:19
+#: templates/settings/agent-add.hbs:32 templates/settings/agent-info.hbs:41
+#: templates/settings/agent-resetpassword.hbs:24
+#: templates/settings/agent-roles.hbs:29
+#: templates/settings/agent-update.hbs:29
+#: templates/settings/agents-item.hbs:9 templates/settings/agents.hbs:35
+#: templates/tickets/ticket-agent-info.hbs:34
+msgid "User Name"
+msgstr "用户名"
+
+#: templates/agent/home-user-profile.hbs:7
+#: templates/agents/ticket-agent-info.hbs:34
+#: templates/profile/profile-update.hbs:22
+#: templates/settings/agent-add.hbs:54 templates/settings/agent-add.hbs:56
+#: templates/settings/agent-info.hbs:47 templates/settings/agent-roles.hbs:37
+#: templates/settings/agent-update.hbs:35
+#: templates/tickets/ticket-agent-info.hbs:28
+msgid "Name"
+msgstr "姓名"
+
+#: templates/agent/home-user-profile.hbs:8
+#: templates/agents/ticket-agent-info.hbs:41
+#: templates/profile/profile-update.hbs:34
+#: templates/settings/agent-add.hbs:123 templates/settings/agent-info.hbs:54
+#: templates/settings/agent-roles.hbs:45
+#: templates/settings/agent-update.hbs:47
+#: templates/settings/agents-item.hbs:10
+msgid "WorkNum"
+msgstr "工号"
+
+#: templates/agent/home-user-profile.hbs:9
+#: templates/agents/ticket-agent-info.hbs:49
+#: templates/contacts/add-contacts.hbs:64
+#: templates/contacts/add-contacts.hbs:66
+#: templates/contacts/contacts-infomation.hbs:73
+#: templates/contacts/contacts-item.hbs:10
+#: templates/contacts/quick-add-contacts.hbs:32
+#: templates/contacts/update-contacts.hbs:65
+#: templates/contacts/update-contacts.hbs:67
+#: templates/corporations/corporations-contacts-quickadd.hbs:27
+#: templates/profile/profile-update.hbs:46
+#: templates/profile/profile-update.hbs:48
+#: templates/settings/agent-add.hbs:135 templates/settings/agent-add.hbs:137
+#: templates/settings/agent-info.hbs:62 templates/settings/agent-roles.hbs:53
+#: templates/settings/agent-update.hbs:59
+#: templates/settings/agent-update.hbs:61
+#: templates/settings/agents-deleted-item.hbs:10
+#: templates/settings/agents-item.hbs:11
+#: templates/tickets/ticket-agent-info.hbs:40
+#: templates/tickets/tickets-add-new-requester.hbs:23
+msgid "Mobile"
+msgstr "手机"
+
+#: templates/agent/home-user-profile.hbs:10
+#: templates/agents/ticket-agent-info.hbs:57
+#: templates/profile/profile-update.hbs:53
+#: templates/settings/agent-add.hbs:142 templates/settings/agent-info.hbs:70
+#: templates/settings/agent-roles.hbs:61
+#: templates/settings/agent-update.hbs:66
+msgid "Post"
+msgstr "职位"
+
+#: templates/agent/home-user-profile.hbs:11
+#: templates/agents/ticket-agent-info.hbs:65
+#: templates/profile/profile-update.hbs:60
+#: templates/settings/agent-add.hbs:149 templates/settings/agent-info.hbs:78
+#: templates/settings/agent-roles.hbs:69
+#: templates/settings/agent-update.hbs:73
+msgid "Remark"
+msgstr "备注"
+
+#: templates/agent/translations.hbs:5
+msgid "Operated Ticket"
+msgstr "对工单进行了操作"
+
+#: templates/agent/translations.hbs:6
+msgid "TicketCreated"
+msgstr "新建工单"
+
+#: templates/agent/translations.hbs:7
+msgid "TicketClosed"
+msgstr "关闭工单"
+
+#: templates/agent/translations.hbs:8
+msgid "TicketDeleted"
+msgstr "删除工单"
+
+#: templates/agent/translations.hbs:9
+msgid "TicketRecovery"
+msgstr "恢复工单"
+
+#: templates/agent/translations.hbs:10
+msgid "TicketEdited"
+msgstr "编辑工单"
+
+#: templates/agent/translations.hbs:11
+msgid "TicketModifiedEexpirationTime"
+msgstr "修改到期时间"
+
+#: templates/agent/translations.hbs:12
+msgid "TicketModifiedAssignee"
+msgstr "修改客服"
+
+#: templates/agent/translations.hbs:13
+msgid "TicketModifiedState"
+msgstr "修改状态"
+
+#: templates/agent/translations.hbs:14
+msgid "TicketModifiedPriority"
+msgstr "修改优先级"
+
+#: templates/agents/ticket-agent-info.hbs:7
+#: templates/settings/agent-info.hbs:20
+#: templates/tickets/ticket-agent-info.hbs:7
+msgid "Agent Information"
+msgstr "客服详情"
+
+#: templates/agents/ticket-agent-info.hbs:12
+#: templates/settings/agent-info.hbs:25
+#: templates/tickets/ticket-agent-info.hbs:12
+msgid "Info agent title"
+msgstr "客服的管理"
+
+#: templates/agents/ticket-agent-info.hbs:26
+#: templates/settings/agent-add.hbs:29 templates/settings/agent-info.hbs:39
+#: templates/settings/agent-roles.hbs:26
+#: templates/settings/agent-update.hbs:27
+#: templates/tickets/ticket-agent-info.hbs:26
+msgid "Agent Info"
+msgstr "客服信息"
+
+#: templates/agents/ticket-agent-info.hbs:71
+#: templates/settings/agent-info.hbs:84
+#: templates/tickets/ticket-agent-info.hbs:45
+msgid "Recently assigned jobs"
+msgstr "客服相关的工单"
+
+#: templates/agents/ticket-agent-info.hbs:75
+#: templates/settings/agent-info.hbs:88
+#: templates/tickets/ticket-agent-info.hbs:49
+msgid "Info agent help document"
+msgstr ""
+"您可以在这里查看客服的基础信息，对客服的信息进行修改，如果您的客服已经不在服"
+"务的部门或者离职，您还可以对这个客服进行删除，被删除的客服将可以通过被删除的"
+"客服列表进行查看，但在这个客服被恢复之前，无法再将工单指派给这个客服。"
+
+#: templates/contacts/add-contacts.hbs:5
+msgid "Add Contacts"
+msgstr "添加联系人"
+
+#: templates/contacts/add-contacts.hbs:22
+#: templates/contacts/add-contacts.hbs:24
+#: templates/contacts/update-contacts.hbs:23
+#: templates/contacts/update-contacts.hbs:25
+msgid "Contacts Name"
+msgstr "姓名"
+
+#: templates/contacts/add-contacts.hbs:26
+#: templates/contacts/add-contacts.hbs:28
+#: templates/contacts/update-contacts.hbs:27
+#: templates/contacts/update-contacts.hbs:29
+msgid "Nickname"
+msgstr "昵称"
+
+#: templates/contacts/add-contacts.hbs:33
+#: templates/contacts/quick-add-contacts.hbs:17
+#: templates/contacts/update-contacts.hbs:34
+#: templates/corporations/corporations-contacts-quickadd.hbs:11
+#: templates/profile/profile-update.hbs:29
+#: templates/settings/agent-add.hbs:61 templates/settings/agent-update.hbs:42
+#: templates/tickets/tickets-add-new-requester.hbs:11
+msgid "Name required"
+msgstr "请输入正确的姓名"
+
+#: templates/contacts/add-contacts.hbs:37
+#: templates/contacts/add-contacts.hbs:39
+#: templates/contacts/contacts-infomation.hbs:50
+#: templates/contacts/update-contacts.hbs:38
+#: templates/contacts/update-contacts.hbs:40
+msgid "Gender"
+msgstr "性别"
+
+#: templates/contacts/add-contacts.hbs:40
+#: templates/contacts/update-contacts.hbs:41
+msgid "Unknown"
+msgstr "--"
+
+#: templates/contacts/add-contacts.hbs:41
+#: templates/contacts/update-contacts.hbs:42
+msgid "Male"
+msgstr "男"
+
+#: templates/contacts/add-contacts.hbs:42
+#: templates/contacts/update-contacts.hbs:43
+msgid "Female"
+msgstr "女"
+
+#: templates/contacts/add-contacts.hbs:45
+#: templates/contacts/add-contacts.hbs:48
+#: templates/contacts/contacts-infomation.hbs:85
+#: templates/contacts/update-contacts.hbs:46
+#: templates/contacts/update-contacts.hbs:49
+msgid "Birthday"
+msgstr "生日"
+
+#: templates/contacts/add-contacts.hbs:56
+#: templates/contacts/translations.hbs:1
+#: templates/contacts/update-contacts.hbs:57
+msgid "Date pattern, example: %s"
+msgstr ""
+
+#: templates/contacts/add-contacts.hbs:60
+#: templates/contacts/add-contacts.hbs:62
+#: templates/contacts/contacts-infomation.hbs:58
+#: templates/contacts/contacts-item.hbs:9
+#: templates/contacts/quick-add-contacts.hbs:20
+#: templates/contacts/update-contacts.hbs:61
+#: templates/contacts/update-contacts.hbs:63
+#: templates/corporations/corporations-contacts-quickadd.hbs:14
+#: templates/settings/agents-deleted-item.hbs:9
+#: templates/tickets/tickets-add-new-requester.hbs:13
+msgid "Email"
+msgstr "邮箱"
+
+#: templates/contacts/add-contacts.hbs:71
+#: templates/contacts/quick-add-contacts.hbs:26
+#: templates/contacts/update-contacts.hbs:72
+#: templates/corporations/corporations-contacts-quickadd.hbs:21
+#: templates/tickets/tickets-add-new-requester.hbs:18
+msgid "Invalidation Email"
+msgstr "请输入正确的邮箱地址"
+
+#: templates/contacts/add-contacts.hbs:76
+#: templates/contacts/quick-add-contacts.hbs:29
+#: templates/contacts/update-contacts.hbs:77
+#: templates/corporations/corporations-contacts-quickadd.hbs:24
+#: templates/tickets/tickets-add-new-requester.hbs:21
+msgid "Email Duplicate"
+msgstr "邮箱已存在"
+
+#: templates/contacts/add-contacts.hbs:81
+#: templates/contacts/quick-add-contacts.hbs:35
+#: templates/contacts/update-contacts.hbs:82
+#: templates/corporations/corporations-contacts-quickadd.hbs:30
+#: templates/tickets/tickets-add-new-requester.hbs:25
+msgid "Mobile Duplicate"
+msgstr "手机已存在"
+
+#: templates/contacts/add-contacts.hbs:85
+#: templates/contacts/add-contacts.hbs:87
+#: templates/contacts/contacts-infomation.hbs:79
+#: templates/contacts/update-contacts.hbs:86
+#: templates/contacts/update-contacts.hbs:88
+msgid "Telephone"
+msgstr "电话"
+
+#: templates/contacts/add-contacts.hbs:91
+#: templates/contacts/add-contacts.hbs:93
+#: templates/contacts/contacts-infomation.hbs:91
+#: templates/contacts/update-contacts.hbs:93
+#: templates/contacts/update-contacts.hbs:95
+msgid "Address"
+msgstr "地址1"
+
+#: templates/contacts/add-contacts.hbs:97
+#: templates/contacts/add-contacts.hbs:99
+#: templates/contacts/update-contacts.hbs:99
+#: templates/contacts/update-contacts.hbs:101
+msgid "Address 2"
+msgstr "地址2"
+
+#: templates/contacts/add-contacts.hbs:103
+#: templates/contacts/add-contacts.hbs:106
+#: templates/contacts/update-contacts.hbs:105
+#: templates/contacts/update-contacts.hbs:107
+msgid "Corporation"
+msgstr "公司"
+
+#: templates/contacts/add-contacts.hbs:110
+#: templates/contacts/add-contacts.hbs:112
+#: templates/contacts/update-contacts.hbs:111
+#: templates/contacts/update-contacts.hbs:113
+msgid "Title"
+msgstr "职务"
+
+#: templates/contacts/add-contacts.hbs:116
+#: templates/contacts/add-contacts.hbs:118
+#: templates/contacts/contacts-infomation.hbs:99
+#: templates/contacts/update-contacts.hbs:117
+#: templates/contacts/update-contacts.hbs:119
+#: templates/corporations/corporations-add.hbs:34
+#: templates/corporations/corporations-info.hbs:48
+#: templates/corporations/corporations-update.hbs:36
+msgid "Memo"
+msgstr "备注"
+
+#: templates/contacts/add-contacts.hbs:123
+#: templates/contacts/update-contacts.hbs:125
+#: templates/corporations/corporations-info.hbs:54
+#: templates/profile/profile-update.hbs:69
+#: templates/profile/reset-password.hbs:9
+#: templates/profile/reset-password.hbs:70
+#: templates/settings/agent-add.hbs:163
+#: templates/settings/agent-resetpassword.hbs:84
+#: templates/settings/agent-roles.hbs:108
+#: templates/settings/agent-update.hbs:88 templates/settings/general.hbs:69
+#: templates/tickets/tickets-add.hbs:115
+#: templates/tickets/tickets-detail.hbs:108
+#: templates/tickets/tickets-update.hbs:131
+msgid "Save"
+msgstr "保存"
+
+#: templates/contacts/contacts-blocked.hbs:8
+#: templates/contacts/contacts.hbs:8
+#: templates/corporations/corporations-add.hbs:6
+#: templates/corporations/corporations.hbs:8
+msgid "Create Corporation"
+msgstr "添加公司"
+
+#: templates/contacts/contacts-blocked.hbs:8
+#: templates/contacts/contacts.hbs:8
+#: templates/corporations/corporations.hbs:8
+msgid "Create Contact"
+msgstr "添加联系人"
+
+#: templates/contacts/contacts-blocked.hbs:10
+#: templates/contacts/contacts.hbs:10
+#: templates/corporations/corporations.hbs:10 templates/main/layout.hbs:56
+msgid "Customers"
+msgstr "客户"
+
+#: templates/contacts/contacts-blocked.hbs:16
+#: templates/contacts/contacts.hbs:16
+#: templates/corporations/corporations-contacts.hbs:13
+#: templates/corporations/corporations.hbs:16
+msgid "Contacts"
+msgstr "联系人"
+
+#: templates/contacts/contacts-blocked.hbs:19
+#: templates/contacts/contacts.hbs:19
+#: templates/corporations/corporations-contacts.hbs:16
+#: templates/corporations/corporations.hbs:19
+msgid "Corporations"
+msgstr "公司"
+
+#: templates/contacts/contacts-blocked.hbs:26
+#: templates/contacts/contacts.hbs:26
+#: templates/corporations/corporations-contacts.hbs:26
+#: templates/corporations/corporations.hbs:27
+msgid "Alphabet"
+msgstr "未知"
+
+#: templates/contacts/contacts-blocked.hbs:30
+#: templates/contacts/contacts.hbs:30
+msgid "Display"
+msgstr "显示"
+
+#: templates/contacts/contacts-blocked.hbs:32
+#: templates/contacts/contacts.hbs:37
+msgid "All"
+msgstr "全部联系人"
+
+#: templates/contacts/contacts-blocked.hbs:33
+#: templates/contacts/contacts.hbs:41
+msgid "Contact Deleted"
+msgstr "已删除联系人"
+
+#: templates/contacts/contacts-infomation.hbs:9
+#: templates/contacts/contacts-item.hbs:22
+#: templates/corporations/corporations-info.hbs:10
+#: templates/corporations/corporations-item.hbs:7
+#: templates/settings/agents-item.hbs:19 templates/settings/group-item.hbs:6
+msgid "Update"
+msgstr "编辑"
+
+#: templates/contacts/contacts-infomation.hbs:16
+#: templates/contacts/contacts-item.hbs:28
+#: templates/settings/agent-info.hbs:16
+#: templates/settings/agents-deleted-item.hbs:16
+#: templates/settings/agents-item.hbs:26
+#: templates/tickets/tickets-deleted-table.hbs:6
+#: templates/tickets/tickets.hbs:12
+msgid "Restore"
+msgstr "恢复"
+
+#: templates/contacts/contacts-infomation.hbs:21
+msgid "Contacts Informations"
+msgstr "联系人详情"
+
+#: templates/contacts/contacts-infomation.hbs:26
+msgid "Info contacts title"
+msgstr "查看和编辑客户的信息"
+
+#: templates/contacts/contacts-infomation.hbs:102
+#: templates/corporations/corporations-add.hbs:55
+#: templates/corporations/corporations-update.hbs:55
+#: templates/settings/group-add.hbs:51 templates/settings/group-update.hbs:52
+#: templates/settings/ticket-types.hbs:41
+msgid "Submit"
+msgstr "保存"
+
+#: templates/contacts/contacts-infomation.hbs:110
+msgid "Info contacts help document"
+msgstr ""
+"您可以在这里查看客户的基础信息和这个客户相关的事件，客户作为您企业的珍贵数"
+"据，您随时可以补全或者修改和这个客户相关的资料，以便更加了解您的客户，更精准"
+"的为客户提供服务。"
+
+#: templates/contacts/contacts-information-activities-item.hbs:3
+#: templates/settings/agent-tickets-item.hbs:3
+#: templates/tickets/tickets-detail.hbs:52
+#: templates/tickets/tickets-update.hbs:47
+msgid "Status"
+msgstr "状态"
+
+#: templates/contacts/contacts-information-activities-item.hbs:3
+#: templates/settings/agent-add.hbs:158 templates/settings/agent-roles.hbs:82
+#: templates/settings/group-add.hbs:44 templates/settings/group-update.hbs:44
+#: templates/settings/role-administrator-info.hbs:131
+#: templates/settings/role-agent-info.hbs:9
+#: templates/settings/role-agent-info.hbs:136
+#: templates/settings/role-leader-info.hbs:136
+#: templates/statistics/agent-reports-table.hbs:5
+#: templates/tickets/tickets-list-table-item.hbs:22
+msgid "Agent"
+msgstr "客服"
+
+#: templates/contacts/contacts-information-activities.hbs:1
+msgid "Contacts Tickets"
+msgstr "联系人相关的工单"
+
+#: templates/contacts/contacts-information-activities.hbs:6
+#: templates/contacts/translations.hbs:6
+#: templates/corporations/translations.hbs:6
+msgid "No Recent Data"
+msgstr "当前联系人没有工单"
+
+#: templates/contacts/contacts-information-activities.hbs:8
+#: templates/settings/agent-ticket-list-table.hbs:5
+msgid "View All Tickets"
+msgstr "查看全部"
+
+#: templates/contacts/contacts-table.hbs:11
+msgid "Contact Delete"
+msgstr "删除"
+
+#: templates/contacts/contacts-table.hbs:14
+msgid "Contact Restore"
+msgstr "恢复"
+
+#: templates/contacts/contacts-table.hbs:23
+#: templates/corporations/corporations-list.hbs:18
+#: templates/settings/agent-ticket-list-table.hbs:3
+#: templates/settings/agents-table.hbs:6 templates/settings/group-list.hbs:8
+#: templates/statistics/agent-reports-table.hbs:23
+#: templates/tickets/tickets-deleted-table.hbs:14
+#: templates/tickets/tickets-list-table.hbs:20
+#: templates/tickets/tickets-trash.hbs:43
+msgid "Now Loading..."
+msgstr "拼命加载中..."
+
+#: templates/contacts/contacts-table.hbs:24
+msgid "Non Contacts"
+msgstr "当前没有联系人"
+
+#: templates/contacts/quick-add-contacts.hbs:5
+#: templates/corporations/corporations-contacts-quickadd.hbs:3
+msgid "Quickly add current contact to the company"
+msgstr "快速添加公司下联系人"
+
+#: templates/contacts/quick-add-contacts.hbs:7
+#: templates/tickets/tickets-add-new-requester.hbs:5
+msgid "Quick Add Contacts"
+msgstr "快速添加联系人"
+
+#: templates/contacts/quick-add-contacts.hbs:14
+#: templates/corporations/corporations-contacts-quickadd.hbs:8
+#: templates/tickets/tickets-add-new-requester.hbs:9
+msgid "Contact Name"
+msgstr "输入联系人姓名"
+
+#: templates/contacts/quick-add-contacts.hbs:23
+#: templates/corporations/corporations-contacts-quickadd.hbs:18
+#: templates/tickets/tickets-add-new-requester.hbs:15
+msgid "Email or Mobile required"
+msgstr "请输入邮箱或手机"
+
+#: templates/contacts/quick-add-contacts.hbs:38
+#: templates/corporations/corporations-quickadd.hbs:17
+msgid "Add"
+msgstr "添加"
+
+#: templates/contacts/translations.hbs:2
+#: templates/corporations/translations.hbs:2
+msgid "State Opened"
+msgstr "处理中"
+
+#: templates/contacts/translations.hbs:3
+#: templates/corporations/translations.hbs:3
+msgid "State Resolved"
+msgstr "已解决"
+
+#: templates/contacts/translations.hbs:4
+#: templates/corporations/translations.hbs:4
+msgid "State Pending"
+msgstr "等待回复"
+
+#: templates/contacts/translations.hbs:5
+#: templates/corporations/translations.hbs:5
+msgid "State Closed"
+msgstr "已关闭"
+
+#: templates/contacts/update-contacts.hbs:5
+msgid "Update Contacts"
+msgstr "编辑联系人"
+
+#: templates/contacts/update-contacts.hbs:124
+#: templates/corporations/corporations-update.hbs:53
+#: templates/profile/profile-update.hbs:68
+#: templates/settings/agent-update.hbs:87 templates/settings/general.hbs:68
+#: templates/settings/group-update.hbs:51
+#: templates/settings/ticket-types.hbs:40
+msgid "Reset"
+msgstr "重置"
+
+#: templates/corporations/corporations-add.hbs:10
+msgid "Create corporation title"
+msgstr "公司的添加和编辑"
+
+#: templates/corporations/corporations-add.hbs:20
+#: templates/corporations/corporations-update.hbs:22
+msgid "Corporation Name"
+msgstr "公司名称"
+
+#: templates/corporations/corporations-add.hbs:21
+#: templates/corporations/corporations-quickadd.hbs:8
+#: templates/corporations/corporations-update.hbs:23
+msgid "Corporation Name Placeholder"
+msgstr "输入公司名称"
+
+#: templates/corporations/corporations-add.hbs:25
+#: templates/corporations/corporations-quickadd.hbs:11
+#: templates/corporations/corporations-update.hbs:27
+msgid "Invalid Corporation Name"
+msgstr "请输入正确的公司名称"
+
+#: templates/corporations/corporations-add.hbs:30
+#: templates/corporations/corporations-quickadd.hbs:14
+#: templates/corporations/corporations-update.hbs:32
+msgid "Corporation Already Exists"
+msgstr "该公司已存在"
+
+#: templates/corporations/corporations-add.hbs:36
+#: templates/corporations/corporations-update.hbs:37
+msgid "Corporation Memo Placeholader"
+msgstr "公司备注"
+
+#: templates/corporations/corporations-add.hbs:40
+#: templates/corporations/corporations-info.hbs:36
+#: templates/settings/group-add.hbs:38 templates/settings/group-add.hbs:40
+#: templates/settings/group-update.hbs:38
+#: templates/settings/group-update.hbs:40
+#: templates/tickets/tickets-add.hbs:95 templates/tickets/tickets-add.hbs:97
+#: templates/tickets/tickets-flow.hbs:32
+#: templates/tickets/tickets-update.hbs:92
+msgid "Description"
+msgstr "描述"
+
+#: templates/corporations/corporations-add.hbs:42
+#: templates/corporations/corporations-update.hbs:41
+msgid "Corporation Description Placeholder"
+msgstr "公司描述"
+
+#: templates/corporations/corporations-add.hbs:47
+#: templates/corporations/corporations-info.hbs:42
+#: templates/corporations/corporations-update.hbs:45
+msgid "Domain"
+msgstr "公司域名"
+
+#: templates/corporations/corporations-add.hbs:48
+#: templates/corporations/corporations-update.hbs:46
+msgid "Corporation Domain Placeholder"
+msgstr "公司域名"
+
+#: templates/corporations/corporations-add.hbs:51
+#: templates/corporations/corporations-update.hbs:49
+msgid "Corporation Domain Help text"
+msgstr "示例: yourdomain.yunkefu.com"
+
+#: templates/corporations/corporations-add.hbs:59
+msgid "Create corporation help document"
+msgstr ""
+"<p>云客服提供以公司的形式将部分有公司属性的客户进行分类，您可以根据您的业务"
+"情况，随时管理公司。</p><p>删除公司的时候有公司属性的客户不会被删除，仍然可"
+"以通过点击客户-联系人找到相应的联系人并查看详细信息。</p>"
+
+#: templates/corporations/corporations-contacts-quickadd.hbs:33
+#: templates/tickets/tickets-add-new-requester.hbs:31
+msgid "Create"
+msgstr "添加"
+
+#: templates/corporations/corporations-info.hbs:18
+msgid "Corporation Infomations"
+msgstr "公司详情"
+
+#: templates/corporations/corporations-info.hbs:31
+#: templates/corporations/corporations-item.hbs:4
+#: templates/corporations/translations.hbs:1
+msgid "<a href=\"/corporations/%s/contacts\">%d Corporation Contacts</a>"
+msgstr "<a href=\"/corporations/%s/contacts\">%d</a> 个联系人"
+
+#: templates/corporations/corporations-list.hbs:19
+msgid "Non Corporations"
+msgstr "当前没有公司"
+
+#: templates/corporations/corporations-quickadd.hbs:3
+msgid "Qucik Add"
+msgstr "快速添加公司"
+
+#: templates/corporations/corporations-update.hbs:7
+msgid "Update Corporation"
+msgstr "编辑公司"
+
+#: templates/corporations/corporations-update.hbs:12
+msgid "Update corporation title"
+msgstr "公司的添加和编辑"
+
+#: templates/corporations/corporations-update.hbs:40
+msgid "Corporation Description"
+msgstr "描述"
+
+#: templates/corporations/corporations-update.hbs:59
+msgid "Update corporation help document"
+msgstr ""
+"<p>云客服提供以公司的形式将部分有公司属性的客户进行分类，您可以根据您的业务"
+"情况，随时管理公司。</p><p>删除公司的时候有公司属性的客户不会被删除，仍然可"
+"以通过点击客户-联系人找到相应的联系人并查看详细信息。</p>"
+
+#: templates/main/confirm.hbs:20
+msgid "Confirm Title"
+msgstr "提示"
+
+#: templates/main/confirm.hbs:21 templates/settings/agents-table.hbs:24
+msgid "Submit Button"
+msgstr "确定"
+
+#: templates/main/confirm.hbs:22 templates/settings/group-confirm.hbs:12
+msgid "Cancel Button"
+msgstr "取消"
+
+#: templates/main/confirm.hbs:23
+msgid "Confirm Message"
+msgstr "确定"
+
+#: templates/main/dialog.hbs:18
+msgid "Dialog Title"
+msgstr "标题"
+
+#: templates/main/dialog.hbs:19
+msgid "Dialog Message"
+msgstr "消息对话框"
+
+#: templates/main/layout.hbs:12
+msgid "The personal data provided"
+msgstr "个人信息"
+
+#: templates/main/layout.hbs:16
+msgid "Logout"
+msgstr "退出登录"
+
+#: templates/main/layout.hbs:46
+msgid "Home"
+msgstr "首页"
+
+#: templates/main/layout.hbs:48
+#: templates/settings/role-administrator-info.hbs:20
+#: templates/settings/role-administrator-info.hbs:29
+#: templates/settings/role-agent-info.hbs:28
+#: templates/settings/role-agent-info.hbs:37
+#: templates/settings/role-leader-info.hbs:28
+#: templates/settings/role-leader-info.hbs:37
+msgid "Tickets"
+msgstr "工单"
+
+#: templates/main/layout.hbs:59
+msgid "Statistics"
+msgstr "统计"
+
+#: templates/main/layout.hbs:62 templates/settings/index.hbs:7
+msgid "Settings"
+msgstr "配置"
+
+#: templates/main/layout.hbs:77
+msgid "Create Ticket"
+msgstr "新建工单"
+
+#: templates/main/upload-multiple-objects-template.hbs:4
+msgid "Remove Uploaded File"
+msgstr "删除"
+
+#: templates/main/upload-multiple-objects.hbs:6
+msgid "<i class=\"fa fa-link\"></i> Choose files"
+msgstr "上传文件"
+
+#: templates/main/upload-singleton-image.hbs:9
+msgid "<i class=\"fa fa-link\"></i> Choose a picture"
+msgstr "上传图片"
+
+#: templates/profile/profile-update.hbs:6
+msgid "Update Personal"
+msgstr "编辑个人信息"
+
+#: templates/profile/profile-update.hbs:36
+#: templates/settings/agent-add.hbs:125
+#: templates/settings/agent-update.hbs:49
+msgid "Agent WorkNum Placeholder"
+msgstr "工号"
+
+#: templates/profile/profile-update.hbs:41
+#: templates/settings/agent-add.hbs:130
+#: templates/settings/agent-update.hbs:54
+msgid "workNum has been exists"
+msgstr "工号已存在"
+
+#: templates/profile/profile-update.hbs:55
+#: templates/settings/agent-add.hbs:144
+#: templates/settings/agent-update.hbs:68
+msgid "Agent Post Placeholder"
+msgstr "职位"
+
+#: templates/profile/profile-update.hbs:62
+#: templates/settings/agent-add.hbs:151
+#: templates/settings/agent-update.hbs:75
+msgid "Agent Remark Placeholder"
+msgstr "备注"
+
+#: templates/profile/reset-password.hbs:11
+msgid "Rest Password"
+msgstr "重置密码"
+
+#: templates/profile/reset-password.hbs:28
+#: templates/profile/reset-password.hbs:31
+#: templates/profile/update-password.hbs:8
+#: templates/settings/agent-add.hbs:70 templates/settings/agent-add.hbs:72
+msgid "Password"
+msgstr "密码"
+
+#: templates/profile/reset-password.hbs:36
+msgid "Passowrd required"
+msgstr "请输入正确的密码"
+
+#: templates/profile/reset-password.hbs:41
+msgid "password min error required"
+msgstr "密码由6-32位大小写字母、数字和符号组成"
+
+#: templates/profile/reset-password.hbs:46
+msgid "password max error required"
+msgstr "密码由6-32位大小写字母、数字和符号组成"
+
+#: templates/profile/reset-password.hbs:51
+#: templates/profile/reset-password.hbs:54
+#: templates/settings/agent-add.hbs:96 templates/settings/agent-add.hbs:98
+msgid "Confirm PD"
+msgstr "确认密码"
+
+#: templates/profile/reset-password.hbs:59
+#: templates/settings/agent-add.hbs:103
+msgid "confirmPassword required"
+msgstr "请输入正确的密码"
+
+#: templates/profile/reset-password.hbs:64
+#: templates/settings/agent-add.hbs:118
+msgid "confirmPasswordError required"
+msgstr "密码与确认密码不一致"
+
+#: templates/profile/update-password.hbs:3
+#: templates/profile/update-password.hbs:50
+msgid "Update password"
+msgstr "重置密码"
+
+#: templates/profile/update-password.hbs:11
+msgid "Password required"
+msgstr "请输入正确的密码"
+
+#: templates/profile/update-password.hbs:14
+#: templates/settings/agent-add.hbs:82
+#: templates/settings/agent-resetpassword.hbs:43
+msgid "password error required"
+msgstr "密码由6-32位大小写字母、数字和符号组成"
+
+#: templates/profile/update-password.hbs:17
+msgid "Password min error required"
+msgstr "密码由6-32位大小写字母、数字和符号组成"
+
+#: templates/profile/update-password.hbs:20
+msgid "Password max error required"
+msgstr "密码由6-32位大小写字母、数字和符号组成"
+
+#: templates/profile/update-password.hbs:23
+#: templates/settings/agent-resetpassword.hbs:31
+#: templates/settings/agent-resetpassword.hbs:33
+msgid "New password"
+msgstr "新密码"
+
+#: templates/profile/update-password.hbs:26
+#: templates/settings/agent-resetpassword.hbs:38
+msgid "New passowrd required"
+msgstr "请输入正确的密码"
+
+#: templates/profile/update-password.hbs:29
+#: templates/settings/agent-resetpassword.hbs:48
+msgid "new password min error required"
+msgstr "密码由6-32位大小写字母、数字和符号组成"
+
+#: templates/profile/update-password.hbs:32
+#: templates/settings/agent-resetpassword.hbs:53
+msgid "new password max error required"
+msgstr "密码由6-32位大小写字母、数字和符号组成"
+
+#: templates/profile/update-password.hbs:35
+#: templates/settings/agent-resetpassword.hbs:57
+#: templates/settings/agent-resetpassword.hbs:59
+msgid "Confirm password"
+msgstr "确认新密码"
+
+#: templates/profile/update-password.hbs:38
+#: templates/settings/agent-resetpassword.hbs:64
+msgid "Confirm Password required"
+msgstr "请输入正确的密码"
+
+#: templates/profile/update-password.hbs:41
+#: templates/settings/agent-resetpassword.hbs:79
+msgid "Confirm password Error required"
+msgstr "新密码与确认新密码不一致"
+
+#: templates/profile/update-password.hbs:44
+#: templates/settings/agent-add.hbs:108
+#: templates/settings/agent-resetpassword.hbs:69
+msgid "Confirm password min error required"
+msgstr "密码由6-32位大小写字母、数字和符号组成"
+
+#: templates/profile/update-password.hbs:47
+#: templates/settings/agent-add.hbs:113
+#: templates/settings/agent-resetpassword.hbs:74
+msgid "Confirm password max error required"
+msgstr "密码由6-32位大小写字母、数字和符号组成"
+
+#: templates/search/search-result-item.hbs:28
+#: templates/search/search-tickets-item.hbs:4
+#: templates/tickets/tickets-deleted-item.hbs:5
+#: templates/tickets/tickets-list-table-item.hbs:5
+msgid "From"
+msgstr "联系人"
+
+#: templates/search/search-result-item.hbs:28
+#: templates/search/search-tickets-item.hbs:4
+#: templates/tickets/tickets-deleted-item.hbs:6
+#: templates/tickets/tickets-list-table-item.hbs:6
+msgid "Create At"
+msgstr "创建于"
+
+#: templates/search/search-table.hbs:8 templates/search/search.hbs:42
+msgid "nowSearch"
+msgstr "拼命搜索中..."
+
+#: templates/search/search-table.hbs:11 templates/search/search.hbs:43
+msgid "noSearchResult"
+msgstr "当前没有搜索结果"
+
+#: templates/search/search.hbs:15
+msgid "all"
+msgstr "全部"
+
+#: templates/search/search.hbs:16
+msgid "contacts"
+msgstr "联系人"
+
+#: templates/search/search.hbs:17
+msgid "corporations"
+msgstr "公司"
+
+#: templates/search/search.hbs:18
+msgid "tickets"
+msgstr "工单"
+
+#: templates/search/search.hbs:38
+msgid "Priroity 20"
+msgstr "低"
+
+#: templates/search/search.hbs:39
+msgid "Priroity 40"
+msgstr "中"
+
+#: templates/search/search.hbs:40
+msgid "Priroity 60"
+msgstr "高"
+
+#: templates/search/search.hbs:41
+msgid "Priroity 80"
+msgstr "紧急"
+
+#: templates/settings/agent-add.hbs:7 templates/settings/agents.hbs:9
+msgid "Create Agent"
+msgstr "创建客服"
+
+#: templates/settings/agent-add.hbs:12
+msgid "Add agent title"
+msgstr "客服的创建和编辑"
+
+#: templates/settings/agent-add.hbs:34
+msgid "Agent User Name Placeholder"
+msgstr "请输入邮箱地址"
+
+#: templates/settings/agent-add.hbs:39
+msgid "UserName required"
+msgstr "请输入正确的邮箱地址"
+
+#: templates/settings/agent-add.hbs:44
+msgid "Invalidation UserName"
+msgstr "请输入正确的邮箱地址"
+
+#: templates/settings/agent-add.hbs:49
+msgid "Mail has been registered"
+msgstr "邮箱已被注册"
+
+#: templates/settings/agent-add.hbs:66
+msgid "Name error required"
+msgstr "请输入正确的姓名"
+
+#: templates/settings/agent-add.hbs:77
+msgid "password required"
+msgstr "请输入正确的密码"
+
+#: templates/settings/agent-add.hbs:87
+msgid "password length min"
+msgstr "密码由6-32位大小写字母、数字和符号组成"
+
+#: templates/settings/agent-add.hbs:92
+msgid "password length max error"
+msgstr "密码由6-32位大小写字母、数字和符号组成"
+
+#: templates/settings/agent-add.hbs:154
+msgid "Roles information"
+msgstr "角色信息"
+
+#: templates/settings/agent-add.hbs:156 templates/settings/agent-roles.hbs:77
+msgid "Agent Roles"
+msgstr "当前角色"
+
+#: templates/settings/agent-add.hbs:167
+msgid "Add agent help document"
+msgstr ""
+"<p>创建或者编辑客服都需要填写客服的基础信息，并且选择当前客服的角色，角色支"
+"持多选，例如，一个客服可以同时拥有管理员和质量检查两个角色。</p><p>目前无法"
+"修改客服的邮箱，我们将在之后添加客服邮箱的修改功能。</p>"
+
+#: templates/settings/agent-info.hbs:10 templates/settings/agent-update.hbs:7
+msgid "Update Agent"
+msgstr "编辑客服"
+
+#: templates/settings/agent-info.hbs:12
+#: templates/settings/role-administrator-info.hbs:143
+#: templates/settings/role-agent-info.hbs:148
+#: templates/settings/role-leader-info.hbs:148
+msgid "Reset password"
+msgstr "重置密码"
+
+#: templates/settings/agent-invitation.hbs:7
+msgid "Invitation Agents"
+msgstr "邀请客服"
+
+#: templates/settings/agent-invitation.hbs:12
+msgid "Tickets type configuration"
+msgstr "邀请客服"
+
+#: templates/settings/agent-invitation.hbs:21
+msgid "Invitation agents title"
+msgstr ""
+"添加团队成员的邮箱，邀请他们进入云客服系统。邮箱地址之间用逗号、分号、空格隔"
+"开。"
+
+#: templates/settings/agent-invitation.hbs:27
+msgid "Mail required"
+msgstr "请输入正确的邮箱地址"
+
+#: templates/settings/agent-invitation.hbs:32
+#: templates/settings/agent-invitation.hbs:39
+msgid "Mail"
+msgstr "邮箱"
+
+#: templates/settings/agent-invitation.hbs:34
+msgid "Mail error required"
+msgstr "格式错误"
+
+#: templates/settings/agent-invitation.hbs:41
+msgid "Mail repeat required"
+msgstr "重复"
+
+#: templates/settings/agent-invitation.hbs:46
+msgid "Mail max required"
+msgstr "每次最多可邀请10个客服"
+
+#: templates/settings/agent-invitation.hbs:51
+msgid "Send invitation email"
+msgstr "发送邀请邮件"
+
+#: templates/settings/agent-invitation.hbs:55
+msgid "Tickets type configuration help document"
+msgstr ""
+"<p>您可以在这里同时邀请一个或者多个客服，输入客服的邮箱地址（邀请多个时通"
+"过“，”“；”“空格”区分），点击发送邀请，被邀请的客服即会收到您的邀请邮件，通过"
+"邮件链接激活自己的登录权限。</p><p>被邀请的客服默认角色为“客服”角色，如果需"
+"要修改权限，请管理员通过“配置->客服”修改客服的角色。</p>"
+
+#: templates/settings/agent-resetpassword.hbs:7
+msgid "Reset Password"
+msgstr "重置密码"
+
+#: templates/settings/agent-resetpassword.hbs:12
+msgid "Resetpassword agent title"
+msgstr "客服的重置密码"
+
+#: templates/settings/agent-resetpassword.hbs:90
+msgid "Resetpassword agent help document"
+msgstr ""
+"当您的客服忘记自己的密码时，作为管理员，您可以重置客服的密码，当重置成功后，"
+"我们将通过邮件的形式，提醒客服新的密码已经重置成功并且生效。同时客服也可以通"
+"过登录页面进行忘记密码的操作，来进行密码的找回。"
+
+#: templates/settings/agent-roles.hbs:7
+msgid "Agent roles configure"
+msgstr "配置客服角色"
+
+#: templates/settings/agent-roles.hbs:12
+msgid "Agent roles configure title"
+msgstr "配置客服角色"
+
+#: templates/settings/agent-roles.hbs:75
+msgid "Configure Roles"
+msgstr "配置角色"
+
+#: templates/settings/agent-roles.hbs:92
+#: templates/settings/role-leader-info.hbs:9
+#: templates/settings/role-list.hbs:5
+msgid "Leader"
+msgstr "班长"
+
+#: templates/settings/agent-roles.hbs:102
+msgid "Administrator"
+msgstr "管理员"
+
+#: templates/settings/agent-roles.hbs:105
+msgid "roles title"
+msgstr "勾选所需要的角色，支持多选"
+
+#: templates/settings/agent-roles.hbs:112
+msgid "Agent roles configure document"
+msgstr ""
+"云客服提供方便的客服角色配置功能，您可以对客服进行角色的变更，一个客服可以同"
+"时具备多个角色，例如您可以让客服同时具备管理员和普通客服两个角色，这样这个客"
+"服既可以进行工单的处理，又可以查看报表或操作云客服的高级配置。"
+
+#: templates/settings/agent-ticket-list-table.hbs:4
+msgid "Non Items Tickets"
+msgstr "当前客服没有工单"
+
+#: templates/settings/agent-tickets-item.hbs:3
+msgid "Come From"
+msgstr "联系人"
+
+#: templates/settings/agent-update.hbs:12
+msgid "Update agent title"
+msgstr "客服的创建和编辑"
+
+#: templates/settings/agent-update.hbs:92
+msgid "Update agent help document"
+msgstr ""
+"<p>创建或者编辑客服都需要填写客服的基础信息，并且选择当前客服的角色，角色支"
+"持多选，例如，一个客服可以同时拥有管理员和质量检查两个角色。</p><p>目前无法"
+"修改客服的邮箱，我们将在之后添加客服邮箱的修改功能。</p>"
+
+#: templates/settings/agents-delete-confirm.hbs:5
+msgid "Confirm"
+msgstr "提示"
+
+#: templates/settings/agents-delete-confirm.hbs:8
+msgid "Delete Agents?"
+msgstr "确定删除当前客服？"
+
+#: templates/settings/agents-item.hbs:18 templates/settings/index.hbs:72
+#: templates/settings/role.hbs:7
+msgid "Roles"
+msgstr "角色"
+
+#: templates/settings/agents-table.hbs:7
+msgid "Non Items Agents"
+msgstr "当前没有客服"
+
+#: templates/settings/agents-trash.hbs:7
+msgid "Trash Agents"
+msgstr "已删除客服"
+
+#: templates/settings/agents-trash.hbs:12
+msgid "Trash agents title"
+msgstr "客服的管理"
+
+#: templates/settings/agents-trash.hbs:25
+#: templates/settings/agents-trash.hbs:30 templates/settings/agents.hbs:51
+msgid "Deleted Agents"
+msgstr "已删除客服"
+
+#: templates/settings/agents-trash.hbs:29 templates/settings/agents.hbs:46
+#: templates/settings/agents.hbs:50
+msgid "All Agents"
+msgstr "全部客服"
+
+#: templates/settings/agents-trash.hbs:47
+msgid "Trash agents help document"
+msgstr ""
+"您可以在这里查看客服的基础信息，对客服的信息进行修改，如果您的客服已经不在服"
+"务的部门或者离职，您还可以对这个客服进行删除，被删除的客服将可以通过被删除的"
+"客服列表进行查看，但在这个客服被恢复之前，无法再将工单指派给这个客服。"
+
+#: templates/settings/agents.hbs:8
+msgid "Invitation Agent"
+msgstr "邀请客服"
+
+#: templates/settings/agents.hbs:11 templates/settings/index.hbs:59
+#: templates/settings/role-list.hbs:4
+#: templates/tickets/tickets-list-filter.hbs:28
+msgid "Agents"
+msgstr "客服"
+
+#: templates/settings/agents.hbs:16
+msgid "Agent title"
+msgstr "客服的管理"
+
+#: templates/settings/agents.hbs:30 templates/settings/agents.hbs:34
+#: templates/tickets/tickets-list.hbs:15
+#: templates/tickets/tickets-list.hbs:19
+msgid "Create Time"
+msgstr "创建时间"
+
+#: templates/settings/agents.hbs:37 templates/tickets/tickets-list.hbs:22
+msgid "Asc"
+msgstr "升序"
+
+#: templates/settings/agents.hbs:38 templates/tickets/tickets-list.hbs:23
+msgid "Desc"
+msgstr "降序"
+
+#: templates/settings/agents.hbs:60
+msgid "Agent help document"
+msgstr ""
+"您可以在这里查看客服的基础信息，对客服的信息进行修改，如果您的客服已经不在服"
+"务的部门或者离职，您还可以对这个客服进行删除，被删除的客服将可以通过被删除的"
+"客服列表进行查看，但在这个客服被恢复之前，无法再将工单指派给这个客服。"
+
+#: templates/settings/general.hbs:7 templates/settings/index.hbs:20
+msgid "General"
+msgstr "基础配置"
+
+#: templates/settings/general.hbs:12
+msgid "General title"
+msgstr "定制您的云客服"
+
+#: templates/settings/general.hbs:22
+msgid "Global Title"
+msgstr "公司名称"
+
+#: templates/settings/general.hbs:29
+msgid "General Settings Title Required"
+msgstr "请输入正确的公司名称"
+
+#: templates/settings/general.hbs:34
+msgid "Logo"
+msgstr "公司logo"
+
+#: templates/settings/general.hbs:43
+msgid "Upload image title"
+msgstr "仅支持512k以内的jpg、gif、png格式图片"
+
+#: templates/settings/general.hbs:47 templates/settings/general.hbs:49
+msgid "Logo Anchor"
+msgstr "logo链接地址"
+
+#: templates/settings/general.hbs:54
+msgid "home anchor error, example: http://yourcompany.com"
+msgstr "请输入正确的Logo链接地址，示例: http://yourdomain.yunkefu.com"
+
+#: templates/settings/general.hbs:74
+msgid "General help document"
+msgstr ""
+"<p>在这里，您可以自由的定制您的云客服系统，为客户和客服人员提供个性化的登录"
+"界面。您可以使用公司的logo、名称，让您的云客服与众不同。</p><p>我们将会陆续"
+"开放更多的基础配置功能，例如个性化的云客服系统颜色搭配、时区、语言等。</p>"
+
+#: templates/settings/group-add.hbs:7 templates/settings/group.hbs:8
+msgid "Create Group"
+msgstr "创建组"
+
+#: templates/settings/group-add.hbs:12
+msgid "Add group title"
+msgstr "组的管理"
+
+#: templates/settings/group-add.hbs:22 templates/settings/group-add.hbs:24
+#: templates/settings/group-update.hbs:22
+#: templates/settings/group-update.hbs:24
+msgid "Group Name"
+msgstr "组名称"
+
+#: templates/settings/group-add.hbs:29 templates/settings/group-update.hbs:29
+msgid "Invalid Group Name"
+msgstr "请输入正确的组名称"
+
+#: templates/settings/group-add.hbs:34 templates/settings/group-update.hbs:34
+msgid "Group Already Exists"
+msgstr "该组已存在"
+
+#: templates/settings/group-add.hbs:55
+msgid "Add group help document"
+msgstr ""
+"<p>您可以把客服分为不同的组，如“销售”和“产品管理”组。分组有助于指派工单、创"
+"建自动回复模板、管理工作流并生成组相关的报表。一个客服可以是多个组的成员。</"
+"p><p>按照您的业务模式建立相应的组，有助于客服处理工单时更方便、准确的将工单"
+"转派给相应的处理人员或部门。</p>"
+
+#: templates/settings/group-animatePrompt.hbs:5
+#: templates/settings/group-confirm.hbs:5
+msgid "Tips"
+msgstr "确定删除选中的组？"
+
+#: templates/settings/group-confirm.hbs:8
+msgid "Confirm Delete Group"
+msgstr "被删除的组所对应的工单将继续保留，并且可以手动指派到其他组下。"
+
+#: templates/settings/group-confirm.hbs:11
+msgid "Ok"
+msgstr "确定"
+
+#: templates/settings/group-list.hbs:9
+msgid "Non Groups Items"
+msgstr "当前没有组"
+
+#: templates/settings/group-update.hbs:7
+msgid "Update Group"
+msgstr "编辑组"
+
+#: templates/settings/group-update.hbs:12
+msgid "Update group title"
+msgstr "组的管理"
+
+#: templates/settings/group-update.hbs:56
+msgid "Update group help document"
+msgstr ""
+"<p>您可以把客服分为不同的组，如“销售”和“产品管理”组。分组有助于指派工单、创"
+"建自动回复模板、管理工作流并生成组相关的报表。一个客服可以是多个组的成员。</"
+"p><p>按照您的业务模式建立相应的组，有助于客服处理工单时更方便、准确的将工单"
+"转派给相应的处理人员或部门。</p>"
+
+#: templates/settings/group.hbs:10 templates/settings/index.hbs:113
+#: templates/settings/role-administrator-info.hbs:148
+#: templates/settings/role-agent-info.hbs:153
+#: templates/settings/role-leader-info.hbs:153
+#: templates/tickets/tickets-add.hbs:70
+#: templates/tickets/tickets-detail.hbs:82
+#: templates/tickets/tickets-list-filter.hbs:19
+#: templates/tickets/tickets-update.hbs:66
+msgid "Group"
+msgstr "组"
+
+#: templates/settings/group.hbs:15
+msgid "Group title"
+msgstr "组的管理"
+
+#: templates/settings/group.hbs:30
+msgid "Group help document"
+msgstr ""
+"<p>您可以把客服分为不同的组，如“销售”和“产品管理”组。分组有助于指派工单、创"
+"建自动回复模板、管理工作流并生成组相关的报表。一个客服可以是多个组的成员。</"
+"p><p>按照您的业务模式建立相应的组，有助于客服处理工单时更方便、准确的将工单"
+"转派给相应的处理人员或部门。</p>"
+
+#: templates/settings/index.hbs:12
+msgid "Setting title"
+msgstr "配置"
+
+#: templates/settings/index.hbs:31
+msgid "Settings HelpDesk Configuration"
+msgstr "公司信息"
+
+#: templates/settings/index.hbs:86
+msgid "SLA Policy"
+msgstr "SLA 策略"
+
+#: templates/settings/index.hbs:99
+msgid "Business Times"
+msgstr "工作时间"
+
+#: templates/settings/index.hbs:119
+msgid "Settings Connect Configuration"
+msgstr "接入"
+
+#: templates/settings/index.hbs:130
+msgid "Settings Connect Title"
+msgstr "微信客服"
+
+#: templates/settings/index.hbs:143
+msgid "Settings connect mail"
+msgstr "邮件"
+
+#: templates/settings/index.hbs:149
+msgid "Settings Ticket Types Configuration"
+msgstr "业务参数"
+
+#: templates/settings/index.hbs:160
+msgid "Settings Ticket Types Title"
+msgstr "工单类型配置"
+
+#: templates/settings/index.hbs:173
+msgid "Settings sla rule"
+msgstr "SLA设置"
+
+#: templates/settings/index.hbs:179
+msgid "Setting help docunment"
+msgstr ""
+"<p>配置功能是您企业的高级功能，您可以在这里个性化的设置自己的云客服基础信"
+"息、管理您的客服和组、自定义角色、定制符合自身公司流程的工单内容等。</p><p>"
+"配置功能属于高级功能，不建议过多的角色具备配置权限，以免造成流程的混乱，请管"
+"理员妥善分配公司具备配置功能的角色。</p>"
+
+#: templates/settings/mail-list.hbs:8
+msgid "Default mail"
+msgstr "默认邮箱"
+
+#: templates/settings/mail-list.hbs:9 templates/settings/mail-list.hbs:13
+msgid "Default email"
+msgstr ""
+
+#: templates/settings/mail-list.hbs:12
+msgid "Forward to"
+msgstr "转发至"
+
+#: templates/settings/mail.hbs:10
+msgid "Setting mail"
+msgstr "邮箱设置"
+
+#: templates/settings/mail.hbs:15
+msgid "Mail title"
+msgstr ""
+
+#: templates/settings/mail.hbs:30
+msgid "Mail help document"
+msgstr ""
+
+#: templates/settings/role-administrator-info.hbs:2
+#: templates/settings/role-agent-info.hbs:2
+#: templates/settings/role-leader-info.hbs:2
+msgid "Role alert"
+msgstr "这是一个默认的系统角色，无法编辑或删除，您可以查看其具备的权限。"
+
+#: templates/settings/role-administrator-info.hbs:7
+#: templates/settings/role-agent-info.hbs:7
+#: templates/settings/role-leader-info.hbs:7
+msgid "Definition"
+msgstr "名称"
+
+#: templates/settings/role-administrator-info.hbs:7
+msgid "Super admin"
+msgstr "超级管理员"
+
+#: templates/settings/role-administrator-info.hbs:8
+#: templates/settings/role-agent-info.hbs:13
+#: templates/settings/role-agent-info.hbs:15
+#: templates/settings/role-leader-info.hbs:13
+#: templates/settings/role-leader-info.hbs:15
+msgid "Describe"
+msgstr "描述"
+
+#: templates/settings/role-administrator-info.hbs:8
+msgid "Role description"
+msgstr ""
+"最高权限，可以对客户和工单执行操作，也可以执行高级配置、管理客服、查看报表等"
+"操作。"
+
+#: templates/settings/role-administrator-info.hbs:12
+#: templates/settings/role-agent-info.hbs:21
+#: templates/settings/role-leader-info.hbs:21
+msgid "Authority"
+msgstr "权限"
+
+#: templates/settings/role-administrator-info.hbs:19
+#: templates/settings/role-agent-info.hbs:27
+#: templates/settings/role-leader-info.hbs:27
+msgid "Scroll to"
+msgstr "移动到"
+
+#: templates/settings/role-administrator-info.hbs:21
+#: templates/settings/role-administrator-info.hbs:73
+#: templates/settings/role-agent-info.hbs:29
+#: templates/settings/role-agent-info.hbs:79
+#: templates/settings/role-leader-info.hbs:29
+#: templates/settings/role-leader-info.hbs:79
+msgid "Customer"
+msgstr "客户"
+
+#: templates/settings/role-administrator-info.hbs:22
+#: templates/settings/role-administrator-info.hbs:105
+#: templates/settings/role-agent-info.hbs:30
+#: templates/settings/role-agent-info.hbs:111
+#: templates/settings/role-leader-info.hbs:30
+#: templates/settings/role-leader-info.hbs:111
+msgid "Report form"
+msgstr "统计"
+
+#: templates/settings/role-administrator-info.hbs:23
+#: templates/settings/role-administrator-info.hbs:116
+#: templates/settings/role-agent-info.hbs:31
+#: templates/settings/role-agent-info.hbs:121
+#: templates/settings/role-leader-info.hbs:31
+#: templates/settings/role-leader-info.hbs:121
+msgid "Configure"
+msgstr "配置"
+
+#: templates/settings/role-administrator-info.hbs:34
+#: templates/settings/role-agent-info.hbs:42
+#: templates/settings/role-leader-info.hbs:42
+msgid "Check tickets"
+msgstr "查看工单"
+
+#: templates/settings/role-administrator-info.hbs:38
+#: templates/settings/role-agent-info.hbs:46
+#: templates/settings/role-leader-info.hbs:46
+msgid "Add tickets"
+msgstr "新建工单"
+
+#: templates/settings/role-administrator-info.hbs:43
+#: templates/settings/role-agent-info.hbs:51
+#: templates/settings/role-leader-info.hbs:51
+msgid "Update tickets"
+msgstr "编辑工单"
+
+#: templates/settings/role-administrator-info.hbs:48
+#: templates/settings/role-agent-info.hbs:56
+#: templates/settings/role-leader-info.hbs:56
+msgid "Delete tickets"
+msgstr "删除工单"
+
+#: templates/settings/role-administrator-info.hbs:53
+#: templates/settings/role-agent-info.hbs:61
+#: templates/settings/role-leader-info.hbs:61
+msgid "Add remark"
+msgstr "添加备注"
+
+#: templates/settings/role-administrator-info.hbs:58
+#: templates/settings/role-agent-info.hbs:66
+#: templates/settings/role-leader-info.hbs:66
+msgid "Update remark"
+msgstr "编辑备注"
+
+#: templates/settings/role-administrator-info.hbs:63
+#: templates/settings/role-agent-info.hbs:71
+#: templates/settings/role-leader-info.hbs:71
+msgid "Delete remark"
+msgstr "删除备注"
+
+#: templates/settings/role-administrator-info.hbs:77
+#: templates/settings/role-agent-info.hbs:83
+#: templates/settings/role-leader-info.hbs:83
+msgid "Check contacts"
+msgstr "查看联系人"
+
+#: templates/settings/role-administrator-info.hbs:80
+#: templates/settings/role-agent-info.hbs:86
+#: templates/settings/role-leader-info.hbs:86
+msgid "Check company"
+msgstr "查看公司"
+
+#: templates/settings/role-administrator-info.hbs:83
+#: templates/settings/role-agent-info.hbs:89
+#: templates/settings/role-leader-info.hbs:89
+msgid "Add customers"
+msgstr "添加联系人"
+
+#: templates/settings/role-administrator-info.hbs:86
+#: templates/settings/role-agent-info.hbs:92
+#: templates/settings/role-leader-info.hbs:92
+msgid "Add company"
+msgstr "添加公司"
+
+#: templates/settings/role-administrator-info.hbs:89
+#: templates/settings/role-agent-info.hbs:95
+#: templates/settings/role-leader-info.hbs:95
+msgid "Update customers"
+msgstr "编辑联系人"
+
+#: templates/settings/role-administrator-info.hbs:92
+#: templates/settings/role-agent-info.hbs:98
+#: templates/settings/role-leader-info.hbs:98
+msgid "Update company"
+msgstr "编辑公司"
+
+#: templates/settings/role-administrator-info.hbs:95
+#: templates/settings/role-agent-info.hbs:101
+#: templates/settings/role-leader-info.hbs:101
+msgid "Delete customers"
+msgstr "删除联系人"
+
+#: templates/settings/role-administrator-info.hbs:98
+#: templates/settings/role-agent-info.hbs:104
+#: templates/settings/role-leader-info.hbs:104
+msgid "Delete company"
+msgstr "删除公司"
+
+#: templates/settings/role-administrator-info.hbs:109
+#: templates/settings/role-agent-info.hbs:115
+#: templates/settings/role-leader-info.hbs:115
+msgid "Check report from"
+msgstr "查看报表"
+
+#: templates/settings/role-administrator-info.hbs:120
+#: templates/settings/role-agent-info.hbs:125
+#: templates/settings/role-leader-info.hbs:125
+msgid "Basic configuration"
+msgstr "基础配置"
+
+#: templates/settings/role-administrator-info.hbs:123
+#: templates/settings/role-agent-info.hbs:128
+#: templates/settings/role-leader-info.hbs:128
+msgid "Configure company name"
+msgstr "配置公司名称"
+
+#: templates/settings/role-administrator-info.hbs:126
+#: templates/settings/role-agent-info.hbs:131
+#: templates/settings/role-leader-info.hbs:131
+msgid "Configure company logo and link address"
+msgstr "配置公司logo及链接地址"
+
+#: templates/settings/role-administrator-info.hbs:134
+#: templates/settings/role-agent-info.hbs:139
+#: templates/settings/role-leader-info.hbs:139
+msgid "Add agent"
+msgstr "创建客服"
+
+#: templates/settings/role-administrator-info.hbs:137
+#: templates/settings/role-agent-info.hbs:142
+#: templates/settings/role-leader-info.hbs:142
+msgid "Update agent"
+msgstr "编辑客服"
+
+#: templates/settings/role-administrator-info.hbs:140
+#: templates/settings/role-agent-info.hbs:145
+#: templates/settings/role-leader-info.hbs:145
+msgid "Delete agent"
+msgstr "删除客服"
+
+#: templates/settings/role-administrator-info.hbs:151
+#: templates/settings/role-agent-info.hbs:156
+#: templates/settings/role-leader-info.hbs:156
+msgid "Add group"
+msgstr "创建组"
+
+#: templates/settings/role-administrator-info.hbs:154
+#: templates/settings/role-agent-info.hbs:159
+#: templates/settings/role-leader-info.hbs:159
+msgid "Update group"
+msgstr "编辑组"
+
+#: templates/settings/role-administrator-info.hbs:157
+#: templates/settings/role-agent-info.hbs:162
+#: templates/settings/role-leader-info.hbs:162
+msgid "Delete group"
+msgstr "删除组"
+
+#: templates/settings/role-administrator-info.hbs:162
+#: templates/settings/role-agent-info.hbs:167
+#: templates/settings/role-leader-info.hbs:167
+msgid "Role"
+msgstr "角色"
+
+#: templates/settings/role-administrator-info.hbs:165
+#: templates/settings/role-agent-info.hbs:170
+#: templates/settings/role-leader-info.hbs:170
+msgid "Check roles info"
+msgstr "查看角色详情"
+
+#: templates/settings/role-administrator-info.hbs:170
+#: templates/settings/role-agent-info.hbs:175
+#: templates/settings/role-leader-info.hbs:175
+msgid "ticket types"
+msgstr "工单类型"
+
+#: templates/settings/role-administrator-info.hbs:173
+#: templates/settings/role-agent-info.hbs:178
+#: templates/settings/role-leader-info.hbs:178
+msgid "configure ticket types"
+msgstr "配置工单类型"
+
+#: templates/settings/role-agent-info.hbs:9
+msgid "Agent name"
+msgstr "客服"
+
+#: templates/settings/role-agent-info.hbs:15
+msgid "Agent description"
+msgstr "受理客户诉求的权限，可以对客户和工单等执行操作。"
+
+#: templates/settings/role-info.hbs:7
+msgid "Roles detail"
+msgstr "角色详情"
+
+#: templates/settings/role-info.hbs:12
+msgid "Info role title"
+msgstr "默认的角色"
+
+#: templates/settings/role-info.hbs:25
+msgid "Info role help document"
+msgstr ""
+"<p>云客服提供的默认角色，您可以在这里查看默认的角色具备的功能和权限，但不能"
+"修改默认角色的权限，如果您需要自定义您的角色，可以点击管理-角色，进行角色的"
+"添加和编辑非默认的角色。</p><p>您可以设定一个客服同时拥有多个角色。</p>"
+
+#: templates/settings/role-leader-info.hbs:15
+#: templates/settings/role-list.hbs:5
+msgid "Leader Description"
+msgstr ""
+"受理客户诉求及查看统计报表的权限，可以对客户和工单等执行操作，同时可以查看客"
+"服人员的工作情况。"
+
+#: templates/settings/role-list.hbs:3
+msgid "Administrators"
+msgstr "超级管理员"
+
+#: templates/settings/role-list.hbs:3
+msgid "Administrators Description"
+msgstr ""
+"最高权限，可以对客户和工单执行操作，也可以执行高级配置、管理客服、查看报表等"
+"操作。"
+
+#: templates/settings/role-list.hbs:4
+msgid "Agents Description"
+msgstr "受理客户诉求的权限，可以对客户和工单等执行操作。"
+
+#: templates/settings/role.hbs:12
+msgid "Role title"
+msgstr "角色的管理"
+
+#: templates/settings/role.hbs:27
+msgid "Role help document"
+msgstr ""
+"<p>角色帮助您创建和编辑客服访问云客服的权限。您可以创建新的角色，定义具有相"
+"应角色的客服能够在云客服中执行的动作，并在创建或者编辑客服的时候确定客服的角"
+"色。</p><p>例如，您可以创建一个名为“统计分析”的角色，允许其查看报表，但不允"
+"许他管理云客服的高级配置。</p><p>创建角色后，即可点击管理-客服，把角色指派给"
+"相应的客服。</p>"
+
+#: templates/settings/sla-list.hbs:5 templates/tickets/tickets-add.hbs:60
+#: templates/tickets/tickets-detail.hbs:61
+#: templates/tickets/tickets-list-filter.hbs:65
+#: templates/tickets/tickets-list-table-item.hbs:42
+#: templates/tickets/tickets-list.hbs:20
+#: templates/tickets/tickets-update.hbs:56
+msgid "Priority"
+msgstr "优先级"
+
+#: templates/settings/sla-list.hbs:8
+msgid "To solve in a given period of time"
+msgstr "在以下规定时间内解决"
+
+#: templates/settings/sla-list.hbs:11
+msgid "Service time"
+msgstr "服务时间"
+
+#: templates/settings/sla-list.hbs:18
+msgid "Emergency"
+msgstr "紧急"
+
+#: templates/settings/sla-list.hbs:23 templates/settings/sla-list.hbs:39
+#: templates/settings/sla-list.hbs:55 templates/settings/sla-list.hbs:71
+msgid "Day(s)"
+msgstr "天"
+
+#: templates/settings/sla-list.hbs:28 templates/settings/sla-list.hbs:44
+#: templates/settings/sla-list.hbs:60 templates/settings/sla-list.hbs:76
+msgid "Calendar Time"
+msgstr "自然日"
+
+#: templates/settings/sla-list.hbs:34
+msgid "High"
+msgstr "高"
+
+#: templates/settings/sla-list.hbs:50
+msgid "Middle"
+msgstr "中"
+
+#: templates/settings/sla-list.hbs:66
+msgid "Low"
+msgstr "低"
+
+#: templates/settings/sla.hbs:7
+msgid "Sla service level strategy"
+msgstr "SLA服务水平策略"
+
+#: templates/settings/sla.hbs:12
+msgid "Setting tickets types"
+msgstr "服务级别协议"
+
+#: templates/settings/sla.hbs:27
+msgid "Setting tickets types document"
+msgstr ""
+"<p>服务级别协议(SLA)是指服务支持团队与客户就服务的品质、水准、及时性等方面所"
+"达成的双方共同认可的协议。<p><p>云客服使用SLA确定每个工单的“到期”时间，您需"
+"要在到期时间之前“关闭”工单，以避免逾期工单出现。<p><p>在您设定工单优先级的时"
+"候，系统自动根据优先级设定工单的到期时间，具体规则：  •优先级低：5天  •优先"
+"级中：3天  •优先级高：2天  •优先级紧急：1天<p><p>如果以上规则不能达到您的要"
+"求，还可以在工单详情页面上修改工单的具体到期时间。<p>"
+
+#: templates/settings/ticket-types.hbs:7
+msgid "Ticket types"
+msgstr "工单类型配置"
+
+#: templates/settings/ticket-types.hbs:12
+msgid "Ticket types Title"
+msgstr "工单类型配置"
+
+#: templates/settings/ticket-types.hbs:23
+msgid "Ticket types options"
+msgstr "类型选项"
+
+#: templates/settings/ticket-types.hbs:30
+msgid "down"
+msgstr "向下移动"
+
+#: templates/settings/ticket-types.hbs:31
+msgid "Up"
+msgstr "向上移动"
+
+#: templates/settings/ticket-types.hbs:36
+msgid "Add one Ticket types"
+msgstr "添加新的选项"
+
+#: templates/settings/ticket-types.hbs:39
+msgid "Back"
+msgstr "返回"
+
+#: templates/settings/ticket-types.hbs:47
+msgid "Ticket types help document"
+msgstr ""
+"<p>云客服默认的工单类型，可以在这里进行调整，您可以按照业务需要，配置符合自"
+"己实际业务的工单类型，在这里您可以任意修改，删除多余的类型，或者添加新的类"
+"型。</p><p>需要注意的是，工单类型至少需要保留一个，以便客服在实际创建工单时"
+"可选择，类型配置成功后，已经保存的工单，之前的类型仍然可以查看到，但修改类型"
+"时只能选择新的类型。</p>"
+
+#: templates/statistics/agent-reports-table.hbs:6
+msgid "Create tickets num"
+msgstr "创建"
+
+#: templates/statistics/agent-reports-table.hbs:7
+msgid "Processing tickets num"
+msgstr "处理中"
+
+#: templates/statistics/agent-reports-table.hbs:8
+msgid "Wait for reply tickets num"
+msgstr "等待回复"
+
+#: templates/statistics/agent-reports-table.hbs:9
+msgid " Resolved tickets num"
+msgstr "已解决"
+
+#: templates/statistics/agent-reports-table.hbs:10
+msgid "Closed tickets num"
+msgstr "已关闭"
+
+#: templates/statistics/agent-reports-table.hbs:15
+msgid "total"
+msgstr "合计"
+
+#: templates/statistics/agent-reports-table.hbs:24
+msgid "Non Items Statistics Data"
+msgstr "当前日期内无数据，请重新选择日期"
+
+#: templates/statistics/agent-reports.hbs:6
+#: templates/statistics/statistics.hbs:30
+msgid "Agent tickets summary"
+msgstr "客服工单汇总表"
+
+#: templates/statistics/agent-selected-day.hbs:3
+msgid "Select the time zone"
+msgstr "选择工单创建时间"
+
+#: templates/statistics/agent-selected-day.hbs:10
+msgid "Yesterday"
+msgstr "昨天"
+
+#: templates/statistics/agent-selected-day.hbs:11
+msgid "The last three days"
+msgstr "最近3天"
+
+#: templates/statistics/agent-selected-day.hbs:12
+msgid "The last five days"
+msgstr "最近5天"
+
+#: templates/statistics/agent-selected-day.hbs:13
+msgid "The last seven days"
+msgstr "最近7天"
+
+#: templates/statistics/agent-selected-day.hbs:14
+msgid "The last fifteen days"
+msgstr "最近15天"
+
+#: templates/statistics/agent-selected-day.hbs:15
+msgid "The last thirty days"
+msgstr "最近30天"
+
+#: templates/statistics/agent-selected-day.hbs:21
+msgid "selectedMethod required"
+msgstr "选择统计方式"
+
+#: templates/statistics/agent-selected-day.hbs:25
+msgid "Display Report"
+msgstr "开始统计"
+
+#: templates/statistics/statistics.hbs:7
+msgid "Reports summary"
+msgstr "统计"
+
+#: templates/statistics/statistics.hbs:12
+msgid "Reports summary title"
+msgstr "统计报表"
+
+#: templates/statistics/statistics.hbs:36
+msgid "Reports summary help document"
+msgstr ""
+"<p>报表可以最真实的反应出当前您的云客服平台经营情况，云客服提供整体平台的工"
+"单情况汇总表、客服工单的汇总表、组工单的汇总表等，帮助您分析您的服务水平现"
+"状。</p><p>例如，如果处理中的工单数量过多，可能反映出您的服务效率需要适当提"
+"升。是否可以通过优化服务流程、系统的培训服务人员，从而提高服务效率，提升客户"
+"的满意度。</p>"
+
+#: templates/tickets/ticket-attachment.hbs:3
+msgid "Ticket Attachment:"
+msgstr "工单附件"
+
+#: templates/tickets/ticket-attachment.hbs:3
+msgid "Click Download Attachment"
+msgstr "点击下载附件"
+
+#: templates/tickets/ticket-attachment.hbs:4
+msgid "Remove Attachment"
+msgstr "删除附件"
+
+#: templates/tickets/tickets-add.hbs:7
+msgid "Commit Ticket"
+msgstr "新建工单"
+
+#: templates/tickets/tickets-add.hbs:12
+msgid "Add ticket title"
+msgstr "工单的提交"
+
+#: templates/tickets/tickets-add.hbs:23
+#: templates/tickets/tickets-update.hbs:23
+msgid "Search Requester"
+msgstr "搜索联系人"
+
+#: templates/tickets/tickets-add.hbs:23
+msgid "or"
+msgstr "或"
+
+#: templates/tickets/tickets-add.hbs:23
+#: templates/tickets/tickets-update.hbs:23
+msgid "add new requester"
+msgstr "新建联系人"
+
+#: templates/tickets/tickets-add.hbs:26
+#: templates/tickets/tickets-update.hbs:27
+msgid "Requester Request"
+msgstr "请输入正确的联系人"
+
+#: templates/tickets/tickets-add.hbs:31 templates/tickets/tickets-add.hbs:33
+#: templates/tickets/tickets-update.hbs:33
+msgid "Subject"
+msgstr "主题"
+
+#: templates/tickets/tickets-add.hbs:34
+#: templates/tickets/tickets-update.hbs:36
+msgid "Subject Can Not Be Null"
+msgstr "请输入正确的主题"
+
+#: templates/tickets/tickets-add.hbs:35
+#: templates/tickets/tickets-update.hbs:37
+msgid "Too Many Words"
+msgstr "输入内容过长"
+
+#: templates/tickets/tickets-add.hbs:40
+#: templates/tickets/tickets-detail.hbs:45
+#: templates/tickets/tickets-list-filter.hbs:83
+#: templates/tickets/tickets-update.hbs:42
+msgid "Type"
+msgstr "类型"
+
+#: templates/tickets/tickets-add.hbs:49
+#: templates/tickets/tickets-list-table-item.hbs:31
+msgid "Ticket State"
+msgstr "状态"
+
+#: templates/tickets/tickets-add.hbs:63
+#: templates/tickets/tickets-detail.hbs:64
+#: templates/tickets/tickets-list-filter.hbs:68
+#: templates/tickets/tickets-list-table-item.hbs:46
+#: templates/tickets/tickets-update.hbs:59
+msgid "Priority 20"
+msgstr "低"
+
+#: templates/tickets/tickets-add.hbs:64
+#: templates/tickets/tickets-detail.hbs:65
+#: templates/tickets/tickets-list-filter.hbs:71
+#: templates/tickets/tickets-list-table-item.hbs:47
+#: templates/tickets/tickets-update.hbs:60
+msgid "Priority 40"
+msgstr "中"
+
+#: templates/tickets/tickets-add.hbs:65
+#: templates/tickets/tickets-detail.hbs:66
+#: templates/tickets/tickets-list-filter.hbs:74
+#: templates/tickets/tickets-list-table-item.hbs:48
+#: templates/tickets/tickets-update.hbs:61
+msgid "Priority 60"
+msgstr "高"
+
+#: templates/tickets/tickets-add.hbs:66
+#: templates/tickets/tickets-detail.hbs:67
+#: templates/tickets/tickets-list-filter.hbs:77
+#: templates/tickets/tickets-list-table-item.hbs:49
+#: templates/tickets/tickets-update.hbs:62
+msgid "Priority 80"
+msgstr "紧急"
+
+#: templates/tickets/tickets-add.hbs:82
+#: templates/tickets/tickets-update.hbs:78
+msgid "Assignee Agent"
+msgstr "客服"
+
+#: templates/tickets/tickets-add.hbs:98
+#: templates/tickets/tickets-flow-conversition.hbs:72
+#: templates/tickets/tickets-flow.hbs:76
+#: templates/tickets/tickets-update.hbs:96
+msgid "Description length exceeds the allowable limit"
+msgstr "输入内容过长"
+
+#: templates/tickets/tickets-add.hbs:108
+#: templates/tickets/tickets-update.hbs:107
+msgid "Upload file title"
+msgstr ""
+"仅支持2M以内的文本、音频、图片、压缩等格式的文件，上传文件数量不能超过5个"
+
+#: templates/tickets/tickets-add.hbs:120
+msgid "Save And Close"
+msgstr "保存并关闭"
+
+#: templates/tickets/tickets-add.hbs:122
+msgid "Save And Continue"
+msgstr "保存并继续"
+
+#: templates/tickets/tickets-add.hbs:129
+msgid "Add ticket help document"
+msgstr ""
+"<p>客户的诉求，可以通过工单的方式进行记录，并且诉求的变化和处理的过程，都可"
+"以通过工单的联络历史展现，以便后续的跟踪和处理。</p><p>新的问题可以通过记录"
+"一张新工单的形式处理，如果记录信息有误，还可以通过编辑功能调整记录的内容。</"
+"p>"
+
+#: templates/tickets/tickets-deleted-item.hbs:12
+msgid "Restore Ticket"
+msgstr "恢复"
+
+#: templates/tickets/tickets-deleted-list.hbs:6
+msgid "Deleted Tickets List"
+msgstr "已删除工单"
+
+#: templates/tickets/tickets-deleted-list.hbs:15
+#: templates/tickets/tickets-deleted-list.hbs:21
+#: templates/tickets/tickets-list.hbs:36
+msgid "Deleted Tickets"
+msgstr "已删除工单"
+
+#: templates/tickets/tickets-deleted-list.hbs:19
+#: templates/tickets/tickets-list.hbs:34
+msgid "My Opened Tickets"
+msgstr "我的处理中工单"
+
+#: templates/tickets/tickets-deleted-list.hbs:20
+#: templates/tickets/tickets-list.hbs:30
+#: templates/tickets/tickets-list.hbs:35
+msgid "All Tickets"
+msgstr "全部工单"
+
+#: templates/tickets/tickets-deleted-table.hbs:15
+msgid "Non Items Deleted Tickets"
+msgstr "当前没有工单"
+
+#: templates/tickets/tickets-detail.hbs:4
+msgid "Craete At"
+msgstr "创建时间"
+
+#: templates/tickets/tickets-detail.hbs:5
+msgid "Expired Date"
+msgstr "到期时间"
+
+#: templates/tickets/tickets-detail.hbs:6
+msgid "Update ticket expires"
+msgstr "修改"
+
+#: templates/tickets/tickets-detail.hbs:9
+msgid "Set ticket expired date"
+msgstr "修改到期时间"
+
+#: templates/tickets/tickets-detail.hbs:13
+msgid "ExpireCancel"
+msgstr "取消"
+
+#: templates/tickets/tickets-detail.hbs:14
+msgid "ExpiredSave"
+msgstr "保存"
+
+#: templates/tickets/tickets-detail.hbs:22
+msgid "Requester Info"
+msgstr "联系人信息"
+
+#: templates/tickets/tickets-detail.hbs:41
+msgid "Tickets Attributes"
+msgstr "工单属性"
+
+#: templates/tickets/tickets-detail.hbs:71
+#: templates/tickets/tickets-list-filter.hbs:97
+msgid "Source"
+msgstr "来源"
+
+#: templates/tickets/tickets-detail.hbs:74
+msgid "Phone"
+msgstr "手机"
+
+#: templates/tickets/tickets-detail.hbs:75
+msgid "Wei Xin"
+msgstr "微信"
+
+#: templates/tickets/tickets-detail.hbs:76
+msgid "Web"
+msgstr "网页"
+
+#: templates/tickets/tickets-detail.hbs:95
+msgid "Seat"
+msgstr "客服"
+
+#: templates/tickets/tickets-flow-conversition.hbs:42
+msgid "To ticket add memo"
+msgstr "对工单添加备注"
+
+#: templates/tickets/tickets-flow-conversition.hbs:71
+#: templates/tickets/tickets-flow.hbs:75
+msgid "Description not allow empty"
+msgstr "请输入工单备注内容"
+
+#: templates/tickets/tickets-flow-conversition.hbs:76
+msgid "Update Memo"
+msgstr "更新备注"
+
+#: templates/tickets/tickets-flow.hbs:10
+msgid "Requeste At"
+msgstr "报告于"
+
+#: templates/tickets/tickets-flow.hbs:12
+msgid "from"
+msgstr "联系人"
+
+#: templates/tickets/tickets-flow.hbs:20
+msgid "accessory"
+msgstr "附件"
+
+#: templates/tickets/tickets-flow.hbs:41
+msgid "Show"
+msgstr "展开更多"
+
+#: templates/tickets/tickets-flow.hbs:58
+msgid "Add Memo"
+msgstr "添加备注"
+
+#: templates/tickets/tickets-flow.hbs:80
+msgid "Save Remark"
+msgstr "保存备注"
+
+#: templates/tickets/tickets-list-filter-group.hbs:20
+msgid "My Open And Pending Tickets"
+msgstr "我的处理中和等待回复的工单"
+
+#: templates/tickets/tickets-list-filter-group.hbs:53
+#: templates/tickets/tickets.hbs:9
+msgid "Edit"
+msgstr "编辑"
+
+#: templates/tickets/tickets-list-filter-group.hbs:59
+msgid "Save As"
+msgstr "另存为"
+
+#: templates/tickets/tickets-list-filter.hbs:5
+msgid "Me"
+msgstr "我待办的"
+
+#: templates/tickets/tickets-list-filter.hbs:10
+msgid "Create By Me"
+msgstr "我创建的"
+
+#: templates/tickets/tickets-list-filter.hbs:15
+msgid "Not Assign"
+msgstr "未指派"
+
+#: templates/tickets/tickets-list-filter.hbs:33
+msgid "Created"
+msgstr "创建时间"
+
+#: templates/tickets/tickets-list-filter.hbs:35
+#: templates/tickets/tickets-list-filter.hbs:46
+msgid "All Times"
+msgstr "所有"
+
+#: templates/tickets/tickets-list-filter.hbs:36
+msgid "4 Hours ago"
+msgstr "4小时内"
+
+#: templates/tickets/tickets-list-filter.hbs:37
+msgid "Today"
+msgstr "今天"
+
+#: templates/tickets/tickets-list-filter.hbs:38
+msgid "3 days ago"
+msgstr "3天内"
+
+#: templates/tickets/tickets-list-filter.hbs:39
+msgid "7 days ago"
+msgstr "7天内"
+
+#: templates/tickets/tickets-list-filter.hbs:44
+msgid "ExpiredDate"
+msgstr "到期时间"
+
+#: templates/tickets/tickets-list-filter.hbs:49
+msgid "8 Hours"
+msgstr "8小时内"
+
+#: templates/tickets/tickets-list-filter.hbs:50
+msgid "24 Hours"
+msgstr "24小时内"
+
+#: templates/tickets/tickets-list-filter.hbs:51
+msgid "48 Hours"
+msgstr "48小时内"
+
+#: templates/tickets/tickets-list-filter.hbs:56
+msgid "State"
+msgstr "状态"
+
+#: templates/tickets/tickets-list-filter.hbs:92
+msgid "Requester"
+msgstr "联系人"
+
+#: templates/tickets/tickets-list-filter.hbs:99
+msgid "Ticket Source WEB"
+msgstr "门户"
+
+#: templates/tickets/tickets-list-filter.hbs:100
+msgid "Ticket Source Weixin"
+msgstr "微信"
+
+#: templates/tickets/tickets-list-table-item.hbs:15
+msgid "by web"
+msgstr "通过门户报告"
+
+#: templates/tickets/tickets-list-table-item.hbs:17
+msgid "by weixin"
+msgstr "通过微信报告"
+
+#: templates/tickets/tickets-list-table.hbs:7
+#: templates/tickets/tickets-list-table.hbs:47
+#: templates/tickets/tickets-trash.hbs:13
+msgid "Assign"
+msgstr "指派给客服"
+
+#: templates/tickets/tickets-list-table.hbs:8
+#: templates/tickets/tickets-trash.hbs:14 templates/tickets/tickets.hbs:11
+msgid "Close"
+msgstr "关闭工单"
+
+#: templates/tickets/tickets-list-table.hbs:23
+msgid "Non Tickets Items"
+msgstr "当前没有工单"
+
+#: templates/tickets/tickets-list-table.hbs:36
+msgid "Assign Tickets to Agent"
+msgstr "指派给客服"
+
+#: templates/tickets/tickets-list-table.hbs:41
+msgid "No Agent"
+msgstr "当前没有客服"
+
+#: templates/tickets/tickets-list-table.hbs:42
+msgid "Agent is not allowed to be empty"
+msgstr "请选择客服"
+
+#: templates/tickets/tickets-list.hbs:4
+msgid "Tickets Filter"
+msgstr "工单"
+
+#: templates/tickets/tickets-trash.hbs:12
+msgid "Get It"
+msgstr "指派给自己"
+
+#: templates/tickets/tickets-trash.hbs:15
+msgid "Batch"
+msgstr "批量"
+
+#: templates/tickets/tickets-trash.hbs:16
+msgid "Merge"
+msgstr "合并"
+
+#: templates/tickets/tickets-trash.hbs:17
+msgid "Mark As Trash"
+msgstr "标记为垃圾"
+
+#: templates/tickets/tickets-trash.hbs:32
+msgid "Export"
+msgstr "导出"
+
+#: templates/tickets/tickets-trash.hbs:46
+msgid "Non Items"
+msgstr "当前没有工单"
+
+#: templates/tickets/tickets-update.hbs:7
+msgid "Update Ticket"
+msgstr "编辑工单"
+
+#: templates/tickets/tickets-update.hbs:12
+msgid "Update ticket title"
+msgstr "工单的提交"
+
+#: templates/tickets/tickets-update.hbs:119
+msgid "File name"
+msgstr "文件名"
+
+#: templates/tickets/tickets-update.hbs:119
+#: templates/tickets/tickets-update.hbs:122
+msgid "Size"
+msgstr "文件大小"
+
+#: templates/tickets/tickets-update.hbs:136
+msgid "Update ticket help document"
+msgstr ""
+"<p>客户的诉求，可以通过工单的方式进行记录，并且诉求的变化和处理的过程，都可"
+"以通过工单的联络历史展现，以便后续的跟踪和处理。</p><p>新的问题可以通过记录"
+"一张新工单的形式处理，如果记录信息有误，还可以通过编辑功能调整记录的内容。</"
+"p>"
+
+#: templates/tickets/tickets.hbs:6 templates/tickets/tickets.hbs:7
+msgid "Show Activity"
+msgstr "显示活动"
+
+#: templates/tickets/tickets.hbs:8
+msgid "Commit"
+msgstr "添加备注"
+
+#: templates/tickets/tickets.hbs:16
+msgid "Ticket"
+msgstr "工单详情"
+
+#: templates/tickets/translations.hbs:2
+msgid "Consulting service"
+msgstr "咨询"
+
+#: templates/tickets/translations.hbs:3
+msgid "Proposals"
+msgstr "建议"
+
+#: templates/tickets/translations.hbs:4
+msgid "Requests"
+msgstr "请求"
+
+#: templates/tickets/translations.hbs:5
+msgid "Complaints"
+msgstr "投诉"
+
+#: templates/tickets/translations.hbs:6
+msgid "Other"
+msgstr "其他"
+
+#~ msgid "Quickly add current contact to the company failure"
+#~ msgstr "添加联系人失败"
+
+#~ msgid "ExpiredDate Save"
+#~ msgstr "更新到期时间"
+
+#~ msgid "Upload illustrate"
+#~ msgstr ""
+#~ "仅支持2M以内的文本、音频、图片、压缩等格式文件，文件数量不能大于5个"
+
+#~ msgid "Upload images illustrate"
+#~ msgstr "仅支持512k以内的jpg、gif、png格式图片"
+
+#~ msgid "Upload image failure"
+#~ msgstr "请上传符合要求的图片"
+
+#~ msgid "Quarter"
+#~ msgstr "季度"
+
+#~ msgid "Month"
+#~ msgstr "月份"
+
+#~ msgid "Day"
+#~ msgstr "日期"
+
+#~ msgid "selectedYear required"
+#~ msgstr "选择年份"
+
+#~ msgid "selectedYearError required"
+#~ msgstr "请选择正确的年份"
+
+#~ msgid "selectedQuarter required"
+#~ msgstr "选择季度"
+
+#~ msgid "selectedQuarterError required"
+#~ msgstr "请选择正确的季度"
+
+#~ msgid "selectedMonth required"
+#~ msgstr "选择月份"
+
+#~ msgid "selectedMonthError required"
+#~ msgstr "请选择正确的月份"
+
+#~ msgid "selectedDay required"
+#~ msgstr "选择日期"
+
+#~ msgid "Weixin"
+#~ msgstr "微信"
+
+#~ msgid "Created by"
+#~ msgstr "创建人"
+
+#~ msgid "More"
+#~ msgstr "更多"
+
+#~ msgid "Delete Agent Forbidden"
+#~ msgstr "删除客服失败"
+
+#~ msgid "Solutions"
+#~ msgstr "知识库"
+
+#~ msgid "Help Desk"
+#~ msgstr "云客服系统基础版权信息"
+
+#~ msgid "Feedback"
+#~ msgstr "反馈问题"
+
+#~ msgid "Copyright"
+#~ msgstr "版权声明"
+
+#~ msgid "权限"
+#~ msgstr "权限"
+
+#~ msgid "滚动到"
+#~ msgstr "滚动到"
+
+#~ msgid "工单"
+#~ msgstr "工单"
+
+#~ msgid "客户"
+#~ msgstr "客户"
+
+#~ msgid "报表"
+#~ msgstr "报表"
+
+#~ msgid "管理"
+#~ msgstr "管理"
+
+#~ msgid "角色信息"
+#~ msgstr "角色信息"
+
+#~ msgid "Last Update Date"
+#~ msgstr "最后修改时间"
+
+#~ msgid "Confirm Delete Agents Title"
+#~ msgstr "确定删除当前客服？"
+
+#~ msgid "<a href=\"/corporations/%s/contacts\">%d</a>"
+#~ msgstr "<a href=\"/corporations/%s/contacts\">%d</a>"
+
+#~ msgid "Corporation Contacts"
+#~ msgstr "联系人"
+
+#~ msgid "<a href=\"/corporations/%s/contacts\">%d</a> Corporation Contacts"
+#~ msgstr "<a href=\"/corporations/%s/contacts\">%d</a> 个联系人"
+
+#~ msgid "Add Avatar"
+#~ msgstr "上传头像"
+
+#~ msgid "Group-help"
+#~ msgstr "帮助--组"
+
+#~ msgid "名称"
+#~ msgstr "名称"
+
+#~ msgid "描述"
+#~ msgstr "描述"
+
+#~ msgid "Role help"
+#~ msgstr "帮助--角色"
+
+#~ msgid "My Tickets"
+#~ msgstr "我的工单"
