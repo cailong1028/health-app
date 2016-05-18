@@ -10,6 +10,7 @@ define([
     'moment-timezone'
 ], function(_,Backbone,moment,HomePackageModel) {
 
+/*
     var homeDevTableView;
 
     var HomeDevTableItemView = Backbone.View.extend({
@@ -109,6 +110,7 @@ define([
             }
         }
     });
+*/
 
     var HomeView = Backbone.View.extend({
         template: 'templates:home:home',
@@ -119,9 +121,15 @@ define([
 
         },
         beforeRender: function(){
-            this.setView('#information', /*homeDevTableView = */new HomeDevTableView());
+            //this.setView('#information', /*homeDevTableView = */new HomeDevTableView());
         },
         afterRender: function(){
+            $('body').scrollspy({ target: '#myScrollspy' });
+            /*var x = 0;
+            $('.center-side').scroll(function(e){
+                console.log(e);
+                debug(x++ +'');
+            });*/
         }
     });
     return HomeView;

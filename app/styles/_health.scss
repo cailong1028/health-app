@@ -1,0 +1,109 @@
+.hypertension{
+    .form-title{
+        position: fixed;
+        z-index: 1;
+        background: #3ec3bd;
+        width: 100%;
+        .col-title{
+            color: white;
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+            font-size: 36px;
+            color: white;
+            a{
+                color: white;
+            }
+        }
+        /*h1{
+            color: white;
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+            a{
+                color: white;
+            }
+        }*/
+    }
+    ul.nav-tabs{
+        //width: 140px;
+        margin-top: 20px;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    }
+    ul.nav-tabs li{
+        margin: 0;
+        border-top: 1px solid #ddd;
+    }
+    ul.nav-tabs li:first-child{
+        border-top: none;
+    }
+    ul.nav-tabs li a{
+        margin: 0;
+        padding: 8px 16px;
+        border-radius: 0;
+    }
+    ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+        color: #fff;
+        background: #0088cc;
+        border: 1px solid #0088cc;
+    }
+    ul.nav-tabs li:first-child a{
+        border-radius: 4px 4px 0 0;
+    }
+    ul.nav-tabs li:last-child a{
+        border-radius: 0 0 4px 4px;
+    }
+    ul.nav-tabs.affix{
+        top: 35px; /* Set the top position of pinned element */
+    }
+
+    .form-content{
+        padding-top: 50px;
+        height: 200px;
+        //border: 1px solid red;
+    }
+    /*$hypertension-color: #3ec3bd;
+    .top-side{
+        width: 100%;
+        position: fixed;
+        padding: 10px;
+        font-size: 28px;
+        text-align: center;
+        color: white;
+        background-color: $hypertension-color;
+        a{
+            color: white;
+        }
+    }
+    .main-side{
+        .left-side{
+            position: fixed;
+            margin-top: 60px;
+            width: 25%;
+            //float: left;
+            ul{
+                list-style: none;
+                padding: 0;
+                li{
+                    margin-top: 10px;
+                    font-size: 28px;
+                    color: $hypertension-color;
+                    text-align: center;
+                    border: 1px solid $hypertension-color;
+                    border-radius: 4px;
+                }
+            }
+        }
+        .center-side{
+            margin-top: 60px;
+            float: right;
+            width: 70%;
+            .form-content{
+                height: 200px;
+                border: 1px solid red;
+            }
+        }
+    }*/
+}

@@ -1,12 +1,13 @@
-$cdn-path: "127.0.0.1:5000" !global;
+$cdn-path: "192.168.10.153:5000" !global;
 
-$icon-font-path: "http://#{$cdn-path}/fonts/bootstrap/";
+/*$icon-font-path: "http://#{$cdn-path}/fonts/bootstrap/";
 $fa-font-path: "http://#{$cdn-path}/fonts/fontawesome";
 @import 'bootstrap-variables';
 
 @import 'bootstrap-sass-official/assets/stylesheets/bootstrap';
-@import 'fontawesome/scss/font-awesome';
+@import 'fontawesome/scss/font-awesome';*/
 
+/*
 @import 'variables';
 
 @import 'bootstrap-datetimepicker4';
@@ -17,53 +18,12 @@ $fa-font-path: "http://#{$cdn-path}/fonts/fontawesome";
 
 @import 'themes';
 @import 'navbar';
+*/
+@import "health";
+@import "bts";
 /* Space out content a bit */
 body {
     background-color: #f4f4f2;
-}
-
-#logo {
-    margin: $logo-margin;
-    img {
-        width: $logo-width;
-        height: $logo-height;
-    }
-}
-
-#header {
-    background-color: $header-bg;
-    h1 {
-        font-size: 28px;
-        line-height: 48px;
-        margin: 5px 0 5px 50px;
-    }
-    #avatar {
-
-        margin: 16px 0 5px;
-        a {
-            text-decoration: none;
-            color: $text-color;
-        }
-        img {
-            width: 32px;
-            height: 32px;
-        }
-        .dropdown {
-            display: inline-block;
-        }
-        .dropdown-menu {
-            right: 0;
-            left: auto;
-        }
-    }
-}
-
-#footer {
-    p {
-        @extend .text-center;
-        @extend .text-muted;
-    }
-    margin-bottom: 20px;
 }
 
 .pagination {

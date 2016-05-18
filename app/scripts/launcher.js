@@ -3,7 +3,7 @@
 (function (document) {
     var base = document.querySelector('#options');
     // disable multi language require;
-    // var language = 'languages/' + navigator.language.toLowerCase();
+    //var language = 'languages/' + navigator.language.toLowerCase();
     var language = 'languages/zh-cn';
     var cdnBasePath = base.dataset.cdnBasePath;
     // 正式环境 将使用launcher加载js和资源。
@@ -13,6 +13,7 @@
         baseUrl: base.dataset.assetsLocation + '/scripts',
         paths: {
             'jquery': 'http://'+cdnBasePath+'/jslib/jquery/jquery.min',
+            //'jquery': 'http://libs.baidu.com/jquery/2.0.0/jquery.min',
             'underscore': 'http://'+cdnBasePath+'/jslib/underscore/underscore.min',
             'underscore.string': 'http://'+cdnBasePath+'/jslib/underscore.string/underscore.string.min',
             'backbone': 'http://'+cdnBasePath+'/jslib/backbone/backbone.min',
@@ -20,6 +21,7 @@
 
             // bootstrap
             'bootstrap': 'http://'+cdnBasePath+'/jslib/bootstrap/bootstrap.min',
+            //'bootstrap': 'http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min',
 
             // template
             'handlebars': 'http://'+cdnBasePath+'/jslib/handlebars/handlebars.amd.min',
@@ -108,10 +110,10 @@
             },
             'jqueryui': {
                 deps: ['jquery']
-            }/*,
+            },
             'amcharts': {
                 exports: 'AmCharts'
-            }*/
+            }
         }
     });
     window.DEBUG = true;

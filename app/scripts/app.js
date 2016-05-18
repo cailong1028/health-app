@@ -18,6 +18,10 @@ define([
     'socket.io'
 ], function($, _, Backbone, HandlebarsEnv, moment, numeral) {
     'use strict';
+
+    window.gettext = function () {
+        return arguments[0];
+    };
     var DEFAULT_OPTIONS = {
         root: '/', //暂时没用
         apiRoot: '/', //api地址
@@ -594,6 +598,8 @@ define([
         if (href.slice(0, 'https:'.length) === 'https:') { return; }
         // 无视http
         if (href.slice(0, 'http:'.length) === 'http:') { return; }
+        // 无视锚点
+        if (href.slice(0, '#'.length) === '#') { return; }
 
         // jshint scripturl:false
         var protocol = this.protocol + '//';
