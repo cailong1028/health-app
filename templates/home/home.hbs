@@ -23,7 +23,7 @@
                     <a href="#bfz" data-bypass>并发症</a>
                 </li>
                 <li>
-                    <a href="#shzdfs" data-bypass>生活方式指导</a>
+                    <a href="#shfszd" data-bypass>生活方式指导</a>
                 </li>
                 <li>
                     <a href="#fyqk" data-bypass>服药情况</a>
@@ -53,43 +53,362 @@
         </div>
         <div class="col-xs-9">
             <div id="sfjbxx" class="form-content">
-                sfjbxx
+                <h4 class="h4-title">随访基本信息</h4>
+                <div class="content-body" style="background: white;">
+                    <label class="content-body-row">编号：686-86868</label>
+                    <label class="content-body-row">姓名：李朝阳</label>
+                    <label class="content-body-row">上次随访日期：2015-01-02</label>
+                    <label class="content-body-row">本次随访日期：2015-06-02</label>
+                    <div class="btn-group content-body-row" data-toggle="buttons">
+                        <label class="pull-left">随访方式：</label>
+                        <label class="btn btn-default sffs">
+                            <input type="radio" class="toggle" value="1"> 电话追踪
+                        </label>
+                        <label class="btn btn-default sffs">
+                            <input type="radio" class="toggle" value="2"> 家庭访视
+                        </label>
+                        <label class="btn btn-default sffs">
+                            <input type="radio" class="toggle" value="3"> 集中随访
+                        </label>
+                        <label class="btn btn-default sffs">
+                            <input type="radio" class="toggle" value="4"> 门诊就诊
+                        </label>
+                    </div>
+                    <hr>
+                </div>
             </div>
             <div id="bz" class="form-content">
-                bz
+                <h4 class="h4-title">病症</h4>
+                <div class="content-body" style="">
+                    <div style="text-align: center">
+                        <label class="content-body-row">选择病症（可多选）</label>
+                    </div>
+                    <div class="bz-labels">
+                        <label class="btn btn-default one-bz-btn">
+                            无病症
+                        </label>
+                        <label class="btn btn-default one-bz-btn">
+                            头痛头晕
+                        </label>
+                        <label class="btn btn-default one-bz-btn">
+                            恶心呕吐
+                        </label>
+                        <label class="btn btn-default one-bz-btn">
+                            眼花耳鸣
+                        </label>
+                        <label class="btn btn-default one-bz-btn">
+                            呼吸困难
+                        </label>
+                        <label class="btn btn-default one-bz-btn">
+                            心悸胸闷
+                        </label>
+                        <label class="btn btn-default one-bz-btn">
+                            四肢发麻
+                        </label>
+                        <label class="btn btn-default one-bz-btn">
+                            下肢水肿
+                        </label>
+                    </div>
+                    <div class="bz-add-btn-div">
+                        <button id="add-bz" class="btn btn-default content-body-row">添加病症</button>
+                    </div>
+                </div>
             </div>
             <div id="tz" class="form-content">
-                tz
+                <h4 class="h4-title">体征</h4>
+                <div class="content-body" style="">
+                    <div class="content-body-row" style="">
+                        血压：<input type="text" class="form-control" style="display: inline-block; width: 25%" placeholder="收缩压">
+                        /
+                        <input type="text" class="form-control" style="display: inline-block; width: 25%" placeholder="舒张压">
+                        mmHg
+                    </div>
+                    <div class="content-body-row">身高：<input class="form-control" style="display: inline-block; width: 60%">米</div>
+                    <div class="content-body-row">体重：<input class="form-control" style="display: inline-block; width: 60%">kg</div>
+                    <div class="content-body-row">目标体重：<input class="form-control" style="display: inline-block; width: 50%">kg</div>
+                    <div class="content-body-row">体质指数（BMI）：22.8</div>
+                    <div class="content-body-row">目标体质指数（BMI）：22.1</div>
+                    <div class="content-body-row">BMI分析：过重</div>
+                    <div class="content-body-row">目标BMI分析：适中</div>
+                    <div class="content-body-row">心率：<input class="form-control" style="display: inline-block; width: 60%">次/分</div>
+                    <div class="tz-add-btn-div">
+                        <button id="add-tz" class="btn btn-default content-body-row">添加体征</button>
+                    </div>
+                </div>
             </div>
             <div id="bfz" class="form-content">
-                bfz
+                <h4 class="h4-title">并发症</h4>
+                <div class="content-body">
+                    <div style="text-align: center">
+                        <label class="content-body-row">脑血管疾病</label>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons" style="width: 100%;">
+                        <label class="btn btn-default bfz">
+                            <input type="checkbox" class="toggle" value="1"> 缺血性卒中
+                        </label>
+                        <label class="btn btn-default bfz">
+                            <input type="checkbox" class="toggle" value="2"> 脑出血
+                        </label>
+                        <label class="btn btn-default bfz">
+                            <input type="checkbox" class="toggle" value="3"> 短暂性脑缺血发作（TIA）
+                        </label>
+                    </div>
+                    <div style="text-align: center">
+                        <label class="content-body-row">心脏病</label>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons" style="width: 100%;">
+                        <label class="btn btn-default bfz">
+                            <input type="checkbox" class="toggle" value="1"> 心肌梗塞
+                        </label>
+                        <label class="btn btn-default bfz">
+                            <input type="checkbox" class="toggle" value="2"> 心绞痛
+                        </label>
+                        <label class="btn btn-default bfz">
+                            <input type="checkbox" class="toggle" value="3"> 冠状动脉血运重建
+                        </label>
+                        <label class="btn btn-default bfz">
+                            <input type="checkbox" class="toggle" value="3"> 充血性心力衰竭
+                        </label>
+                    </div>
+                    <div style="text-align: center">
+                        <label class="content-body-row">肾脏疾病</label>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons" style="width: 100%;">
+                        <label class="btn btn-default bfz">
+                            <input type="checkbox" class="toggle" value="1"> 糖尿病肾病
+                        </label>
+                        <label class="btn btn-default bfz">
+                            <input type="checkbox" class="toggle" value="2"> 功能衰竭（血肌酐浓度>177umol/L或2.0mg/dl）
+                        </label>
+                    </div>
+                    <div style="text-align: center">
+                        <label class="content-body-row">血管疾病</label>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons" style="width: 100%;">
+                        <label class="btn btn-default bfz">
+                            <input type="checkbox" class="toggle" value="1"> 夹层动脉瘤
+                        </label>
+                        <label class="btn btn-default bfz">
+                            <input type="checkbox" class="toggle" value="2"> 症状性动脉疾病
+                        </label>
+                    </div>
+                    <div style="text-align: center">
+                        <label class="content-body-row">中毒高血压性视网膜病变</label>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons" style="width: 100%;">
+                        <label class="btn btn-default bfz">
+                            <input type="checkbox" class="toggle" value="1"> 初学或渗出
+                        </label>
+                        <label class="btn btn-default bfz">
+                            <input type="checkbox" class="toggle" value="2"> 视乳头水肿
+                        </label>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons" style="width: 100%;">
+                        <label class="btn btn-default bfz">
+                            <input type="checkbox" class="toggle" value="1"> 以上都没有
+                        </label>
+                    </div>
+                </div>
             </div>
-            <div id="shzdfs" class="form-content">
-                shzdfs
+            <div id="shfszd" class="form-content">
+                <h4 class="h4-title">生活方式指导</h4>
+                <div class="content-body" style="">
+                    <div style="text-align: center">
+                        <label class="content-body-row">日吸烟量</label>
+                    </div>
+                    <div class="content-body-row">目前吸烟量：<input class="form-control" style="display: inline-block; width: 60%">支</div>
+                    <div class="content-body-row">下次随访目标：<input class="form-control" style="display: inline-block; width: 60%">支</div>
+                    <div style="text-align: center">
+                        <label class="content-body-row">日饮酒量</label>
+                    </div>
+                    <div class="content-body-row">目前饮酒量：<input class="form-control" style="display: inline-block; width: 60%">两</div>
+                    <div class="content-body-row">下次随访目标：<input class="form-control" style="display: inline-block; width: 60%">两</div>
+                    <div style="text-align: center">
+                        <label class="content-body-row">运动</label>
+                    </div>
+                    <div class="content-body-row">
+                        目前运动：<input class="form-control" style="display: inline-block; width: 25%">次/周
+                        <input class="form-control" style="display: inline-block; width: 25%">分钟/次
+                    </div>
+                    <div class="content-body-row">
+                        下次随访目标：<input class="form-control" style="display: inline-block; width: 25%">次/周
+                        <input class="form-control" style="display: inline-block; width: 25%">分钟/次
+                    </div>
+                    <div class="btn-group content-body-row" data-toggle="buttons">
+                        <label class="pull-left">摄盐情况：</label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="1"> 轻
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="2"> 中
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="3"> 重
+                        </label>
+                    </div>
+                    <div class="btn-group content-body-row" data-toggle="buttons">
+                        <label class="pull-left">目标摄盐：</label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="1"> 轻
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="2"> 中
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="3"> 重
+                        </label>
+                    </div>
+                    <div class="btn-group content-body-row" data-toggle="buttons">
+                        <label class="pull-left">心里调整：</label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="1"> 良好
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="2"> 一般
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="3"> 差
+                        </label>
+                    </div>
+                    <div class="btn-group content-body-row" data-toggle="buttons">
+                        <label class="pull-left">遵医行为：</label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="1"> 良好
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="2"> 一般
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="3"> 差
+                        </label>
+                    </div>
+                </div>
             </div>
             <div id="fyqk" class="form-content">
-                fyqk
+                <h4 class="h4-title">服药情况</h4>
+                <div class="content-body" style="">
+                    <div class="btn-group content-body-row" data-toggle="buttons">
+                        <label class="pull-left">服药依从性：</label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="1"> 规律
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="2"> 间断
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="3"> 不服药
+                        </label>
+                    </div>
+                    <div class="btn-group content-body-row" data-toggle="buttons">
+                        <label class="pull-left">药物不良反应：</label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="1"> 无
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="2"> 有
+                        </label>
+                    </div>
+                </div>
             </div>
             <div id="yyqk" class="form-content">
-                yyqk
+                <h4 class="h4-title">服药情况</h4>
+                <div class="content-body" style="">
+                    <div class="one-yyqk">
+                        <div class="content-body-row">药物：<input class="form-control" style="display: inline-block; width: 70%"></div>
+                        <div class="content-body-row">频率：<input class="form-control" style="display: inline-block; width: 70%">次/日</div>
+                        <div class="content-body-row">用量：<input class="form-control" style="display: inline-block; width: 70%"></div>
+                    </div>
+                    <div class="yyqk-add-btn-div">
+                        <button id="add-yyqk" class="btn btn-default content-body-row">添加用药</button>
+                    </div>
+                </div>
             </div>
             <div id="fzjc" class="form-content">
-                fzjc
+                <h4 class="h4-title">辅助检查</h4>
+                <div class="content-body" style="">
+                    <div class="yyqk-add-btn-div">
+                        <button id="add-yyqk" class="btn btn-default content-body-row">iPOCT开立</button>
+                    </div>
+                </div>
             </div>
             <div id="zz" class="form-content">
-                zz
+                <h4 class="h4-title">转诊</h4>
+                <div class="content-body" style="">
+                    <div class="btn-group content-body-row" data-toggle="buttons">
+                        <label class="pull-left">是否转诊：</label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="1"> 否
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="2"> 是
+                        </label>
+                    </div>
+                    原因：
+                    <textarea class="form-control" rows="10"></textarea>
+                    机构：
+                    <select class="form-control">
+                        <option>云平台大医院1</option>
+                        <option>云平台大医院2</option>
+                    </select>
+                    科室：
+                    <select class="form-control">
+                        <option>云平台大医院科室1</option>
+                        <option>云平台大医院科室2</option>
+                    </select>
+                </div>
             </div>
             <div id="ccsffl" class="form-content">
-                ccsffl
+                <h4 class="h4-title">此次随访分类</h4>
+                <div class="content-body" style="">
+                    <div class="btn-group content-body-row" data-toggle="buttons">
+                        <label class="pull-left">此次随访分类：</label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="1"> 控制满意
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="2"> 控制不满意
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="3"> 不良反应
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" class="toggle" value="4"> 并发症
+                        </label>
+                    </div>
+                </div>
             </div>
             <div id="xcsfrq" class="form-content">
-                xcsfrq
+                <h4 class="h4-title">下次随访日期</h4>
+                <div class="content-body" style="">
+                    <div class="content-body-row">
+                        <input id="next-time" class="form-control">
+                    </div>
+                </div>
             </div>
             <div id="sfys" class="form-content">
-                sfys
+                <h4 class="h4-title">随访医生</h4>
+                <div class="content-body" style="">
+                    <div class="content-body-row">
+                        随访医生姓名：<input id="next-time" class="form-control" value="李医生">
+                    </div>
+                </div>
             </div>
             <div id="jkcf" class="form-content">
-                jkcf
+                <h4 class="h4-title">健康处方</h4>
+                <div class="content-body" style="">
+                    <div style="text-align: center">
+                        <label class="content-body-row">文字处方</label>
+                    </div>
+                    <div class="content-body-row">
+                        <textarea class="form-control" rows="10"></textarea>
+                    </div>
+                    <div style="text-align: center">
+                        <label class="content-body-row">语音处方</label>
+                    </div>
+                    <div class="content-body-row">
+                        <button class="btn btn-primary">按住说话</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

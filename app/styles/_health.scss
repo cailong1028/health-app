@@ -1,4 +1,7 @@
 .hypertension{
+    $content-body-padding-top: 30px;
+    $content-body-padding-left: 32px;
+
     .form-title{
         position: fixed;
         z-index: 1;
@@ -60,50 +63,44 @@
     }
 
     .form-content{
-        padding-top: 50px;
-        height: 200px;
-        //border: 1px solid red;
-    }
-    /*$hypertension-color: #3ec3bd;
-    .top-side{
-        width: 100%;
-        position: fixed;
-        padding: 10px;
         font-size: 28px;
-        text-align: center;
-        color: white;
-        background-color: $hypertension-color;
-        a{
-            color: white;
-        }
-    }
-    .main-side{
-        .left-side{
-            position: fixed;
-            margin-top: 60px;
-            width: 25%;
-            //float: left;
-            ul{
-                list-style: none;
-                padding: 0;
-                li{
-                    margin-top: 10px;
-                    font-size: 28px;
-                    color: $hypertension-color;
-                    text-align: center;
-                    border: 1px solid $hypertension-color;
-                    border-radius: 4px;
+        color: #333333;
+        padding-top: 50px;
+        //height: 200px;
+        //border: 1px solid red;
+        .content-body{
+            background: white;
+            .content-body-row{
+                width: 100%;
+                padding: $content-body-padding-top $content-body-padding-left;
+                border-bottom: 1px solid lightgrey;
+                .sffs{
+                    float: right;
+                    width: 55%;
                 }
             }
-        }
-        .center-side{
-            margin-top: 60px;
-            float: right;
-            width: 70%;
-            .form-content{
-                height: 200px;
-                border: 1px solid red;
+            .bz-labels{
+                padding: $content-body-padding-top $content-body-padding-left;
+                .one-bz-btn{
+                    width: 45%;
+                }
+            }
+            .bz-add-btn-div{
+                #add-bz{
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+            .tz-add-btn-div{
+                #add-bz{
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+            label.bfz{
+                width: 100%;
+                display: block;
             }
         }
-    }*/
+    }
 }

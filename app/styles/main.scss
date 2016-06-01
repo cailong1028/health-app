@@ -1,13 +1,12 @@
 $cdn-path: "192.168.10.153:5000" !global;
 
-/*$icon-font-path: "http://#{$cdn-path}/fonts/bootstrap/";
+$icon-font-path: "http://#{$cdn-path}/fonts/bootstrap/";
 $fa-font-path: "http://#{$cdn-path}/fonts/fontawesome";
 @import 'bootstrap-variables';
 
 @import 'bootstrap-sass-official/assets/stylesheets/bootstrap';
-@import 'fontawesome/scss/font-awesome';*/
+@import 'fontawesome/scss/font-awesome';
 
-/*
 @import 'variables';
 
 @import 'bootstrap-datetimepicker4';
@@ -18,9 +17,7 @@ $fa-font-path: "http://#{$cdn-path}/fonts/fontawesome";
 
 @import 'themes';
 @import 'navbar';
-*/
 @import "health";
-@import "bts";
 /* Space out content a bit */
 body {
     background-color: #f4f4f2;
