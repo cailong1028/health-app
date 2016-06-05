@@ -2,6 +2,14 @@
     $content-body-padding-top: 30px;
     $content-body-padding-left: 32px;
 
+    ul{
+        li{
+            font-size: 36px;
+            margin: 10%;
+            padding: 10%;
+        }
+    }
+
     .form-title{
         position: fixed;
         z-index: 1;
